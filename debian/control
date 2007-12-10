@@ -42,7 +42,7 @@ Description: a graphical CVS front end for KDE
 Package: kapptemplate
 Architecture: all
 Section: devel
-Recommends: automake1.9 | automaken, kdelibs4-dev (>= 4:3.5.8)
+Recommends: kdelibs4-dev (>= 4:3.97.0)
 Description: creates a framework to develop a KDE application
  KAppTemplate is a shell script that will create the necessary
  framework to develop various KDE applications.  It takes care of the
@@ -57,7 +57,7 @@ Section: editors
 Architecture: any
 Depends: ${shlibs:Depends}
 Recommends: kregexpeditor
-Suggests: aspell | ispell | hspell, kate-plugins, khelpcenter, konsole
+Suggests: aspell | ispell | hspell, khelpcenter, konsole
 Description: advanced text editor for KDE4
  Kate is a multi document editor, based on a rewritten version of the kwrite
  editing widget of KDE.
@@ -129,14 +129,15 @@ Description: format converters for KCachegrind profiling visualisation tool
  This package is part of KDE, and a component of the KDE SDK module.
  See the 'kde' and 'kdesdk' packages for more information.
 
-Package: kdesdk-kfile-plugins
+
+Package: kdesdk-kio-plugins
 Architecture: any
-Section: kde
-Depends: ${shlibs:Depends}
-Description: KDE file dialog plugins for software development files
- This is a collection of plugins for the KDE file dialog.  These plugins
- extend the file dialog to offer advanced meta-information for source files,
- patch files and Qt Linguist data.
+Section: devel
+Depends: ${shlibs:Depends}, subversion
+Description: subversion ioslave for KDE
+ This package provides easy access to remote SVN repositories from within
+ Konqueror, and KDE generally, by browsing them as if they were a
+ filesystem, using URLs like svn://hostname/path, or svn+ssh://, etc.
  .
  This package is part of KDE, and a component of the KDE SDK module.
  See the 'kde' and 'kdesdk' packages for more information.
@@ -147,8 +148,6 @@ Section: devel
 Depends: ${shlibs:Depends}
 Recommends: libqt3-mt-dev | libqt3-dev
 Suggests: gimp | xpaint
-Conflicts: kdepalettes (<= 4:3.1.0-1), scheck (<< 4:3.2.0-0)
-Replaces: kdepalettes (<= 4:3.1.0-1), scheck (<< 4:3.2.0-0), kdevelop3-plugins (<= 4:3.2.0-3)
 Description: various goodies from the KDE Software Development Kit
  This package contains miscellaneous goodies provided with the official
  KDE release to assist with KDE software development.
@@ -166,10 +165,9 @@ Package: kdesdk-scripts
 Architecture: all
 Section: devel
 Depends: ${perl:Depends}, python
-Recommends: automake1.9 | automaken, cvs, gawk
+Recommends: cvs, gawk
 Suggests: khelpcenter, dmalloc, gdb, kdelibs4-doc, qt3-doc, valgrind, devscripts
 Enhances: kate
-Replaces: kdevelop (<< 1:1.4.0-3.2)
 Description: a set of useful development scripts for KDE
  This package contains a number of scripts which can be used to help in
  developing KDE-based applications.  Many of these scripts however are
@@ -252,7 +250,6 @@ Package: kdesdk-kio-plugins
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, subversion
-Replaces: kdesdk-misc (<< 4:3.5.0)
 Description: subversion ioslave for KDE
  This package provides easy access to remote SVN repositories from within
  Konqueror, and KDE generally, by browsing them as if they were a
@@ -265,7 +262,7 @@ Description: subversion ioslave for KDE
 Package: kdesdk-dev
 Architecture: any
 Section: libdevel
-Depends: kdelibs4-dev (>= 4:3.5.8)
+Depends: kdelibs4-dev (>= 4:3.97.0)
 Description: blabla
  blabla
 
@@ -274,7 +271,7 @@ Package: kdesdk-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg, libcvsservice-dev (= ${source:Version})
+Depends: kdelibs-dbg
 Description: debugging symbols for kdesdk
  This package contains the debugging symbols associated with kdesdk.
  They will automatically be used by gdb for debugging kdesdk-related
