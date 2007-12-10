@@ -246,18 +246,6 @@ Description: UML modelling tool and code generator
  This package is part of KDE, and a component of the KDE SDK module.
  See the 'kde' and 'kdesdk' packages for more information.
 
-Package: kdesdk-kio-plugins
-Architecture: any
-Section: devel
-Depends: ${shlibs:Depends}, subversion
-Description: subversion ioslave for KDE
- This package provides easy access to remote SVN repositories from within
- Konqueror, and KDE generally, by browsing them as if they were a
- filesystem, using URLs like svn://hostname/path, or svn+ssh://, etc.
- .
- This package is part of KDE, and a component of the KDE SDK module.
- See the 'kde' and 'kdesdk' packages for more information.
-
 
 Package: kdesdk-dev
 Architecture: any
