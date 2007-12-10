@@ -1,0 +1,6 @@
+usr/bin/po2xml
+usr/bin/split2po
+usr/bin/swappo
+usr/bin/xml2pot
+usr/lib/libantlr.so.4
+usr/lib/libantlr.so.4.0.0
