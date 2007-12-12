@@ -254,6 +254,13 @@ Depends: kdelibs4-dev (>= 4:3.97.0)
 Description: blabla
  blabla
 
+Package: kdesdk-strigi-plugins
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends}
+Description: blabla
+ blabla
+
 
 Package: kdesdk-dbg
 Section: libdevel
