@@ -1,6 +1,7 @@
 kdesdk (4:3.97.0-1) experimental; urgency=low
 
   * KDE 4 RC2, first upload to the Debian archive.
+  * TODO: copyright, control file polishing
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 12 Dec 2007 03:38:28 +0100
 

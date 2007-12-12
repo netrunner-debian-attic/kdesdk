@@ -4,22 +4,22 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.97.0),
  kdebase-workspace-dev (>=4:3.97.0), libsvn-dev
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, trigger
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>
 Standards-Version: 3.7.3
 
 Package: kdesdk
 Architecture: all
 Section: kde
-Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}), kate (>= ${source:Version}), kbugbuster (>= ${source:Version}), kcachegrind (>= ${source:Version}), kdesdk-kfile-plugins (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins, kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}), kuiviewer (>= ${source:Version}), poxml (>= ${source:Version}), umbrello (>= ${source:Version})
+Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}), kate (>= ${source:Version}), kbugbuster (>= ${source:Version}), kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}), kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}), kdesdk-strigi-plugins (>= ${source:Version}), kuiviewer (>= ${source:Version}), poxml (>= ${source:Version}), umbrello (>= ${source:Version})
 Suggests: kcachegrind-converters
-Description: software development kit from the official KDE release
+Description: software development kit from the official KDE4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
  contemporary functionality, and outstanding graphical design with the
  technological superiority of the Unix operating system.
  .
- This metapackage includes the KDE Software Development Kit, a collection
- of applications and tools useful for developing KDE applications.
+ This metapackage includes the KDE4 Software Development Kit, a collection
+ of applications and tools useful for developing KDE4 applications.
 
 
 Package: cervisia
@@ -27,7 +27,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: a graphical CVS front end for KDE
+Description: a graphical CVS front end for KDE4
  Cervisia is a KDE-based graphical front end for the CVS client.
  .
  As well as providing both common and advanced CVS operations, it offers
@@ -36,21 +36,23 @@ Description: a graphical CVS front end for KDE
  versions of files.  A Changelog editor is also included and is coupled
  with the commit dialog.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: kapptemplate
 Architecture: all
 Section: devel
 Recommends: kdelibs4-dev (>= 4:3.97.0)
-Description: creates a framework to develop a KDE application
+Description: creates a framework to develop a KDE4 application
  KAppTemplate is a shell script that will create the necessary
  framework to develop various KDE applications.  It takes care of the
  autoconf/automake code as well as providing a skeleton and example of
  what the code typically looks like.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: kate
 Section: editors
@@ -78,8 +80,9 @@ Description: advanced text editor for KDE4
   * Filter command
   * Global grep dialog
  .
- This package is part of KDE, and a component of the KDE base module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: kbugbuster
 Architecture: any
@@ -91,8 +94,9 @@ Description: a front end for the KDE bug tracking system
  It allows the user to view and manipulate bug reports and provides a
  variety of options for searching through reports.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: kcachegrind
 Architecture: any
@@ -109,8 +113,9 @@ Description: visualisation tool for valgrind profiling output
  For visualising the output from other profiling tools, several converters
  can be found in the kcachegrind-converters package.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: kcachegrind-converters
 Architecture: all
@@ -126,7 +131,19 @@ Description: format converters for KCachegrind profiling visualisation tool
  profiled using calltree without being recompiled, and shared libraries
  and plugin architectures are supported.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
+ See the 'kde' and 'kdesdk' packages for more information.
+
+
+Package: kdesdk-dev
+Architecture: any
+Section: libdevel
+Depends: 
+Description: development files for the KDE4 sdk module
+ This package contains development files needed to compile kdesdk
+ applications.
+ .
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
 
 
@@ -139,8 +156,9 @@ Description: subversion ioslave for KDE
  Konqueror, and KDE generally, by browsing them as if they were a
  filesystem, using URLs like svn://hostname/path, or svn+ssh://, etc.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: kdesdk-misc
 Architecture: any
@@ -158,8 +176,9 @@ Description: various goodies from the KDE Software Development Kit
   - palettes that match the KDE standard colour palette;
   - a KDE address book plugin that reads the list of KDE CVS accounts.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: kdesdk-scripts
 Architecture: all
@@ -180,8 +199,20 @@ Description: a set of useful development scripts for KDE
   - bash and zsh completion controls for KDE apps;
   - valgrind error suppressions for KDE apps.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
+
+Package: kdesdk-strigi-plugins
+Architecture: any
+Depends: ${shlibs:Depends}
+Description: strigi metainfo plugins for kdesdk
+ This package includes the strigi metainfo plugins for kdesdk
+ applications.
+ .
+ This package is part of KDE4, and a component of the kdesdk module.
+ See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: kuiviewer
 Architecture: any
@@ -195,8 +226,9 @@ Description: viewer for Qt Designer user interface files
  .
  The Qt Designer itself is in the package qt3-designer.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: cvsservice
 Architecture: any
@@ -210,7 +242,7 @@ Description: DCOP service for accessing CVS repositories
  .
  DCOP is the Desktop Communication Protocol used throughout KDE.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
 
 
@@ -225,8 +257,9 @@ Description: tools for using PO-files to translate DocBook XML files
  Also included are some miscellaneous command-line utilities for
  manipulating DocBook XML files, PO-files and PO-template files.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
+
 
 Package: umbrello
 Architecture: any
@@ -243,23 +276,8 @@ Description: UML modelling tool and code generator
  diagrams, use case diagrams, state diagrams, activity diagrams, component
  diagrams and deployment diagrams.
  .
- This package is part of KDE, and a component of the KDE SDK module.
+ This package is part of KDE4, and a component of the kdesdk module.
  See the 'kde' and 'kdesdk' packages for more information.
-
-
-Package: kdesdk-dev
-Architecture: any
-Section: libdevel
-Depends: kdelibs4-dev (>= 4:3.97.0)
-Description: blabla
- blabla
-
-Package: kdesdk-strigi-plugins
-Architecture: any
-Section: libdevel
-Depends: ${shlibs:Depends}
-Description: blabla
- blabla
 
 
 Package: kdesdk-dbg
