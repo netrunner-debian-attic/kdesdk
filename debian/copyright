@@ -97,11 +97,15 @@ These files are under the GPL.
 Files under kate/
 
 These files are under the LGPL version 2.
-The full text of the GNU  Library General Public License version 2 is available 
-on Debian systems in /usr/share/common-licenses/LGPL-2.
 
 
 Files under kbugbuster/
+
+All files except the files under kbugbuster/kresources/ are under the GPL v2
+or later.
+Files under kbugbuster/kresources/ are under LGPL v2 or later.
+
+
 Files under kcachegrind/
 Files under kdeaccounts-plugin/
 Files under kdepalettes/
@@ -116,8 +120,24 @@ Files under kunittest/
 Files under poxml/
 Files under scheck/
 Files under scripts/
+
+
 Files under strigi-analyzer/
+
+These files are under the LGPL version 2 or later.
+
+
 Files under umbrello/
+
+These files are under GPL v2 or later.
+
+
+
+The full text of the GNU Library General Public License version 2 is available 
+on Debian systems in /usr/share/common-licenses/LGPL-2.
+
+You can find the complete text of the license GNU  General Public License v2 
+at /usr/share/common-licenses/GPL-2
 
 
 
