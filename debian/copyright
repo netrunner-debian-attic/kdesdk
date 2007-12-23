@@ -107,9 +107,21 @@ Files under kbugbuster/kresources/ are under LGPL v2 or later.
 
 
 Files under kcachegrind/
+
+These files are under the GPL v2.
+
+
 Files under kdeaccounts-plugin/
 Files under kdepalettes/
+
+These files are under the GPL.
+
+
 Files under kioslave/
+
+These files are under the LGPL version 2.
+
+
 Files under kmtrace/
 Files under kompare/
 Files under kprofilemethod/

@@ -157,7 +157,7 @@ Package: kdesdk-misc
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Recommends: libqt3-mt-dev | libqt3-dev
+Recommends: libqt4-dev
 Suggests: gimp, inkscape, xpaint
 Description: Assorted goodies from the KDE Software Development Kit
  This package contains additional tools to aid in development for KDE4.
@@ -274,3 +274,6 @@ Depends: kdelibs-dbg
 Description: debugging symbols for kdesdk
  This package contains the debugging symbols associated with kdesdk.
  They will automatically be used by gdb for debugging kdesdk-related issues.
+ .
+ This package is part of KDE4, and a component of the kdesdk module.
+ See the 'kde' and 'kdesdk' packages for more information.
