@@ -12,7 +12,6 @@ usr/lib/kde4/katequickdocumentswitcherplugin.so
 usr/lib/kde4/katesymbolviewerplugin.so
 usr/lib/kde4/katetabbarextensionplugin.so
 usr/lib/kde4/katetextfilterplugin.so
-usr/lib/kde4/kickermenu_kate.so
 usr/lib/libkateinterfaces.so.4
 usr/lib/libkateinterfaces.so.4.0.0
 usr/lib/libkdeinit4_kate.so
@@ -74,7 +73,6 @@ usr/share/kde4/apps/kate/plugins/katetabbarextension/ui.rc
 usr/share/kde4/apps/kate/plugins/katetextfilter/ui.rc
 usr/share/kde4/apps/kate/tips
 usr/share/kde4/apps/kconf_update/kate-2.4.upd
-usr/share/kde4/apps/kicker/menuext/katesessionmenu.desktop
 usr/share/kde4/services/kateexternaltoolsplugin.desktop
 usr/share/kde4/services/katefilebrowserplugin.desktop
 usr/share/kde4/services/katefiletemplates.desktop
