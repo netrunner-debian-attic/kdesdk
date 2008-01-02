@@ -2,8 +2,8 @@ Source: kdesdk
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.98.0~),
- kdebase-workspace-dev (>=4:3.98.0~), libsvn-dev
+Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdelibs5-dev (>=4:3.98.0~svn755919-1),
+ kdebase-workspace-dev (>=4:3.98.0~svn755919-1), libsvn-dev
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>
 Standards-Version: 3.7.3
 
