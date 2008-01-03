@@ -1,8 +1,11 @@
 kdesdk (4:3.98.0~svn755919-1) experimental; urgency=low
 
   * New svn snapshot release to revision 755919.
+  * Change b-d on kdelibs5-dev and kdebase-workspace-dev, to kdepimlibs5-dev
+    and libphonon-dev.
+  * Update kcachegrind.install.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 02 Jan 2008 23:21:35 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 03 Jan 2008 07:24:38 +0100
 
 kdesdk (4:3.98.0~svn753247-1) experimental; urgency=low
 
