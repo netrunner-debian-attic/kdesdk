@@ -57,7 +57,6 @@ Package: kate
 Section: editors
 Architecture: any
 Depends: ${shlibs:Depends}
-Recommends: kregexpeditor
 Suggests: aspell | ispell | hspell, khelpcenter, konsole
 Description: KDE4 Advanced Text Editor 
  Kate is a powerful text editor that can open multiple files simultaneously.
