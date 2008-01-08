@@ -6,6 +6,7 @@ Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=4:4.0.0-
  libphonon-dev (>=4:4.0.0-1), libsvn-dev
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>
 Standards-Version: 3.7.3
+Homepage: http://www.kde.org
 
 Package: kdesdk
 Architecture: all
@@ -27,6 +28,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
+Homepage: http://cervisia.kde.org/
 Description: Graphical CVS front end for KDE4
  Cervisia is a KDE-based graphical front end for the CVS client.
  .
@@ -58,6 +60,7 @@ Section: editors
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: aspell | ispell | hspell, khelpcenter, konsole
+Homepage: http://kate-editor.org/
 Description: KDE4 Advanced Text Editor 
  Kate is a powerful text editor that can open multiple files simultaneously.
  .
@@ -97,6 +100,7 @@ Section: devel
 Depends: ${shlibs:Depends}
 Recommends: valgrind, graphviz
 Suggests: kcachegrind-converters, khelpcenter
+Homepage: http://kcachegrind.sourceforge.net/
 Description: Visualisation tool for the Valgrind profiler
  KCachegrind is a visualisation tool for the profiling data generated
  by calltree, a memory profiling tool for valgrind.  Executables can be
@@ -209,6 +213,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
+Homepage: http://www.caffeinated.me.uk/kompare/
 Description: a KDE GUI for viewing differences between files
  Kompare is a graphical user interface for viewing the differences between
  files.  It can compare two documents, create a diff file, display a diff
@@ -267,6 +272,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
+Homepage: http://uml.sourceforge.net/
 Description: UML modelling tool and code generator
  Umbrello UML Modeller is a Unified Modelling Language editor for KDE.
  It can create diagrams of software and other systems in the industry-standard
