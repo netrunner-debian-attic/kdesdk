@@ -44,7 +44,7 @@ Description: Graphical CVS front end for KDE4
 Package: kapptemplate
 Architecture: all
 Section: devel
-Recommends: kdelibs5-dev (>= 4:3.98.0~)
+Suggests: kdelibs5-dev (>= 4:4.0.0-1)
 Description: KDE4 application template generator
  KAppTemplate is a shell script that will create the necessary framework to
  develop several types of KDE application.  It generates the build-system
