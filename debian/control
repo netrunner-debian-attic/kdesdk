@@ -132,7 +132,7 @@ Description: Format converters for KCachegrind profiler visualisation tool
 Package: kdesdk-dev
 Architecture: any
 Section: libdevel
-Depends: 
+Depends: libsvn-dev
 Description: development files for the KDE4 sdk module
  This package contains development files needed to build software based on
  the kdesdk module.
@@ -157,8 +157,7 @@ Package: kdesdk-misc
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Recommends: libqt4-dev
-Suggests: gimp, inkscape, xpaint
+Suggests: libqt4-dev, gimp, inkscape, xpaint
 Description: Assorted goodies from the KDE Software Development Kit
  This package contains additional tools to aid in development for KDE4.
  .
@@ -177,7 +176,7 @@ Architecture: all
 Section: devel
 Depends: ${perl:Depends}, python
 Recommends: cvs, gawk
-Suggests: khelpcenter, dmalloc, gdb, kdelibs4-doc, qt3-doc, valgrind, devscripts, xsltproc
+Suggests: khelpcenter, dmalloc, gdb, kdelibs5-doc, qt3-doc, valgrind, devscripts, xsltproc
 Enhances: kate
 Description: Useful scripts for KDE development
  This package contains scripts and data files which assist with developing

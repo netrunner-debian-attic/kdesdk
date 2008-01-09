@@ -6,6 +6,7 @@ kdesdk (4:4.0.0-1) experimental; urgency=low
 
   * Remove kate's Recommends on kregexpeditor, it is not being released in KDE4.
   * Update years in copyright.
+  * Lower kdesdk-misc's Recommends: libqt4-dev to Suggests.
 
   +++ Changes by Matthew Rosewarne:
 
