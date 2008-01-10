@@ -4,10 +4,10 @@ kdesdk (4:4.0.0-1) experimental; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Remove kate's Recommends on kregexpeditor, it is not being released in KDE4.
+  * Remove kate's Recommends on kregexpeditor, it is not being released in KDE 4.
   * Update years in copyright.
   * Lower kdesdk-misc's Recommends: libqt4-dev to Suggests and kapptemplate 
-   Recommends: kdelibs5-dev to Suggests.
+    Recommends: kdelibs5-dev to Suggests.
 
   +++ Changes by Matthew Rosewarne:
 
