@@ -1,0 +1,18 @@
+--- a/scripts/CMakeLists.txt
++++ b/scripts/CMakeLists.txt
+@@ -41,7 +41,6 @@
+   cvsblame 
+   colorsvn 
+   svn2dist 
+-  svn-clean 
+   svnlastchange 
+   svnversions 
+   kdesvn-build 
+@@ -61,4 +60,6 @@
+   svnintegrate 
+   kde_generate_export_header
+   DESTINATION ${BIN_INSTALL_DIR})
+- 
++
++install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
++

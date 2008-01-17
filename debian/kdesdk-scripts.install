@@ -42,7 +42,7 @@ usr/bin/qtdoc
 usr/bin/svn2dist
 usr/bin/svnbackport
 usr/bin/svnchangesince
-usr/bin/svn-clean
+usr/bin/svn-clean-kde
 usr/bin/svngettags
 usr/bin/svnintegrate
 usr/bin/svnlastchange
