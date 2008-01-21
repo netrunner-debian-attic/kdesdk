@@ -281,7 +281,7 @@ Package: kdesdk-dbg
 Section: libdevel
 Architecture: any
 Priority: extra
-Depends: kdelibs-dbg
+Depends: kdebase-runtime-dbg
 Description: debugging symbols for kdesdk
  This package contains the debugging symbols associated with kdesdk.
  They will automatically be used by gdb for debugging kdesdk-related issues.
