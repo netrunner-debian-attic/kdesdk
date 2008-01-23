@@ -4,15 +4,21 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs, debhelper (>= 5), cmake, quilt, kdepimlibs5-dev (>=4:4.0.0-1),
  libphonon-dev (>=4:4.0.0-1), libsvn-dev
-Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>
+Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org
 
 Package: kdesdk
 Architecture: all
 Section: kde
-Depends: cervisia (>= ${binary:Version}), kapptemplate (>= ${binary:Version}), kate (>= ${binary:Version}), kbugbuster (>= ${binary:Version}), kcachegrind (>= ${binary:Version}), kdesdk-kio-plugins (>= ${binary:Version}), kdesdk-misc (>= ${binary:Version}), kdesdk-scripts (>= ${binary:Version}), kdesdk-strigi-plugins (>= ${binary:Version}), kompare (>= ${binary:Version}), kuiviewer (>= ${binary:Version}), poxml (>= ${binary:Version}), umbrello (>= ${binary:Version})
-Suggests: kcachegrind-converters
+Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
+ kate (>= ${source:Version}), kbugbuster (>= ${source:Version}),
+ kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}),
+ kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
+ kdesdk-strigi-plugins (>= ${source:Version}), kompare (>= ${source:Version}),
+ kuiviewer (>= ${source:Version}), poxml (>= ${source:Version}),
+ umbrello (>= ${source:Version})
+Suggests: kcachegrind-converters (>= ${source:Version})
 Description: Software Development Kit from the official KDE 4 release
  KDE (the K Desktop Environment) is a powerful Open Source graphical
  desktop environment for Unix workstations. It combines ease of use,
@@ -130,9 +136,9 @@ Description: Format converters for KCachegrind profiler visualisation tool
 
 
 Package: kdesdk-dev
-Architecture: any
+Architecture: all
 Section: libdevel
-Depends: libsvn-dev
+Depends: kate (= ${source:Version}), poxml (= ${source:Version}), libsvn-dev
 Description: development files for the KDE 4 sdk module
  This package contains development files needed to build software based on
  the kdesdk module.
@@ -282,6 +288,7 @@ Section: libdevel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
+Suggests: kdesdk (= ${source:Version})
 Description: debugging symbols for kdesdk
  This package contains the debugging symbols associated with kdesdk.
  They will automatically be used by gdb for debugging kdesdk-related issues.
