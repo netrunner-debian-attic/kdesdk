@@ -136,9 +136,9 @@ Description: Format converters for KCachegrind profiler visualisation tool
 
 
 Package: kdesdk-dev
-Architecture: all
+Architecture: any
 Section: libdevel
-Depends: kate (= ${source:Version}), poxml (= ${source:Version}), libsvn-dev
+Depends: kate (= ${binary:Version}), poxml (= ${binary:Version}), libsvn-dev
 Description: development files for the KDE 4 sdk module
  This package contains development files needed to build software based on
  the kdesdk module.
