@@ -34,7 +34,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Graphical CVS front end for KDE 4
+Description: graphical CVS front end for KDE 4
  Cervisia is a KDE-based graphical front end for the CVS client.
  .
  In addition to basic and advanced CVS operations, it provides a convenient
@@ -89,7 +89,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: Front end for the KDE bug tracking system
+Description: front end for the KDE bug tracking system
  KBugBuster is a graphical front end for the KDE bug tracking system.
  It allows the user to view and manipulate bug reports and provides a
  variety of options for searching through reports.
@@ -104,7 +104,7 @@ Section: devel
 Depends: ${shlibs:Depends}
 Recommends: valgrind, graphviz
 Suggests: kcachegrind-converters, khelpcenter
-Description: Visualisation tool for the Valgrind profiler
+Description: visualisation tool for the Valgrind profiler
  KCachegrind is a visualisation tool for the profiling data generated
  by calltree, a memory profiling tool for valgrind.  Executables can be
  profiled using calltree without being recompiled, including multi-threaded
@@ -122,7 +122,7 @@ Architecture: all
 Section: devel
 Depends: ${perl:Depends}, php5-cli, python
 Recommends: kcachegrind
-Description: Format converters for KCachegrind profiler visualisation tool
+Description: format converters for KCachegrind profiler visualisation tool
  This is a collection of scripts for converting the output from several
  different profiling tools into a format that KCachegrind can display.
  .
@@ -164,7 +164,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: libqt4-dev, gimp, inkscape, xpaint
-Description: Assorted goodies from the KDE Software Development Kit
+Description: assorted goodies from the KDE Software Development Kit
  This package contains additional tools to aid in development for KDE 4.
  .
  Included are:
@@ -184,7 +184,7 @@ Depends: ${perl:Depends}, python
 Recommends: cvs, gawk
 Suggests: khelpcenter, dmalloc, gdb, kdelibs5-doc, qt3-doc, valgrind, devscripts, xsltproc
 Enhances: kate
-Description: Useful scripts for KDE development
+Description: useful scripts for KDE development
  This package contains scripts and data files which assist with developing
  KDE-based applications.  Also included are scripts which are not specific to
  KDE, such as general-purpose scripts to facilitate working with Subversion
@@ -203,7 +203,7 @@ Description: Useful scripts for KDE development
 Package: kdesdk-strigi-plugins
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: strigi metainfo plugins for kdesdk
+Description: Strigi metainfo plugins for kdesdk
  This package includes the strigi metainfo plugins for kdesdk
  applications.
  .
@@ -228,7 +228,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: qt4-designer
-Description: Viewer for Qt4 Designer user interface files
+Description: viewer for Qt4 Designer user interface files
  KUIViewer is a utility to display and check user interface (.ui) files
  created in Qt Designer.  The interfaces can be shown in a variety of
  different widget styles to ensure that they display correctly in any
@@ -244,7 +244,7 @@ Package: cvsservice
 Architecture: any
 Section: libs
 Depends: ${shlibs:Depends}, cvs
-Description: Library and D-Bus service for accessing CVS repositories
+Description: library and D-Bus service for accessing CVS repositories
  This library provides a D-Bus service for browsing and manipulating
  remote CVS repositories.  Applications may either link with this library to
  make use of it directly from C++, or access the service over D-Bus.
@@ -257,7 +257,7 @@ Package: poxml
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Description: Tools for translating DocBook XML files with gettext
+Description: tools for translating DocBook XML files with gettext
  This is a collection of tools that facilitate translating DocBook XML
  files using gettext message files (PO-files).
  .
