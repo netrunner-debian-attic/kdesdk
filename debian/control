@@ -20,13 +20,15 @@ Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
  umbrello (>= ${source:Version})
 Suggests: kcachegrind-converters (>= ${source:Version})
 Description: Software Development Kit from the official KDE 4 release
- KDE (the K Desktop Environment) is a powerful Open Source graphical
- desktop environment for Unix workstations. It combines ease of use,
- contemporary functionality, and outstanding graphical design with the
- technological superiority of the Unix operating system.
+ KDE is produced by an international technology team that creates free and open
+ source software for desktop and portable computing. Among KDE's products are a
+ modern desktop system for Linux and UNIX platforms, comprehensive office
+ productivity and groupware suites and hundreds of software titles in many
+ categories including Internet and web applications, multimedia, entertainment,
+ educational, graphics and software development.
  .
- This metapackage installs the complete KDE 4 Software Development Kit, a
- collection of applications and tools useful for developing KDE 4 applications.
+ This metapackage includes software development applications provided with the
+ official release of KDE 4.
 
 
 Package: cervisia
@@ -34,8 +36,8 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: graphical CVS front end for KDE 4
- Cervisia is a KDE-based graphical front end for the CVS client.
+Description: CVS client for KDE 4
+ Cervisia is a front-end for the CVS version control system client.
  .
  In addition to basic and advanced CVS operations, it provides a convenient
  graphical interface for viewing, editing, and manipulating files in a CVS
@@ -43,8 +45,7 @@ Description: graphical CVS front end for KDE 4
  of CVS, such as a log browser, conflict resolver, and changelog editor that
  checks for incorrect formatting.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kapptemplate
@@ -56,8 +57,7 @@ Description: KDE 4 application template generator
  develop several types of KDE application.  It generates the build-system
  configuration and provides example code for a simple application.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kate
@@ -70,7 +70,7 @@ Description: KDE 4 Advanced Text Editor
  .
  With a built-in terminal, syntax highlighting, and tabbed sidebar, it performs
  as a lightweight but capable development environment.  Kate's many tools,
- plugins, and scripts make it highly customisable.
+ plugins, and scripts make it highly customizable.
  .
  Kate's features include:
  .
@@ -80,8 +80,7 @@ Description: KDE 4 Advanced Text Editor
   * Symbol viewers for C, C++, and Python
   * XML completion and validation
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kbugbuster
@@ -89,13 +88,12 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: front end for the KDE bug tracking system
- KBugBuster is a graphical front end for the KDE bug tracking system.
- It allows the user to view and manipulate bug reports and provides a
- variety of options for searching through reports.
+Description: Bugzilla client for KDE 4
+ KBugBuster is a client for the Bugzilla bug tracking system.
+ It provides a variety of tools for querying, viewing, and manipulating bug
+ reports.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kcachegrind
@@ -106,15 +104,14 @@ Recommends: valgrind, graphviz
 Suggests: kcachegrind-converters, khelpcenter
 Description: visualisation tool for the Valgrind profiler
  KCachegrind is a visualisation tool for the profiling data generated
- by calltree, a memory profiling tool for valgrind.  Executables can be
+ by calltree, a memory profiling tool for valgrind.  Any executable can be
  profiled using calltree without being recompiled, including multi-threaded
- applications, shared libraries, and plugin architectures.
+ applications, shared libraries, and plugins.
  .
  For visualising the output from profiling tools other than Valgrind, several
  converters can be found in the kcachegrind-converters package.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kcachegrind-converters
@@ -131,8 +128,7 @@ Description: format converters for KCachegrind profiler visualisation tool
  profiled using calltree without being recompiled, including multi-threaded
  applications, shared libraries, and plugin architectures.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kdesdk-dev
@@ -141,22 +137,20 @@ Section: libdevel
 Depends: kate (= ${binary:Version}), poxml (= ${binary:Version}), libsvn-dev
 Description: development files for the KDE 4 sdk module
  This package contains development files needed to build software based on
- the kdesdk module.
+ the KDE 4 Software Development Kit module.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kdesdk-kio-plugins
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, subversion
-Description: Subversion ioslave for KDE
- This package allows any KDE application to browse remote SVN repositories,
- using protocols such as svn:// or svn+ssh://
+Description: transparent Subversion access for KDE 4 applications
+ This package includes the svn and svn+ssh KIO plugins, which allows KDE 4
+ applications to browse remote Subversion repositories.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kdesdk-misc
@@ -164,7 +158,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: libqt4-dev, gimp, inkscape, xpaint
-Description: assorted goodies from the KDE Software Development Kit
+Description: miscellaneous tools from the KDE 4 Software Development Kit
  This package contains additional tools to aid in development for KDE 4.
  .
  Included are:
@@ -173,8 +167,7 @@ Description: assorted goodies from the KDE Software Development Kit
   - palette files for using the KDE standard colours in non-KDE applications
   - a KDE address book resource for KDE Subversion repository accounts
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kdesdk-scripts
@@ -184,11 +177,10 @@ Depends: ${perl:Depends}, python
 Recommends: cvs, gawk
 Suggests: khelpcenter, dmalloc, gdb, kdelibs5-doc, qt3-doc, valgrind, devscripts, xsltproc
 Enhances: kate
-Description: useful scripts for KDE development
- This package contains scripts and data files which assist with developing
- KDE-based applications.  Also included are scripts which are not specific to
- KDE, such as general-purpose scripts to facilitate working with Subversion
- and CVS repositories.
+Description: scripts and data files for KDE 4 development
+ This package contains scripts and data files to facilitate development of
+ KDE software.  Also included are scripts which are not specific to
+ KDE, such as helper scripts for working with Subversion and CVS repositories.
  .
  In addition to these scripts, this package provides:
   - gdb macros for Qt/KDE programming
@@ -196,39 +188,40 @@ Description: useful scripts for KDE development
   - bash and zsh completion rules for KDE applications
   - Valgrind error suppressions for KDE applications
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kdesdk-strigi-plugins
 Architecture: any
 Depends: ${shlibs:Depends}
-Description: Strigi metainfo plugins for kdesdk
- This package includes the strigi metainfo plugins for kdesdk
- applications.
+Description: software development file format plugins for Strigi Desktop Search
+ These plugins allow Strigi Desktop Search to extract additional information
+ about some file formats often used in software development.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ Strigi plugins are included for:
+  * Patch files (diff)
+  * Qt Linguist files (ts)
+ .
+ This package is part of the KDE 4 Software Development Kit module.
 
 Package: kompare
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: a KDE GUI for viewing differences between files
- Kompare is a graphical user interface for viewing the differences between
- files.  It can compare two documents, create a diff file, display a diff
- file and/or blend a diff file back into the original documents.
+Description: file difference viewer for KDE 4
+ Kompare is displays the differences between files.  It can compare the
+ contents of files or directories, as well as create, display, and merge patch
+ files.
  .
- This package is part of KDE 4, and a component of the KDE SDK module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 Package: kuiviewer
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: qt4-designer
-Description: viewer for Qt4 Designer user interface files
+Description: viewer for Qt Designer user interface files
  KUIViewer is a utility to display and check user interface (.ui) files
  created in Qt Designer.  The interfaces can be shown in a variety of
  different widget styles to ensure that they display correctly in any
@@ -236,8 +229,7 @@ Description: viewer for Qt4 Designer user interface files
  .
  The Qt Designer itself is in the package qt4-designer.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: cvsservice
@@ -249,8 +241,7 @@ Description: library and D-Bus service for accessing CVS repositories
  remote CVS repositories.  Applications may either link with this library to
  make use of it directly from C++, or access the service over D-Bus.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: poxml
@@ -264,8 +255,7 @@ Description: tools for translating DocBook XML files with gettext
  Also included are several command-line utilities for manipulating DocBook XML
  files, PO-files and PO-template files.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: umbrello
@@ -274,13 +264,12 @@ Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
 Description: UML modelling tool and code generator
- Umbrello UML Modeller is a Unified Modelling Language editor for KDE.
+ Umbrello UML Modeller is a Unified Modelling Language diagram editor for KDE.
  It can create diagrams of software and other systems in the industry-standard
  UML format, and can also generate code from UML diagrams in a variety of
  programming languages.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
 
 
 Package: kdesdk-dbg
@@ -293,5 +282,4 @@ Description: debugging symbols for kdesdk
  This package contains the debugging symbols associated with kdesdk.
  They will automatically be used by gdb for debugging kdesdk-related issues.
  .
- This package is part of KDE 4, and a component of the kdesdk module.
- See the 'kde' and 'kdesdk' packages for more information.
+ This package is part of the KDE 4 Software Development Kit module.
