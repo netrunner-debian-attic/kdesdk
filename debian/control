@@ -135,11 +135,9 @@ Package: kdesdk-dev
 Architecture: any
 Section: libdevel
 Depends: kate (= ${binary:Version}), poxml (= ${binary:Version}), libsvn-dev
-Description: development files for the KDE 4 sdk module
- This package contains development files needed to build software based on
- the KDE 4 Software Development Kit module.
- .
- This package is part of the KDE 4 Software Development Kit module.
+Description: development files for the KDE 4 Software Development Kit module
+ This package contains development files for building software that uses
+ libraries from the KDE 4 Software Development Kit module.
 
 
 Package: kdesdk-kio-plugins
@@ -278,8 +276,6 @@ Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
 Suggests: kdesdk (= ${source:Version})
-Description: debugging symbols for kdesdk
- This package contains the debugging symbols associated with kdesdk.
- They will automatically be used by gdb for debugging kdesdk-related issues.
- .
- This package is part of the KDE 4 Software Development Kit module.
+Description: debugging symbols for the KDE 4 Software Development Kit module
+ This package contains debugging files used to investigate problems with
+ binaries included in the KDE 4 Software Development Kit module.
