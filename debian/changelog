@@ -1,4 +1,4 @@
-kdesdk (4:4.0.1-1) UNRELEASED; urgency=low
+kdesdk (4:4.0.1-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -6,6 +6,9 @@ kdesdk (4:4.0.1-1) UNRELEASED; urgency=low
 
   * Append "-kde" to svn-clean like KDE3. (Closes: #461095)
     svn-clean script is provided by subversion-tools.
+  * Update installed files.
+  * Add Vcs-Browser and Vcs-Svn fields.
+  * Fix typo in copyright file.
 
   +++ Changes by Matthew Rosewarne:
 
@@ -17,10 +20,10 @@ kdesdk (4:4.0.1-1) UNRELEASED; urgency=low
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Update to debhelper 6.
+  * Bump compat/debhelper to 6.
   * Bump build-depends to >= 4:4.0.1-1.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 02 Feb 2008 05:49:13 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 06 Feb 2008 13:43:27 +0100
 
 kdesdk (4:4.0.0-1) experimental; urgency=low
 

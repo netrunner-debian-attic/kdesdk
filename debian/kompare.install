@@ -7,6 +7,7 @@ usr/lib/libkompareinterface.so
 usr/lib/libkompareinterface.so.4
 usr/lib/libkompareinterface.so.4.0.0
 usr/share/applications/kde4/kompare.desktop
+usr/share/doc/kde4/HTML/en/kompare/common
 usr/share/doc/kde4/HTML/en/kompare/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kompare/index.docbook
 usr/share/doc/kde4/HTML/en/kompare/settings-diff1.png

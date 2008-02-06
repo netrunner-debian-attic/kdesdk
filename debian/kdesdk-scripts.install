@@ -43,6 +43,7 @@ usr/bin/svn2dist
 usr/bin/svnbackport
 usr/bin/svnchangesince
 usr/bin/svn-clean-kde
+usr/bin/svnforwardport
 usr/bin/svngettags
 usr/bin/svnintegrate
 usr/bin/svnlastchange
@@ -50,6 +51,7 @@ usr/bin/svnlastlog
 usr/bin/svnrevertlast
 usr/bin/svnversions
 usr/bin/zonetab2pot.py
+usr/share/doc/kde4/HTML/en/kdesvn-build/common
 usr/share/doc/kde4/HTML/en/kdesvn-build/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kdesvn-build/index.docbook
 usr/share/kde4/apps/katepart/syntax/kdesvn-buildrc.xml

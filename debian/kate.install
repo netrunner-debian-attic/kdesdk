@@ -23,6 +23,7 @@ usr/share/doc/kde4/HTML/en/kate/configuring.docbook
 usr/share/doc/kde4/HTML/en/kate/fundamentals.docbook
 usr/share/doc/kde4/HTML/en/kate/highlighted.png
 usr/share/doc/kde4/HTML/en/kate/highlighting.docbook
+usr/share/doc/kde4/HTML/en/kate/common
 usr/share/doc/kde4/HTML/en/kate/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kate/index.docbook
 usr/share/doc/kde4/HTML/en/kate/kate.png
@@ -35,6 +36,7 @@ usr/share/doc/kde4/HTML/en/kate-plugins/configure_insertcommand.png
 usr/share/doc/kde4/HTML/en/kate/plugins.docbook
 usr/share/doc/kde4/HTML/en/kate-plugins/filetemplates.docbook
 usr/share/doc/kde4/HTML/en/kate-plugins/htmltools.docbook
+usr/share/doc/kde4/HTML/en/kate-plugins/common
 usr/share/doc/kde4/HTML/en/kate-plugins/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kate-plugins/index.docbook
 usr/share/doc/kde4/HTML/en/kate-plugins/insertcommand.docbook

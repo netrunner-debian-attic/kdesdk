@@ -1,6 +1,7 @@
 usr/bin/kbugbuster
 usr/lib/kde4/kcal_bugzilla.so
 usr/share/applications/kde4/kbugbuster.desktop
+usr/share/doc/kde4/HTML/en/kbugbuster/common
 usr/share/doc/kde4/HTML/en/kbugbuster/index.cache.bz2
 usr/share/doc/kde4/HTML/en/kbugbuster/index.docbook
 usr/share/icons/hicolor/128x128/apps/kbugbuster.png
