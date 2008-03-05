@@ -1,0 +1,3 @@
+kompare: shlib-missing-in-control-file libkomparedialogpages.so for usr/lib/libkomparedialogpages.so
+kompare: shlib-missing-in-control-file libkomparediff2.so for usr/lib/libkomparediff2.so
+kompare: package-name-doesnt-match-sonames libkomparedialogpages libkomparediff2 libkompareinterface4

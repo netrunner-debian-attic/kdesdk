@@ -1,0 +1,2 @@
+kate: shlib-missing-in-control-file libkdeinit4_kate.so for usr/lib/libkdeinit4_kate.so
+kate: package-name-doesnt-match-sonames libkateinterfaces4 libkdeinit4-kate
