@@ -11,6 +11,7 @@ usr/share/doc/kde4/HTML/en/umbrello/class.png
 usr/share/doc/kde4/HTML/en/umbrello/code_import_and_generation.docbook
 usr/share/doc/kde4/HTML/en/umbrello/code-import.png
 usr/share/doc/kde4/HTML/en/umbrello/collaboration-diagram.png
+usr/share/doc/kde4/HTML/en/umbrello/common
 usr/share/doc/kde4/HTML/en/umbrello/composition.png
 usr/share/doc/kde4/HTML/en/umbrello/credits.docbook
 usr/share/doc/kde4/HTML/en/umbrello/disjoint-specialization.png
@@ -19,7 +20,6 @@ usr/share/doc/kde4/HTML/en/umbrello/entity-relationship-diagram.png
 usr/share/doc/kde4/HTML/en/umbrello/folders.png
 usr/share/doc/kde4/HTML/en/umbrello/generalization.png
 usr/share/doc/kde4/HTML/en/umbrello/generation-options.png
-usr/share/doc/kde4/HTML/en/umbrello/common
 usr/share/doc/kde4/HTML/en/umbrello/index.cache.bz2
 usr/share/doc/kde4/HTML/en/umbrello/index.docbook
 usr/share/doc/kde4/HTML/en/umbrello/introduction.docbook
@@ -79,6 +79,7 @@ usr/share/kde4/apps/umbrello/headings/heading.sql
 usr/share/kde4/apps/umbrello/headings/heading.xsd 
 usr/share/kde4/apps/umbrello/pics/accept_signal.png
 usr/share/kde4/apps/umbrello/pics/accept_time_event.png
+usr/share/kde4/apps/umbrello/pics/activity-fork.png
 usr/share/kde4/apps/umbrello/pics/actor.png
 usr/share/kde4/apps/umbrello/pics/aggregation.png
 usr/share/kde4/apps/umbrello/pics/align-horizontal-center.png
@@ -107,6 +108,7 @@ usr/share/kde4/apps/umbrello/pics/composition.png
 usr/share/kde4/apps/umbrello/pics/containment.png
 usr/share/kde4/apps/umbrello/pics/cursor-accept_signal.png
 usr/share/kde4/apps/umbrello/pics/cursor-accept_time_event.png
+usr/share/kde4/apps/umbrello/pics/cursor-activity-fork.png
 usr/share/kde4/apps/umbrello/pics/cursor-actor.png
 usr/share/kde4/apps/umbrello/pics/cursor-aggregation.png
 usr/share/kde4/apps/umbrello/pics/cursor-anchor.png
@@ -134,16 +136,11 @@ usr/share/kde4/apps/umbrello/pics/cursor-entity.png
 usr/share/kde4/apps/umbrello/pics/cursor-enum.png
 usr/share/kde4/apps/umbrello/pics/cursor-exception.png
 usr/share/kde4/apps/umbrello/pics/cursor-final_activity.png
-usr/share/kde4/apps/umbrello/pics/cursor-fork.png
 usr/share/kde4/apps/umbrello/pics/cursor-generalisation.png
 usr/share/kde4/apps/umbrello/pics/cursor-initial_state.png
 usr/share/kde4/apps/umbrello/pics/cursor-interface.png
 usr/share/kde4/apps/umbrello/pics/cursor-join.png
 usr/share/kde4/apps/umbrello/pics/cursor-junction.png
-usr/share/kde4/apps/umbrello/pics/cursor-message-asynchronous.png
-usr/share/kde4/apps/umbrello/pics/cursor-message-found.png
-usr/share/kde4/apps/umbrello/pics/cursor-message-lost.png
-usr/share/kde4/apps/umbrello/pics/cursor-message-synchronous.png
 usr/share/kde4/apps/umbrello/pics/cursor-node.png
 usr/share/kde4/apps/umbrello/pics/cursor-note.png
 usr/share/kde4/apps/umbrello/pics/cursor-object_node.png
@@ -158,6 +155,10 @@ usr/share/kde4/apps/umbrello/pics/cursor-send_signal.png
 usr/share/kde4/apps/umbrello/pics/cursor-shallow-history.png
 usr/share/kde4/apps/umbrello/pics/cursor-state-fork.png
 usr/share/kde4/apps/umbrello/pics/cursor-text.png
+usr/share/kde4/apps/umbrello/pics/cursor-umbr-message-asynchronous.png
+usr/share/kde4/apps/umbrello/pics/cursor-umbr-message-found.png
+usr/share/kde4/apps/umbrello/pics/cursor-umbr-message-lost.png
+usr/share/kde4/apps/umbrello/pics/cursor-umbr-message-synchronous.png
 usr/share/kde4/apps/umbrello/pics/cursor-uniassociation.png
 usr/share/kde4/apps/umbrello/pics/cursor-usecase.png
 usr/share/kde4/apps/umbrello/pics/CVglobal_meth.png
@@ -192,16 +193,11 @@ usr/share/kde4/apps/umbrello/pics/enum.png
 usr/share/kde4/apps/umbrello/pics/exception.png
 usr/share/kde4/apps/umbrello/pics/final_activity.png
 usr/share/kde4/apps/umbrello/pics/foreignkey_constraint.png
-usr/share/kde4/apps/umbrello/pics/fork.png
 usr/share/kde4/apps/umbrello/pics/generalisation.png
 usr/share/kde4/apps/umbrello/pics/initial_state.png
 usr/share/kde4/apps/umbrello/pics/interface.png
 usr/share/kde4/apps/umbrello/pics/join.png
 usr/share/kde4/apps/umbrello/pics/junction.png
-usr/share/kde4/apps/umbrello/pics/message-asynchronous.png
-usr/share/kde4/apps/umbrello/pics/message-found.png
-usr/share/kde4/apps/umbrello/pics/message-lost.png
-usr/share/kde4/apps/umbrello/pics/message-synchronous.png
 usr/share/kde4/apps/umbrello/pics/node.png
 usr/share/kde4/apps/umbrello/pics/note.png
 usr/share/kde4/apps/umbrello/pics/object_node.png
@@ -211,6 +207,7 @@ usr/share/kde4/apps/umbrello/pics/pin.png
 usr/share/kde4/apps/umbrello/pics/precondition.png
 usr/share/kde4/apps/umbrello/pics/PrePostCondition.png
 usr/share/kde4/apps/umbrello/pics/primarykey_constraint.png
+usr/share/kde4/apps/umbrello/pics/refactor.png
 usr/share/kde4/apps/umbrello/pics/region.png
 usr/share/kde4/apps/umbrello/pics/relationship.png
 usr/share/kde4/apps/umbrello/pics/send_signal.png
@@ -220,6 +217,10 @@ usr/share/kde4/apps/umbrello/pics/state-fork.png
 usr/share/kde4/apps/umbrello/pics/subsystem.png
 usr/share/kde4/apps/umbrello/pics/template.png
 usr/share/kde4/apps/umbrello/pics/text.png
+usr/share/kde4/apps/umbrello/pics/umbr-message-asynchronous.png
+usr/share/kde4/apps/umbrello/pics/umbr-message-found.png
+usr/share/kde4/apps/umbrello/pics/umbr-message-lost.png
+usr/share/kde4/apps/umbrello/pics/umbr-message-synchronous.png
 usr/share/kde4/apps/umbrello/pics/uniassociation.png
 usr/share/kde4/apps/umbrello/pics/unique_constraint.png
 usr/share/kde4/apps/umbrello/pics/usecase.png

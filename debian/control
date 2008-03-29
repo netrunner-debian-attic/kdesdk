@@ -2,8 +2,9 @@ Source: kdesdk
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, kdepimlibs5-dev (>= 4:4.0.2),
- libphonon-dev (>= 4:4.0.2), libsvn-dev
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake, quilt, 
+ kdepimlibs5-dev (>= 4:4.0.66), libphonon-dev (>= 4:4.0.66), libplasma-dev (>= 4:4.0.66),
+ libsvn-dev
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org
@@ -18,8 +19,8 @@ Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
  kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}),
  kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
  kdesdk-strigi-plugins (>= ${source:Version}), kompare (>= ${source:Version}),
- kuiviewer (>= ${source:Version}), poxml (>= ${source:Version}),
- umbrello (>= ${source:Version})
+ kuiviewer (>= ${source:Version}), lokalize (>= ${source:Version}),  
+ poxml (>= ${source:Version}), umbrello (>= ${source:Version})
 Suggests: kcachegrind-converters (>= ${source:Version})
 Description: Software Development Kit from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
@@ -53,7 +54,7 @@ Description: CVS client for KDE 4
 Package: kapptemplate
 Architecture: all
 Section: devel
-Suggests: kdelibs5-dev (>= 4:4.0.2)
+Suggests: kdelibs5-dev (>= 4:4.0.66)
 Description: KDE 4 application template generator
  KAppTemplate is a shell script that will create the necessary framework to
  develop several types of KDE application.  It generates the build-system
@@ -216,6 +217,7 @@ Description: file difference viewer for KDE 4
  .
  This package is part of the KDE 4 Software Development Kit module.
 
+
 Package: kuiviewer
 Architecture: any
 Section: devel
@@ -268,6 +270,17 @@ Description: UML modelling tool and code generator
  It can create diagrams of software and other systems in the industry-standard
  UML format, and can also generate code from UML diagrams in a variety of
  programming languages.
+ .
+ This package is part of the KDE 4 Software Development Kit module.
+
+
+Package: lokalize
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}
+Suggests: khelpcenter
+Description: and a nice short drescripts goes here
+ TODO: a nice description goes here.
  .
  This package is part of the KDE 4 Software Development Kit module.
 

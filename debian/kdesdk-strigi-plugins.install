@@ -1,3 +1,4 @@
+usr/lib/strigi/strigila_po.so
+usr/share/strigi/fieldproperties/strigi_translation.fieldproperties
 usr/lib/strigi/strigila_diff.so
 usr/lib/strigi/strigita_ts.so
-
