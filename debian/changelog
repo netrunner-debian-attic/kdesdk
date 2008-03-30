@@ -1,7 +1,7 @@
 kdesdk (4:4.0.66+svn791114-1) experimental; urgency=low
 
   * First KDE 4.1 snapshot packaged,
-  * New application: lokalize. (needs description)
+  * New application: lokalize.
   * Update installed files.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 29 Mar 2008 17:36:56 +0100

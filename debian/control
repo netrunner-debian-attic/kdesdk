@@ -279,11 +279,14 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
-Description: and a nice short drescripts goes here
- TODO: a nice description goes here.
+Description: computer-aided translation system for KDE 4
+ lokalize is a computer-aided translation system that focuses on productivity
+ and performance. It implies paragraph-by-paragraph translation approach
+ (when translating documentation) and message-by-message approach
+ (when translating GUI).
+ lokalize is a replacement for KDE 4 of KBabel.
  .
  This package is part of the KDE 4 Software Development Kit module.
-
 
 Package: kdesdk-dbg
 Section: libdevel
