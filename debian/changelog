@@ -1,6 +1,7 @@
 kdesdk (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot.
+  * Remove cervisia manpage from lokalize. (Closes: #474717)
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 04 Apr 2008 18:51:42 +0200
 
