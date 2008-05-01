@@ -1,3 +1,11 @@
+kdesdk (4:4.0.72-1) experimental; urgency=low
+
+  * New upstream snapshot.
+  * Add libboost-dev build dependency, needed by umbrello.
+  * Add kmtrace package, ported to KDE 4.
+
+ -- Fathi Boudra <fabo@debian.org>  Thu, 01 May 2008 12:28:45 +0200
+
 kdesdk (4:4.0.68+svn794641-1) experimental; urgency=low
 
   * New upstream snapshot.

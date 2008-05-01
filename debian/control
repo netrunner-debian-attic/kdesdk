@@ -2,9 +2,9 @@ Source: kdesdk
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>=2.6.0~), quilt, 
- kdepimlibs5-dev (>= 4:4.0.68), libphonon-dev (>= 4:4.0.68), libplasma-dev (>= 4:4.0.68),
- libsvn-dev, libstreamanalyzer-dev, libxslt1-dev
+Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>=2.6.0~), quilt,
+ kdepimlibs5-dev (>= 4:4.0.72), libphonon-dev (>= 4:4.0.72), libplasma-dev (>= 4:4.0.72),
+ libsvn-dev, libstreamanalyzer-dev, libxslt1-dev, libboost-dev
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org
@@ -19,7 +19,7 @@ Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
  kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}),
  kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
  kdesdk-strigi-plugins (>= ${source:Version}), kompare (>= ${source:Version}),
- kuiviewer (>= ${source:Version}), lokalize (>= ${source:Version}),  
+ kuiviewer (>= ${source:Version}), lokalize (>= ${source:Version}),
  poxml (>= ${source:Version}), umbrello (>= ${source:Version})
 Suggests: kcachegrind-converters (>= ${source:Version})
 Description: Software Development Kit from the official KDE 4 release
@@ -32,7 +32,6 @@ Description: Software Development Kit from the official KDE 4 release
  .
  This metapackage includes software development applications provided with the
  official release of KDE 4.
-
 
 Package: cervisia
 Architecture: any
@@ -50,11 +49,10 @@ Description: CVS client for KDE 4
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-
 Package: kapptemplate
 Architecture: all
 Section: devel
-Suggests: kdelibs5-dev (>= 4:4.0.68)
+Suggests: kdelibs5-dev (>= 4:4.0.72)
 Description: KDE 4 application template generator
  KAppTemplate is a shell script that will create the necessary framework to
  develop several types of KDE application.  It generates the build-system
@@ -62,13 +60,12 @@ Description: KDE 4 application template generator
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-
 Package: kate
 Section: editors
 Architecture: any
 Depends: ${shlibs:Depends}
 Suggests: aspell | ispell | hspell, khelpcenter, konsole
-Description: KDE 4 Advanced Text Editor 
+Description: KDE 4 Advanced Text Editor
  Kate is a powerful text editor that can open multiple files simultaneously.
  .
  With a built-in terminal, syntax highlighting, and tabbed sidebar, it performs
@@ -85,7 +82,6 @@ Description: KDE 4 Advanced Text Editor
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-
 Package: kbugbuster
 Architecture: any
 Section: devel
@@ -97,7 +93,6 @@ Description: Bugzilla client for KDE 4
  reports.
  .
  This package is part of the KDE 4 Software Development Kit module.
-
 
 Package: kcachegrind
 Architecture: any
@@ -116,7 +111,6 @@ Description: visualisation tool for the Valgrind profiler
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-
 Package: kcachegrind-converters
 Architecture: all
 Section: devel
@@ -133,7 +127,6 @@ Description: format converters for KCachegrind profiler visualisation tool
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-
 Package: kdesdk-dev
 Architecture: any
 Section: libdevel
@@ -141,7 +134,6 @@ Depends: kate (= ${binary:Version}), poxml (= ${binary:Version}), libsvn-dev
 Description: development files for the KDE 4 Software Development Kit module
  This package contains development files for building software that uses
  libraries from the KDE 4 Software Development Kit module.
-
 
 Package: kdesdk-kio-plugins
 Architecture: any
@@ -152,7 +144,6 @@ Description: transparent Subversion access for KDE 4 applications
  applications to browse remote Subversion repositories.
  .
  This package is part of the KDE 4 Software Development Kit module.
-
 
 Package: kdesdk-misc
 Architecture: any
@@ -169,7 +160,6 @@ Description: miscellaneous tools from the KDE 4 Software Development Kit
   - a KDE address book resource for KDE Subversion repository accounts
  .
  This package is part of the KDE 4 Software Development Kit module.
-
 
 Package: kdesdk-scripts
 Architecture: all
@@ -191,7 +181,6 @@ Description: scripts and data files for KDE 4 development
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-
 Package: kdesdk-strigi-plugins
 Architecture: any
 Depends: ${shlibs:Depends}
@@ -202,6 +191,16 @@ Description: software development file format plugins for Strigi Desktop Search
  Strigi plugins are included for:
   * Patch files (diff)
   * Qt Linguist files (ts)
+ .
+ This package is part of the KDE 4 Software Development Kit module.
+
+Package: kmtrace
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, less
+Description: memory leak tracer for KDE 4
+ KMtrace is a KDE tool to assist with malloc debugging using glibc's
+ "mtrace" functionality.
  .
  This package is part of the KDE 4 Software Development Kit module.
 
@@ -216,7 +215,6 @@ Description: file difference viewer for KDE 4
  files.
  .
  This package is part of the KDE 4 Software Development Kit module.
-
 
 Package: kuiviewer
 Architecture: any
@@ -233,7 +231,6 @@ Description: viewer for Qt Designer user interface files
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-
 Package: cvsservice
 Architecture: any
 Section: libs
@@ -244,7 +241,6 @@ Description: library and D-Bus service for accessing CVS repositories
  make use of it directly from C++, or access the service over D-Bus.
  .
  This package is part of the KDE 4 Software Development Kit module.
-
 
 Package: poxml
 Architecture: any
@@ -259,7 +255,6 @@ Description: tools for translating DocBook XML files with gettext
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-
 Package: umbrello
 Architecture: any
 Section: devel
@@ -272,7 +267,6 @@ Description: UML modelling tool and code generator
  programming languages.
  .
  This package is part of the KDE 4 Software Development Kit module.
-
 
 Package: lokalize
 Architecture: any
@@ -297,3 +291,4 @@ Suggests: kdesdk (= ${source:Version})
 Description: debugging symbols for the KDE 4 Software Development Kit module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE 4 Software Development Kit module.
+

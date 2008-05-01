@@ -1,0 +1,10 @@
+usr/bin/demangle
+usr/bin/kminspector
+usr/bin/kmmatch
+usr/bin/kmtrace
+usr/include/ktrace.h
+usr/lib/libktrace.so
+usr/lib/libktrace.so.4
+usr/lib/libktrace.so.4.1.0
+usr/share/kde4/apps/kmtrace/kde.excludes
+
