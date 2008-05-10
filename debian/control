@@ -3,8 +3,8 @@ Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 6), cmake (>=2.6.0~), quilt,
- kdepimlibs5-dev (>= 4:4.0.72), libphonon-dev (>= 4:4.0.72), libplasma-dev (>= 4:4.0.72),
- libsvn-dev, libstreamanalyzer-dev, libxslt1-dev, libboost-dev
+ kdepimlibs5-dev (>= 4:4.0.73), libphonon-dev (>= 4:4.0.73), libplasma-dev (>= 4:4.0.73),
+ libsvn-dev, libstreamanalyzer-dev, libxslt1-dev, libboost-dev, binutils-dev
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>, Matthew Rosewarne <mrosewarne@inoutbox.com>
 Standards-Version: 3.7.3
 Homepage: http://www.kde.org
@@ -52,7 +52,7 @@ Description: CVS client for KDE 4
 Package: kapptemplate
 Architecture: all
 Section: devel
-Suggests: kdelibs5-dev (>= 4:4.0.72)
+Suggests: kdelibs5-dev (>= 4:4.0.73)
 Description: KDE 4 application template generator
  KAppTemplate is a shell script that will create the necessary framework to
  develop several types of KDE application.  It generates the build-system
