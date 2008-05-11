@@ -3,6 +3,7 @@ kdesdk (4:4.0.73-1) UNRELEASED; urgency=low
   * New upstream snapshot. (Closes: #479010)
   * Add binutils-dev build dependency to get libiberty for kmtrace.
     (Closes: 479085)
+  * Add 97_fix_target_link_libraries patch.
 
  -- Fathi Boudra <fabo@debian.org>  Sat, 10 May 2008 16:25:51 +0200
 
