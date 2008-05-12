@@ -1,11 +1,14 @@
-kdesdk (4:4.0.73-1) UNRELEASED; urgency=low
+kdesdk (4:4.0.73+svn806542-1) UNRELEASED; urgency=low
 
-  * New upstream snapshot. (Closes: #479010)
+  * New upstream snapshot: (Closes: #479010)
+    - The latest upstream commit is r806542 by fischer
+    - Date: Sun May 11 17:19:51 2008 UTC
+
   * Add binutils-dev build dependency to get libiberty for kmtrace.
     (Closes: 479085)
   * Add 97_fix_target_link_libraries patch.
 
- -- Fathi Boudra <fabo@debian.org>  Sat, 10 May 2008 16:25:51 +0200
+ -- Fathi Boudra <fabo@debian.org>  Mon, 12 May 2008 11:42:34 +0200
 
 kdesdk (4:4.0.72-1) experimental; urgency=low
 
