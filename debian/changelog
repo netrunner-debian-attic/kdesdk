@@ -1,4 +1,4 @@
-kdesdk (4:4.0.73+svn806542-1) UNRELEASED; urgency=low
+kdesdk (4:4.0.74-1) experimental; urgency=low
 
   * New upstream snapshot: (Closes: #479010)
     - The latest upstream commit is r806542 by fischer
@@ -8,7 +8,7 @@ kdesdk (4:4.0.73+svn806542-1) UNRELEASED; urgency=low
     (Closes: 479085)
   * Add 97_fix_target_link_libraries patch.
 
- -- Fathi Boudra <fabo@debian.org>  Mon, 12 May 2008 11:42:34 +0200
+ -- Fathi Boudra <fabo@debian.org>  Sun, 18 May 2008 14:25:13 +0200
 
 kdesdk (4:4.0.72-1) experimental; urgency=low
 
