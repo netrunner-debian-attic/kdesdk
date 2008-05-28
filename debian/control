@@ -209,6 +209,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Suggests: khelpcenter
+Replaces: libcvsservice0 (<<4:4.0.0)
 Description: file difference viewer for KDE 4
  Kompare is displays the differences between files.  It can compare the
  contents of files or directories, as well as create, display, and merge patch
@@ -287,6 +288,8 @@ Section: libdevel
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
+Conflicts: kdebase-dbg (<<4:4.0.0)
+Replaces: kdebase-dbg (<<4:4.0.0)
 Suggests: kdesdk (= ${source:Version})
 Description: debugging symbols for the KDE 4 Software Development Kit module
  This package contains debugging files used to investigate problems with

@@ -1,3 +1,10 @@
+kdesdk (4:4.0.80-2) experimental; urgency=low
+
+  * kate dbg files was long time ago in kdebase. add proper conflicts.
+  * cvsservice vs libcvsservice0 also needs replaces
+
+ -- Sune Vuorela <debian@pusling.com>  Wed, 28 May 2008 01:18:27 +0200
+
 kdesdk (4:4.0.80-1) experimental; urgency=low
 
   * New upstream snapshot.
