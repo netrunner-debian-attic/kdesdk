@@ -1,5 +1,5 @@
-etc/kde4/katefiletemplates.knsrc
-etc/kde4/katerc
+usr/share/kde4/config/katefiletemplates.knsrc
+usr/share/kde4/config/katerc
 usr/bin/kate
 usr/lib/kde4/kateexternaltoolsplugin.so
 usr/lib/kde4/katefilebrowserplugin.so
