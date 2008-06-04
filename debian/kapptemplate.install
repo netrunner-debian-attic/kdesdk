@@ -1,4 +1,6 @@
 usr/bin/kapptemplate
 usr/share/applications/kde4/kapptemplate.desktop
-usr/share/doc/kde4/HTML/en/kapptemplate/
-usr/share/kde4/apps/kapptemplate/
+usr/share/doc/kde4/HTML/en/kapptemplate/*
+usr/share/kde4/apps/kapptemplate/*
+usr/share/kde4/apps/kdevappwizard/*
+usr/share/kde4/config.kcfg/kapptemplate.kcfg
