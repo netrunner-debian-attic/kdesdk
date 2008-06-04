@@ -50,8 +50,9 @@ Description: CVS client for KDE 4
  This package is part of the KDE 4 Software Development Kit module.
 
 Package: kapptemplate
-Architecture: all
+Architecture: any
 Section: devel
+Depends: ${shlibs:Depends}
 Suggests: kdelibs5-dev (>= 4:4.0.74)
 Description: KDE 4 application template generator
  KAppTemplate is a shell script that will create the necessary framework to

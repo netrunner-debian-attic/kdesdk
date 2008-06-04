@@ -1,9 +1,12 @@
 usr/include/kate/application.h
 usr/include/kate/documentmanager.h
-usr/include/kate_export.h
 usr/include/kate/mainwindow.h
-usr/include/kate/pluginconfigpageinterface.h
 usr/include/kate/plugin.h
+usr/include/kate/pluginconfigpageinterface.h
 usr/include/kate/pluginmanager.h
+usr/include/kate_export.h
 usr/lib/libantlr.so
 usr/lib/libkateinterfaces.so
+usr/lib/libkomparedialogpages.so
+usr/lib/libkomparediff2.so
+usr/lib/libkompareinterface.so

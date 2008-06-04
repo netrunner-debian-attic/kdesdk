@@ -1,7 +1,10 @@
 kdesdk (4:4.0.81+svn815954-1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
-  * Update install files.
+  * Update installed files:
+    - Add kdevappwizard to kapptemplate package.
+    - Move libkompare*.so to kdesdk-dev package.
+  * Make kapptemplate arch: any. It contains kapptemplate binary.
 
  -- Fathi Boudra <fabo@debian.org>  Wed, 04 Jun 2008 09:36:53 +0200
 
