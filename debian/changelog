@@ -1,12 +1,20 @@
-kdesdk (4:4.0.81+svn815954-1) UNRELEASED; urgency=low
+kdesdk (4:4.0.81+svn819867-1) experimental; urgency=low
 
   * New upstream development snapshot.
+ 
+  +++ Changes by Fathi Boudra:
+
   * Update installed files:
     - Add kdevappwizard to kapptemplate package.
     - Move libkompare*.so to kdesdk-dev package.
   * Make kapptemplate arch: any. It contains kapptemplate binary.
 
- -- Fathi Boudra <fabo@debian.org>  Wed, 04 Jun 2008 09:36:53 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+   
+   * Bump build dependencies to (>= 4:4.0.81).
+   * Change libphonon-dev to new versioning (>= 4:4.2~).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 15 Jun 2008 23:21:05 +0200
 
 kdesdk (4:4.0.80-2) experimental; urgency=low
 
