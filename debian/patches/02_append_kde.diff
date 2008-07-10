@@ -1,6 +1,8 @@
---- a/scripts/CMakeLists.txt
-+++ b/scripts/CMakeLists.txt
-@@ -43,7 +43,6 @@
+Index: kdesdk-4.0.98/scripts/CMakeLists.txt
+===================================================================
+--- kdesdk-4.0.98.orig/scripts/CMakeLists.txt	2008-07-10 21:01:55.000000000 +0000
++++ kdesdk-4.0.98/scripts/CMakeLists.txt	2008-07-10 21:02:13.000000000 +0000
+@@ -44,7 +44,6 @@
    cvsblame 
    colorsvn 
    svn2dist 
@@ -8,7 +10,7 @@
    svnlastchange 
    svnversions 
    kdesvn-build 
-@@ -63,4 +62,6 @@
+@@ -64,4 +63,6 @@
    svnintegrate 
    kde_generate_export_header
    DESTINATION ${BIN_INSTALL_DIR})
