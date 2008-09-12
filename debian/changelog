@@ -1,10 +1,16 @@
+kdesdk (4:4.1.1-1~lenny+1) lenny; urgency=low
+
+  * Backport for Lenny.
+
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Fri, 12 Sep 2008 11:36:46 +0200
+
 kdesdk (4:4.1.1-1) experimental; urgency=low
 
   * New upstram release
 
  -- Sune Vuorela <pusling@eider.killmulehill.net>  Fri, 29 Aug 2008 10:27:45 +0200
 
-kdesdk (4:4.1.0-1~lenny+1) experimental; urgency=low
+kdesdk (4:4.1.0-1~lenny+1) lenny; urgency=low
 
   * Backport for Lenny.
 
