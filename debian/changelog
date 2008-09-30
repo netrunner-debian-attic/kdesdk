@@ -1,9 +1,9 @@
-kdesdk (4:4.1.2-0) UNRELEASED; urgency=low
+kdesdk (4:4.1.2-1) experimental; urgency=low
 
   * New upstream release.
   * Update installed files.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Thu, 25 Sep 2008 23:12:25 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 30 Sep 2008 17:23:34 +0200
 
 kdesdk (4:4.1.1-1) experimental; urgency=low
 
