@@ -32,6 +32,7 @@ usr/bin/kdekillall
 usr/bin/kdelnk2desktop.py
 usr/bin/kdemangen.pl
 usr/bin/kdesvn-build
+usr/bin/krazy-licensecheck
 usr/bin/makeobj
 usr/bin/noncvslist
 usr/bin/nonsvnlist
@@ -46,6 +47,7 @@ usr/bin/svnchangesince
 usr/bin/svn-clean-kde
 usr/bin/svngettags
 usr/bin/svnintegrate
+usr/bin/svnforwardport
 usr/bin/svnlastchange
 usr/bin/svnlastlog
 usr/bin/svnrevertlast
