@@ -1,11 +1,13 @@
-kdesdk (4:4.1.80+svn890149-0) experimental; urgency=low
+kdesdk (4:4.1.80+svn890149-0) UNRELEASED; urgency=low
 
   * New upstream development snapshot. 
   * Bump KDE build dependencies to 4.1.80.
   * Bump Standards-Version to 3.8.0 and add a README.source file.
   * Remove explicit cmake build dependency.
+  * Refresh patch 02_append_kde.diff.
+  * Update installed files.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 29 Nov 2008 12:32:45 +0100
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 29 Nov 2008 16:06:09 +0100
 
 kdesdk (4:4.1.3-1) experimental; urgency=low
 

@@ -47,7 +47,6 @@ usr/bin/svnchangesince
 usr/bin/svn-clean-kde
 usr/bin/svngettags
 usr/bin/svnintegrate
-usr/bin/svnforwardport
 usr/bin/svnlastchange
 usr/bin/svnlastlog
 usr/bin/svnrevertlast

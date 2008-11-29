@@ -3,4 +3,4 @@ usr/bin/split2po
 usr/bin/swappo
 usr/bin/xml2pot
 usr/lib/libantlr.so.4
-usr/lib/libantlr.so.4.1.0
+usr/lib/libantlr.so.4.2.0

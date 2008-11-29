@@ -2,11 +2,11 @@ usr/bin/kompare
 usr/lib/kde4/libkomparenavtreepart.so
 usr/lib/kde4/libkomparepart.so
 usr/lib/libkomparedialogpages.so.4
-usr/lib/libkomparedialogpages.so.4.1.0
+usr/lib/libkomparedialogpages.so.4.2.0
 usr/lib/libkomparediff2.so.4
-usr/lib/libkomparediff2.so.4.1.0
+usr/lib/libkomparediff2.so.4.2.0
 usr/lib/libkompareinterface.so.4
-usr/lib/libkompareinterface.so.4.1.0
+usr/lib/libkompareinterface.so.4.2.0
 usr/share/applications/kde4/kompare.desktop
 usr/share/doc/kde4/HTML/en/kompare/common
 usr/share/doc/kde4/HTML/en/kompare/index.cache.bz2

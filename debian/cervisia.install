@@ -1,5 +1,4 @@
 usr/bin/cervisia
-usr/lib/kde4/libcervisiapart.so
 usr/lib/libkdeinit4_cervisia.so
 usr/share/applications/kde4/cervisia.desktop
 usr/share/dbus-1/interfaces/org.kde.cervisia.cvsjob.xml
