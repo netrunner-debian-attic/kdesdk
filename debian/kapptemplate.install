@@ -1,6 +1,12 @@
 usr/bin/kapptemplate
 usr/share/applications/kde4/kapptemplate.desktop
 usr/share/doc/kde4/HTML/en/kapptemplate/*
+usr/share/icons/hicolor/128x128/apps/kapptemplate.png
+usr/share/icons/hicolor/16x16/apps/kapptemplate.png
+usr/share/icons/hicolor/22x22/apps/kapptemplate.png
+usr/share/icons/hicolor/32x32/apps/kapptemplate.png
+usr/share/icons/hicolor/48x48/apps/kapptemplate.png
+usr/share/icons/hicolor/64x64/apps/kapptemplate.png
 usr/share/kde4/apps/kapptemplate/*
 usr/share/kde4/apps/kdevappwizard/*
 usr/share/kde4/config.kcfg/kapptemplate.kcfg

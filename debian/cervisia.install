@@ -1,4 +1,5 @@
 usr/bin/cervisia
+usr/lib/kde4/cervisiapart.so
 usr/lib/libkdeinit4_cervisia.so
 usr/share/applications/kde4/cervisia.desktop
 usr/share/dbus-1/interfaces/org.kde.cervisia.cvsjob.xml
@@ -63,4 +64,5 @@ usr/share/kde4/apps/kconf_update/cervisia-normalize_cvsroot.pl
 usr/share/kde4/apps/kconf_update/cervisia.upd
 usr/share/kde4/apps/kconf_update/change_colors.pl
 usr/share/kde4/config.kcfg/cervisiapart.kcfg
+usr/share/kde4/services/cervisiapart.desktop
 usr/share/man/man1/cervisia.1

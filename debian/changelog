@@ -6,6 +6,8 @@ kdesdk (4:4.1.80+svn890149-0) UNRELEASED; urgency=low
   * Remove explicit cmake build dependency.
   * Refresh patch 02_append_kde.diff.
   * Update installed files.
+  * Add kpartloader package. TODO, description.
+  * TODO, kio-perldoc.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 29 Nov 2008 16:06:09 +0100
 

@@ -284,6 +284,16 @@ Description: computer-aided translation system for KDE 4
  .
  This package is part of the KDE 4 Software Development Kit module.
 
+Package: kpartloader
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}
+Description: TODO, kpartloader
+ TODO.
+ <pusling> kpartloader is the coolest thing ever.
+ .
+ This package is part of the KDE 4 Software Development Kit module.
+
 Package: kdesdk-dbg
 Section: libdevel
 Architecture: any
