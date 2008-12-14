@@ -1,4 +1,4 @@
-kdesdk (4:4.1.80+svn890149-0) UNRELEASED; urgency=low
+kdesdk (4:4.1.85+svn896752-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot. 
   * Bump KDE build dependencies to 4.1.80.
