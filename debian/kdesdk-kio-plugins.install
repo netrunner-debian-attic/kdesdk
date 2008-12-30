@@ -1,7 +1,7 @@
 usr/bin/kio_svn_helper
 usr/lib/kde4/kded_ksvnd.so
+usr/lib/kde4/kio_perldoc.so
 usr/lib/kde4/kio_svn.so
-usr/share/dbus-1/interfaces/org.kde.ksvnd.xml
 usr/share/icons/oxygen/128x128/actions/svn_add.png
 usr/share/icons/oxygen/128x128/actions/svn_branch.png
 usr/share/icons/oxygen/128x128/actions/svn_merge.png
@@ -44,11 +44,14 @@ usr/share/icons/oxygen/scalable/actions/svn_merge.svgz
 usr/share/icons/oxygen/scalable/actions/svn_remove.svgz
 usr/share/icons/oxygen/scalable/actions/svn_status.svgz
 usr/share/icons/oxygen/scalable/actions/svn_switch.svgz
-usr/share/kde4/services/kded/ksvnd.desktop
+usr/share/kde4/apps/kio_perldoc/kio_perldoc.css
+usr/share/kde4/apps/kio_perldoc/pod2html.pl
 usr/share/kde4/services/ServiceMenus/subversion.desktop
 usr/share/kde4/services/ServiceMenus/subversion_toplevel.desktop
+usr/share/kde4/services/kded/ksvnd.desktop
+usr/share/kde4/services/perldoc.protocol
 usr/share/kde4/services/svn+file.protocol
 usr/share/kde4/services/svn+http.protocol
 usr/share/kde4/services/svn+https.protocol
-usr/share/kde4/services/svn.protocol
 usr/share/kde4/services/svn+ssh.protocol
+usr/share/kde4/services/svn.protocol

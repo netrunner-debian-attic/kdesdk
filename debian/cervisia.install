@@ -1,11 +1,11 @@
 usr/bin/cervisia
+usr/bin/cvsaskpass
+usr/bin/cvsservice
 usr/lib/kde4/cervisiapart.so
 usr/lib/libkdeinit4_cervisia.so
+usr/lib/libkdeinit4_cvsaskpass.so
+usr/lib/libkdeinit4_cvsservice.so
 usr/share/applications/kde4/cervisia.desktop
-usr/share/dbus-1/interfaces/org.kde.cervisia.cvsjob.xml
-usr/share/dbus-1/interfaces/org.kde.cervisia.cvsloginjob.xml
-usr/share/dbus-1/interfaces/org.kde.cervisia.cvsservice.xml
-usr/share/dbus-1/interfaces/org.kde.cervisia.repository.xml
 usr/share/doc/kde4/HTML/en/cervisia/annotate.png
 usr/share/doc/kde4/HTML/en/cervisia/checkout.png
 usr/share/doc/kde4/HTML/en/cervisia/commit.png
@@ -65,4 +65,5 @@ usr/share/kde4/apps/kconf_update/cervisia.upd
 usr/share/kde4/apps/kconf_update/change_colors.pl
 usr/share/kde4/config.kcfg/cervisiapart.kcfg
 usr/share/kde4/services/cervisiapart.desktop
+usr/share/kde4/services/cvsservice.desktop
 usr/share/man/man1/cervisia.1

@@ -132,6 +132,7 @@ Package: kdesdk-dev
 Architecture: any
 Section: libdevel
 Depends: kate (= ${binary:Version}), poxml (= ${binary:Version}), libsvn-dev
+Replaces: cervisia (<< 4:4.1.86+svn903431), kdesdk-kio-plugins (<< 4:4.1.86+svn903431)
 Description: development files for the KDE 4 Software Development Kit module
  This package contains development files for building software that uses
  libraries from the KDE 4 Software Development Kit module.
@@ -235,12 +236,12 @@ Description: viewer for Qt Designer user interface files
 
 Package: cvsservice
 Architecture: any
-Section: libs
+Section: devel
 Depends: ${shlibs:Depends}, cvs
-Description: library and D-Bus service for accessing CVS repositories
- This library provides a D-Bus service for browsing and manipulating
- remote CVS repositories.  Applications may either link with this library to
- make use of it directly from C++, or access the service over D-Bus.
+Description: graphical CVS frontend for KDE
+ Cervisia is a graphical user interface for the Concurrent Versions System. It
+ is based on the KDE libraries and therefore shares their Look’n’Feel,
+ configuration and help system.
  .
  This package is part of the KDE 4 Software Development Kit module.
 

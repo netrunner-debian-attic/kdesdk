@@ -10,3 +10,8 @@ usr/lib/libkateinterfaces.so
 usr/lib/libkomparedialogpages.so
 usr/lib/libkomparediff2.so
 usr/lib/libkompareinterface.so
+usr/share/dbus-1/interfaces/org.kde.cervisia.cvsjob.xml
+usr/share/dbus-1/interfaces/org.kde.cervisia.cvsloginjob.xml
+usr/share/dbus-1/interfaces/org.kde.cervisia.cvsservice.xml
+usr/share/dbus-1/interfaces/org.kde.cervisia.repository.xml
+usr/share/dbus-1/interfaces/org.kde.ksvnd.xml
