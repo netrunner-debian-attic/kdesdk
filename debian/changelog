@@ -15,7 +15,7 @@ kdesdk (4:4.1.86+svn903431-0r1) UNRELEASED; urgency=low
 
   * Add debian/installgen.
   * Dbus interface XMLs belong to kdesdk-dev.
-  * Improve cvsservice package description (based on the manpage).
+  * Improve cvsservice package description.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2008 22:10:29 +0200
 

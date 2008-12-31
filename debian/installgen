@@ -11,6 +11,10 @@ dst:apps/cmake/
 dst:/include/
 dst:dbus-\d+/interfaces/
 
+[cvsservice]
+dst:cvsaskpass
+dst:cvsservice
+
 [cervisia]
 from:/cervisia/
 
@@ -44,9 +48,6 @@ from:/kompare/
 
 [kuiviewer]
 from:/kuiviewer/
-
-[cvsservice]
-from:/cvsservice/
 
 [poxml]
 from:/poxml/

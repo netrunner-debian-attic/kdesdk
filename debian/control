@@ -239,9 +239,10 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, cvs
 Description: graphical CVS frontend for KDE
- Cervisia is a graphical user interface for the Concurrent Versions System. It
- is based on the KDE libraries and therefore shares their Look’n’Feel,
- configuration and help system.
+Description: D-Bus service for accessing CVS repositories
+ This package provides a D-Bus service for browsing and manipulating
+ remote CVS repositories.  Applications may make use of it directly from
+ C++, or access the service over D-Bus.
  .
  This package is part of the KDE 4 Software Development Kit module.
 
