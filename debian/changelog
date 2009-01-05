@@ -16,6 +16,8 @@ kdesdk (4:4.1.87+svn905509-0r1) UNRELEASED; urgency=low
   * Add debian/installgen.
   * Dbus interface XMLs belong to kdesdk-dev.
   * Improve cvsservice package description.
+  * Do not build depend on libplasma-dev. Plasma headers are in kdelibs5-dev
+    for now.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 30 Dec 2008 22:10:29 +0200
 
