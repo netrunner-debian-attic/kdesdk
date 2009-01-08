@@ -1,10 +1,10 @@
-kdesdk (4:4.1.87+svn905509-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.1.96+svn907184-0r1) UNRELEASED; urgency=low
 
   * New upstream development snapshot.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Bump KDE build dependencies to 4.1.87.
+  * Bump KDE build dependencies to 4.1.96.
   * Bump Standards-Version to 3.8.0 and add a README.source file.
   * Remove explicit cmake build dependency.
   * Refresh patch 02_append_kde.diff.
