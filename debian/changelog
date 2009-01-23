@@ -1,15 +1,15 @@
-kdesdk (4:4.1.96+svn911882-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.2.0-0r1) UNRELEASED; urgency=low
 
-  * New upstream development snapshot.
+  * New upstream release.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
 
-  * Bump KDE build dependencies to 4.1.96.
+  * Bump KDE build dependencies to 4.2.0.
   * Bump Standards-Version to 3.8.0 and add a README.source file.
   * Remove explicit cmake build dependency.
   * Refresh patch 02_append_kde.diff.
   * Update installed files.
-  * Add kpartloader package. TODO, description.
+  TODO Add kpartloader package. TODO, description.
 
   +++ Changes by Modestas Vainius:
 
