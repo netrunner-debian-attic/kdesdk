@@ -133,7 +133,8 @@ When "under GPL" is mentioned, it means GPL like this:
 
 Files under cervisia/
 
-These files are under the GPL.
+These files are under the GPL v2 or later. Except files under cervisia/cvsservice/
+that are under the LGPL v2 or later.
 
 
 Files under cmake/
@@ -185,19 +186,22 @@ These files are under the GNU Free Documentation License v1.2
 
 Files under kapptemplate/
 
-These files are under the GPL.
+These files are under the GPL v2 or later. Except: 
 
 
 Files under kate/
-
+TODO: GPL v3 file found
 These files are under the LGPL version 2.
 
 
 Files under kbugbuster/
 
-All files except the files under kbugbuster/kresources/ are under the GPL v2
-or later.
-Files under kbugbuster/kresources/ are under LGPL v2 or later.
+Most of files are under the GPL v2 or later. Except: 
+files under kbugbuster/kresources/ that are under LGPL v2 or later.
+And
+  kbugbuster/gui/loadallbugsdlg.cpp
+  kbugbuster/gui/loadallbugsdlg.h
+that are GPL v2 only.
 
 
 Files under kcachegrind/
@@ -329,15 +333,16 @@ These files are under GPL v2 or later.
 
 
 
-The full text of the GNU Library General Public License version 2 is available 
-on Debian systems in /usr/share/common-licenses/LGPL-2.
+On Debian systems, the complete text of the GNU General Public License 
+version 2 can be found in /usr/share/common-licenses/GPL-2
 
-You can find the complete text of the license GNU  General Public License v2 
-at /usr/share/common-licenses/GPL-2
+On Debian systems, the complete text of the GNU Library General Public 
+License version 2 can be found in /usr/share/common-licenses/LGPL-2
 
 
 
-The Debian packaging is (C) 2007-2008, Debian Qt/KDE Maintainers
+
+The Debian packaging is (C) 2007-2009, Debian Qt/KDE Maintainers
 <debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
 see `/usr/share/common-licenses/GPL'.
 

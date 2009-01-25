@@ -10,6 +10,7 @@ kdesdk (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Refresh patch 02_append_kde.diff.
   * Update installed files.
   TODO Add kpartloader package. TODO, description.
+  TODO: copyright GPL v3 file found
 
   +++ Changes by Modestas Vainius:
 
