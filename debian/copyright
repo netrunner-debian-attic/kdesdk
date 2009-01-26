@@ -216,19 +216,35 @@ These files are under the GPL.
 
 
 Files under kioslave/
+
+These files are under the GPL v2. Except:
+  kioslave/svn/*
+  kioslave/svn/svnhelper/*
+that are under the LGPL v2 or later.
+
+
 Files under kmtrace/
 
-These files are under the LGPL version 2.
+These files are under the LGPL version 2 or later.
 
 
 Files under kompare/
 
-These files are under the GPL v2 or later.
+These files are under the GPL v2 or later. Except:
+  kompare/interfaces/kompareinterfaceexport.h
+  kompare/libdialogpages/dialogpagesexport.h
+  kompare/ibdiff2/diff2export.h
+that are under the LGPL v2 or later.
+
+
+Files under kpartloader/
+
+These files are under the LGPL version 2 or later.
 
 
 Files under kprofilemethod/
 
-These files are under the GPL v2.
+These files are under the LGPL version 2 or later.
 
 
 Files under kspy/
@@ -272,7 +288,18 @@ These files are under this license:
   | * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
   | * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+Except:
+  kuinittest/dcopinterface.h
+that is under the GPL version 2 or later.
 
+
+Files under lokalize/
+
+These files are under the GPL v2 or later. Except:
+  lokalize/src/catalog/gettext/gettextimport.h
+that are under the GPL v2.
+
+  
 Files under poxml/
 
 Those files are under the GPL, except files under poxml/antlr that are under
@@ -319,7 +346,7 @@ These files are under GPL v2 or later.
 
 Files under scripts/
 
-These files are under GPL.
+These files are under GPL v2 or later.
 
 
 Files under strigi-analyzer/
@@ -329,7 +356,15 @@ These files are under the LGPL version 2 or later.
 
 Files under umbrello/
 
-These files are under GPL v2 or later.
+These files are under GPL v2 or later. Except:
+  umbrello/codeimport/kdevcppparser/* excluding:
+  umbrello/codeimport/kdevcppparser/ast_utils.cpp
+  umbrello/codeimport/kdevcppparser/ast_utils.h
+  umbrello/codeimport/kdevcppparser/cpptree2uml.cpp
+  umbrello/codeimport/kdevcppparser/cpptree2uml.h
+  umbrello/codeimport/kdevcppparser/keywords.lut.h
+  umbrello/codeimport/kdevcppparser/position.h
+that are under the LGPL version 2.
 
 
 
