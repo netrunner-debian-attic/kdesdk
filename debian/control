@@ -289,9 +289,13 @@ Package: kpartloader
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Description: TODO, kpartloader
- TODO.
- <pusling> kpartloader is the coolest thing ever.
+Description: test tool for KParts
+ KPartloader is a very simple application to test loading of a KPart.
+ KPartloader is called with a simple argument to tell which KPart to load.
+ .
+ KParts is a KDE core technology to embed components of one application into 
+ other applications. This application is used for testing such components 
+ during development.
  .
  This package is part of the KDE 4 Software Development Kit module.
 

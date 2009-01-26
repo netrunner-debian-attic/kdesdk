@@ -9,7 +9,6 @@ kdesdk (4:4.2.0-0r1) UNRELEASED; urgency=low
   * Remove explicit cmake build dependency.
   * Refresh patch 02_append_kde.diff.
   * Update installed files.
-  TODO Add kpartloader package. TODO, description.
   TODO: copyright GPL v3 file found
 
   +++ Changes by Modestas Vainius:
@@ -27,6 +26,10 @@ kdesdk (4:4.2.0-0r1) UNRELEASED; urgency=low
     - remove debian/cdbs directory;
     - replace debian/cdbs/kde.mk with
       /usr/share/pkg-kde-tools/qt-kde-team/1/debian-qt-kde.mk in debian/rules.
+
+  +++ Changes by Sune Vuorela:
+
+  * KPartLoader package description
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 24 Jan 2009 03:39:28 +0200
 
