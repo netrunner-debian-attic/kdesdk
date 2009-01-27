@@ -190,8 +190,39 @@ These files are under the GPL v2 or later. Except:
 
 
 Files under kate/
-TODO: GPL v3 file found
-These files are under the LGPL version 2.
+
+These files are under the LGPL version 2. Except:
+  kate/plugins/kate-ctags/kate_ctags.cpp
+  kate/plugins/kate-ctags/kate_ctags.h
+that are under the version 2.1 or later. And:
+  kate/plasma/session/*
+  kate/plugins/filetemplates/plugin/*
+  kate/plugins/htmltools/*
+  kate/plugins/insertcommand/*
+	 + kate/plugins/kate-ctags/ctagskinds.cpp
+	 + kate/plugins/kate-ctags/ctagskinds.h
+     + kate/plugins/kate-ctags/tags.cpp
+	 + kate/plugins/kate-ctags/tags.h
+  kate/plugins/katebuild-plugin/*
+  kate/plugins/kpybrowser/*
+  kate/plugins/openheader/*
+  kate/plugins/snippets/* excluding:
+    -+ kate/plugins/snippets/KateSnippetsWidgetBase.ui.h
+  kate/plugins/symbolviewer/* excluding:
+     -+ kate/plugins/symbolviewer/bash_parser.cpp
+	 -+ kate/plugins/symbolviewer/testfile.c
+  kate/plugins/tabbarextension/*
+  kate/plugins/textfilter/*
+  kate/plugins/xmlcheck/*
+  kate/plugins/xmltools/*
+that are under then GPL version 2. And:
+  kate/plugins/symbolviewer/bash_parser.cpp
+that is under the GPL version 3. And last:
+   + kate/app/katecontainer.cpp
+   + kate/app/katecontainer.h
+   + kate/app/katemdi.cpp
+   + kate/app/katemdi.h
+that are under GNU Library General Public License version 2.
 
 
 Files under kbugbuster/
@@ -374,6 +405,8 @@ version 2 can be found in /usr/share/common-licenses/GPL-2
 On Debian systems, the complete text of the GNU Library General Public 
 License version 2 can be found in /usr/share/common-licenses/LGPL-2
 
+On Debian systems, the complete text of the GNU General Public License 
+version 3 can be found in /usr/share/common-licenses/GPL-3
 
 
 
