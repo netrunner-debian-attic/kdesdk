@@ -1,0 +1,4 @@
+# Manual pages are there, but scripts aren't
+./usr/share/man/man1/fixincludes.1
+./usr/share/man/man1/reportview.1
+./usr/share/man/man1/transxx.1
