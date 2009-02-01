@@ -7,3 +7,4 @@ usr/lib/libktrace.so
 usr/lib/libktrace.so.4
 usr/lib/libktrace.so.4.2.0
 usr/share/kde4/apps/kmtrace/kde.excludes
+usr/share/man/man1/demangle.1

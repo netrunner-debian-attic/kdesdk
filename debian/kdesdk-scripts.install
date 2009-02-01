@@ -71,13 +71,6 @@ usr/share/man/man1/cxxmetric.1
 usr/share/man/man1/demangle.1
 usr/share/man/man1/extend_dmalloc.1
 usr/share/man/man1/extractrc.1
-usr/share/man/man1/fixincludes.1
-usr/share/man/man1/po2xml.1
 usr/share/man/man1/pruneemptydirs.1
 usr/share/man/man1/qtdoc.1
-usr/share/man/man1/reportview.1
-usr/share/man/man1/split2po.1
-usr/share/man/man1/swappo.1
-usr/share/man/man1/transxx.1
-usr/share/man/man1/xml2pot.1
 usr/share/man/man1/zonetab2pot.py.1

@@ -1,5 +1,11 @@
+[useless-manpages_virtual]
+# Manual pages are there, but scripts aren't
+missing dst:usr/share/man/man1/(?:fixincludes|reportview|transxx)\.1
+
 [kmtrace]
 from:/kmtrace/
+# Claim our manual page which is in doc/scripts/
+dst:usr/share/man/man1/demangle.1
 
 [kdesdk-misc]
 from:/kdeaccounts-plugin/
@@ -37,9 +43,6 @@ from:/kcachegrind/
 [kdesdk-kio-plugins]
 from:/kioslave/
 
-[kdesdk-scripts]
-from:/scripts/
-
 [kdesdk-strigi-plugins]
 from:/strigi-analyzer/
 
@@ -51,6 +54,8 @@ from:/kuiviewer/
 
 [poxml]
 from:/poxml/
+# Claim man pages which are in doc/scripts/
+dst:usr/share/man/man1/(po2xml|split2po|swappo|xml2pot)\.1
 
 [umbrello]
 from:/umbrello/
@@ -60,3 +65,6 @@ from:/lokalize/
 
 [kpartloader]
 from:/kpartloader/
+
+[kdesdk-scripts]
+from:/scripts/

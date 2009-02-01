@@ -1,3 +1,14 @@
+kdesdk (4:4.2.0-2) UNRELEASED; urgency=low
+
+  * Move a few misplaced manual pages from kdesdk-scripts back to their
+    real owner packages. Also ignore a few manual pages as they describe
+    non-existant binaries/scripts (Closes: #513780).
+  * Tweak kdesdk-scripts suggests/recommends a bit. In particular, move
+    cvs to recommends and recommend svn instead. Suggest qt4-doc instead
+    of qt3-doc.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 01 Feb 2009 18:39:54 +0200
+
 kdesdk (4:4.2.0-1) experimental; urgency=low
 
   * New upstream release.

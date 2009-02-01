@@ -168,8 +168,8 @@ Package: kdesdk-scripts
 Architecture: all
 Section: devel
 Depends: ${perl:Depends}, python
-Recommends: cvs, gawk
-Suggests: khelpcenter, dmalloc, gdb, kdelibs5-doc, qt3-doc, valgrind, devscripts, xsltproc
+Recommends: svn, gawk
+Suggests: cvs, khelpcenter4, dmalloc, gdb, kdelibs5-doc, qt4-doc, valgrind, devscripts, xsltproc
 Enhances: kate
 Description: scripts and data files for KDE 4 development
  This package contains scripts and data files to facilitate development of
@@ -201,6 +201,7 @@ Package: kmtrace
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, less
+Replaces: kdesdk-scripts (= 4:4.2.0-1)
 Description: memory leak tracer for KDE 4
  KMtrace is a KDE tool to assist with malloc debugging using glibc's
  "mtrace" functionality.
@@ -250,6 +251,7 @@ Package: poxml
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
+Replaces: kdesdk-scripts (= 4:4.2.0-1)
 Description: tools for translating DocBook XML files with gettext
  This is a collection of tools that facilitate translating DocBook XML
  files using gettext message files (PO-files).
