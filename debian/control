@@ -38,7 +38,7 @@ Package: cervisia
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: CVS client for KDE 4
  Cervisia is a front-end for the CVS version control system client.
  .
@@ -66,7 +66,7 @@ Package: kate
 Section: editors
 Architecture: any
 Depends: ${shlibs:Depends}
-Suggests: aspell | ispell | hspell, khelpcenter, konsole
+Suggests: aspell | ispell | hspell, khelpcenter4, konsole
 Description: KDE 4 Advanced Text Editor
  Kate is a powerful text editor that can open multiple files simultaneously.
  .
@@ -88,7 +88,7 @@ Package: kbugbuster
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: Bugzilla client for KDE 4
  KBugBuster is a client for the Bugzilla bug tracking system.
  It provides a variety of tools for querying, viewing, and manipulating bug
@@ -101,7 +101,7 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
 Recommends: valgrind, graphviz
-Suggests: kcachegrind-converters, khelpcenter
+Suggests: kcachegrind-converters, khelpcenter4
 Description: visualisation tool for the Valgrind profiler
  KCachegrind is a visualisation tool for the profiling data generated
  by calltree, a memory profiling tool for valgrind.  Any executable can be
@@ -212,7 +212,7 @@ Package: kompare
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Replaces: libcvsservice0 (<<4:4.0.0)
 Description: file difference viewer for KDE 4
  Kompare is displays the differences between files.  It can compare the
@@ -265,7 +265,7 @@ Package: umbrello
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Suggests: khelpcenter4
 Description: UML modelling tool and code generator
  Umbrello UML Modeller is a Unified Modelling Language diagram editor for KDE.
  It can create diagrams of software and other systems in the industry-standard
@@ -277,8 +277,8 @@ Description: UML modelling tool and code generator
 Package: lokalize
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
-Suggests: khelpcenter
+Depends: ${shlibs:Depends}, libqt4-sql-sqlite
+Suggests: khelpcenter4
 Description: computer-aided translation system for KDE 4
  lokalize is a computer-aided translation system that focuses on productivity
  and performance. It implies paragraph-by-paragraph translation approach
