@@ -1,11 +1,12 @@
 kdesdk (4:4.2.2-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
+  * Update installed files.
   * Replace Suggest on khelpcenter with khelpcenter4.
   * Add Recommends on libqt4-sql-sqlite for lokalize. (Closes: #494289).
   * Install kdesvn-buildrc-sample as example file. (Closes: #507384).
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Tue, 31 Mar 2009 22:50:10 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 01 Apr 2009 20:08:23 +0200
 
 kdesdk (4:4.2.1-1) experimental; urgency=low
 
