@@ -278,6 +278,7 @@ Package: lokalize
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, libqt4-sql-sqlite
+Recommends: kdesdk-strigi-plugins, gettext
 Suggests: khelpcenter4
 Description: computer-aided translation system for KDE 4
  lokalize is a computer-aided translation system that focuses on productivity

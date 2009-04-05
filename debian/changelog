@@ -1,5 +1,7 @@
 kdesdk (4:4.2.2-1) unstable; urgency=low
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
   * New upstream release:
     - Fix kompare "Could not parse diff output" problem when exclude options
       are used. (Closes: #358415)
@@ -13,10 +15,14 @@ kdesdk (4:4.2.2-1) unstable; urgency=low
   * Bump build dependencies.
   * Update installed files.
   * Replace Suggest on khelpcenter with khelpcenter4.
-  * Add Recommends on libqt4-sql-sqlite for lokalize. (Closes: #494289).
+  * Add Depends on libqt4-sql-sqlite for lokalize. (Closes: #494289).
   * Install kdesvn-buildrc-sample as example file. (Closes: #507384).
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 05 Apr 2009 23:21:07 +0200
+  +++ Changes by Sune Vuorela:
+
+  * Add strigi plugins and gettext as localize recommends.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 Apr 2009 23:21:07 +0200
 
 kdesdk (4:4.2.1-1) experimental; urgency=low
 
