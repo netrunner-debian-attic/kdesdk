@@ -1,12 +1,22 @@
-kdesdk (4:4.2.2-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.2.2-1) unstable; urgency=low
 
-  * New upstream release.
+  * New upstream release:
+    - Fix kompare "Could not parse diff output" problem when exclude options
+      are used. (Closes: #358415)
+    - Fix kate: can't scroll horizontally during search/replace, there is a
+      new dialog now. (Closes: #187339)
+    - Fix kompare: displays wrong destination filename owhen reading unified
+      diffs.  (Closes: #358852)
+    - Fix kompare parsing of multi-file unified diffs. (Closes: #358853)
+    - Fix kate crashes when opening large files. (Closes: #415605, #360081)
+    - Improve cervisia and kompare integration. (Closes: #330255)
+  * Bump build dependencies.
   * Update installed files.
   * Replace Suggest on khelpcenter with khelpcenter4.
   * Add Recommends on libqt4-sql-sqlite for lokalize. (Closes: #494289).
   * Install kdesvn-buildrc-sample as example file. (Closes: #507384).
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 01 Apr 2009 20:08:23 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 05 Apr 2009 23:21:07 +0200
 
 kdesdk (4:4.2.1-1) experimental; urgency=low
 
