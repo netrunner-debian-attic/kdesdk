@@ -304,7 +304,7 @@ Description: test tool for KParts
  This package is part of the KDE 4 Software Development Kit module.
 
 Package: kdesdk-dbg
-Section: libdevel
+Section: debug
 Architecture: any
 Priority: extra
 Depends: kdebase-runtime-dbg
