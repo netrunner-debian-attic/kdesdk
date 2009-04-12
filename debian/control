@@ -238,7 +238,7 @@ Description: viewer for Qt Designer user interface files
 
 Package: cvsservice
 Architecture: any
-Section: devel
+Section: vcs
 Depends: ${shlibs:Depends}, cvs
 Description: D-Bus service for accessing CVS repositories
  This package provides a D-Bus service for browsing and manipulating
