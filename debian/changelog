@@ -1,6 +1,8 @@
 kdesdk (4:4.2.2-2) UNRELEASED; urgency=low
 
   * Fix sections.
+  * Fix strigi plugin description (Closes: 524792)
+  * Make lokalize recommend python-kde4 (Closes: #524793)
 
  -- Sune Vuorela <debian@pusling.com>  Mon, 06 Apr 2009 23:28:42 +0200
 

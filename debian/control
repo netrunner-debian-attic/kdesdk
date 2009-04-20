@@ -194,6 +194,7 @@ Description: software development file format plugins for Strigi Desktop Search
  Strigi plugins are included for:
   * Patch files (diff)
   * Qt Linguist files (ts)
+  * Gettext translation files (po)
  .
  This package is part of the KDE 4 Software Development Kit module.
 
@@ -278,7 +279,7 @@ Package: lokalize
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, libqt4-sql-sqlite
-Recommends: kdesdk-strigi-plugins, gettext
+Recommends: kdesdk-strigi-plugins, gettext, python-kde4
 Suggests: khelpcenter4
 Description: computer-aided translation system for KDE 4
  lokalize is a computer-aided translation system that focuses on productivity
