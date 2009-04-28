@@ -1,10 +1,15 @@
-kdesdk (4:4.2.2-2) UNRELEASED; urgency=low
+kdesdk (4:4.2.2-3) UNRELEASED; urgency=low
 
+  [ Sune Vuorela ]
   * Fix sections.
   * Fix strigi plugin description. (Closes: #524792)
   * Make lokalize recommend python-kde4. (Closes: #524793)
 
- -- Sune Vuorela <debian@pusling.com>  Mon, 06 Apr 2009 23:28:42 +0200
+  [ Fathi Boudra ]
+  * Add optipng and advancecomp to kdesdk-scripts recommends.
+    They're used by optimizegraphics script. (Closes: #525832)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 28 Apr 2009 11:57:42 +0200
 
 kdesdk (4:4.2.2-1) unstable; urgency=low
 
