@@ -21,7 +21,7 @@ Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
  kdesdk-strigi-plugins (>= ${source:Version}), kompare (>= ${source:Version}),
  kuiviewer (>= ${source:Version}), lokalize (>= ${source:Version}),
  poxml (>= ${source:Version}), umbrello (>= ${source:Version}),
- kpartloader (>= ${source:Version})
+ kpartloader (>= ${source:Version}), kmtrace (>= ${source:Version})
 Suggests: kcachegrind-converters (>= ${source:Version})
 Description: Software Development Kit from the official KDE 4 release
  KDE is produced by an international technology team that creates free and open
