@@ -16,7 +16,7 @@ Architecture: all
 Section: kde
 Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
  kate (>= ${source:Version}), kbugbuster (>= ${source:Version}),
- kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}),
+ kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins,
  kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
  kdesdk-strigi-plugins (>= ${source:Version}), kompare (>= ${source:Version}),
  kuiviewer (>= ${source:Version}), lokalize (>= ${source:Version}),
