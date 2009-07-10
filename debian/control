@@ -37,7 +37,7 @@ Description: Software Development Kit from the official KDE 4 release
 Package: cervisia
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, cvsservice
 Suggests: khelpcenter4
 Description: CVS client for KDE 4
  Cervisia is a front-end for the CVS version control system client.
