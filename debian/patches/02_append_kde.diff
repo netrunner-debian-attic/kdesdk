@@ -1,14 +1,14 @@
 --- a/scripts/CMakeLists.txt
 +++ b/scripts/CMakeLists.txt
-@@ -45,7 +45,6 @@ install(PROGRAMS 
+@@ -42,7 +42,6 @@ install(PROGRAMS 
+   cvs-clean 
    cvsblame 
    colorsvn 
-   svn2dist 
 -  svn-clean 
    svnlastchange 
    svnversions 
    kdesvn-build 
-@@ -65,4 +64,6 @@ install(PROGRAMS 
+@@ -62,4 +61,6 @@ install(PROGRAMS 
    svnintegrate 
    kde_generate_export_header
    DESTINATION ${BIN_INSTALL_DIR})

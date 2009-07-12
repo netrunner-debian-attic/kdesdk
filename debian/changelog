@@ -1,9 +1,15 @@
-kdesdk (4:4.2.4-2) UNRELEASED; urgency=low
+Kdesdk (4:4.2.96-1) experimental; urgency=low
+
+  * New upstream release candidate
 
   +++ Changes by Pino Toscano:
 
   * Add cvsservice as dependency for cervisia, otherwise cervisia is basically
     useless. (Closes: #532004)
+
+  +++ Changes by Nick Shaforostoff:
+
+  * Magic with lokalize (Closes: ..)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Jul 2009 10:24:23 +0200
 

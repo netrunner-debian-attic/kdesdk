@@ -44,7 +44,6 @@ usr/share/icons/oxygen/scalable/actions/svn_merge.svgz
 usr/share/icons/oxygen/scalable/actions/svn_remove.svgz
 usr/share/icons/oxygen/scalable/actions/svn_status.svgz
 usr/share/icons/oxygen/scalable/actions/svn_switch.svgz
-usr/share/kde4/apps/kio_perldoc/kio_perldoc.css
 usr/share/kde4/apps/kio_perldoc/pod2html.pl
 usr/share/kde4/services/ServiceMenus/subversion.desktop
 usr/share/kde4/services/ServiceMenus/subversion_toplevel.desktop
