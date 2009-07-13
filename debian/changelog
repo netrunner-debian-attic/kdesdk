@@ -1,6 +1,6 @@
 Kdesdk (4:4.2.96-1) experimental; urgency=low
 
-  * New upstream release candidate
+  * New upstream release candidate. (Closes: #532716)
 
   +++ Changes by Pino Toscano:
 
@@ -11,7 +11,7 @@ Kdesdk (4:4.2.96-1) experimental; urgency=low
 
   * Update lokalize dependencies for KDE 4.3
   * Make lokalize hard-depend on kdesdk-strigi-plugins because it is needed for most use cases and is of low install size
-  * Update lokalize description (Closes: #536216)
+  * Update lokalize description. (Closes: #536216)
   * Update lokalize filelist based on latest SVN (4.3 branch)
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 10 Jul 2009 10:24:23 +0200
