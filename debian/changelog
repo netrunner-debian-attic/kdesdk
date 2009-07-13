@@ -1,6 +1,6 @@
-kdesdk (4:4.2.96-2) UNRELEASED; urgency=low
+kdesdk (4:4.2.96-2) experimental; urgency=low
 
-  * 
+  * Bump build-deps; (Closes: #536829)
 
  -- Sune Vuorela <debian@pusling.com>  Mon, 13 Jul 2009 13:36:34 +0200
 
