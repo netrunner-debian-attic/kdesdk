@@ -4,9 +4,10 @@ Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Ana Beatriz Guerrero Lopez <ana@debian.org>, Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <trigger+debian@space-based.de>
 Build-Depends: cdbs (>= 0.4.51), debhelper (>= 7), quilt, pkg-kde-tools (>= 0.4),
- kdepimlibs5-dev (>= 4:4.2.90), libphonon-dev (>= 4:4.3.0),
- libsvn-dev, libstreamanalyzer-dev (>= 0.6.3), libxslt1-dev, libboost-dev, binutils-dev
-Standards-Version: 3.8.0
+ kdepimlibs5-dev (>= 4:4.2.96), libphonon-dev (>= 4:4.3.1),
+ libsvn-dev, libstreamanalyzer-dev (>= 0.6.3), libxslt1-dev, libboost-dev,
+ binutils-dev
+Standards-Version: 3.8.2
 Homepage: http://www.kde.org
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdesdk
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdesdk
