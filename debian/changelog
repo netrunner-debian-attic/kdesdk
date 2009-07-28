@@ -1,6 +1,7 @@
 kdesdk (4:4.2.98-0~pre1) UNRELEASED; urgency=low
 
-  * New upstream release, RC 3.
+  * New upstream release, RC3.
+  * Update installed files.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sun, 26 Jul 2009 15:44:07 +0200
 
