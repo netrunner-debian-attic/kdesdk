@@ -242,6 +242,8 @@ Package: cvsservice
 Architecture: any
 Section: vcs
 Depends: ${shlibs:Depends}, cvs
+Replaces: libcvsservice0
+Conflicts: libcvsservice0
 Description: D-Bus service for accessing CVS repositories
  This package provides a D-Bus service for browsing and manipulating
  remote CVS repositories.  Applications may make use of it directly from
