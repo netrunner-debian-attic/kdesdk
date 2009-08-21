@@ -1,3 +1,13 @@
+kdesdk (4:4.3.0-3) UNRELEASED; urgency=low
+
+  +++ Changes by Pino Toscano:
+
+  * Add patch 03_kmtrace_compile.diff to compile kmtrace on kFreeBSD and Hurd,
+    as they are using glibc. Patch by Petr Salinger (slightly edited by me for
+    better accomodate Hurd), thanks! (Closes: #542749)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 00:56:10 +0200
+
 kdesdk (4:4.3.0-2) unstable; urgency=low
 
   * Add conflicts and replaces with libcvsservice0 to cvsservice.
