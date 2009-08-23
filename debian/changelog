@@ -1,12 +1,16 @@
-kdesdk (4:4.3.0-3) UNRELEASED; urgency=low
+kdesdk (4:4.3.0-3) unstable; urgency=low
 
   +++ Changes by Pino Toscano:
 
   * Add patch 03_kmtrace_compile.diff to compile kmtrace on kFreeBSD and Hurd,
     as they are using glibc. Patch by Petr Salinger (slightly edited by me for
-    better accomodate Hurd), thanks! (Closes: #542749)
+    better accommodate Hurd), thanks! (Closes: #542749)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 22 Aug 2009 00:56:10 +0200
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Bump Standard-Version from 3.8.2 to 3.8.3 (no changes needed).
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 23 Aug 2009 13:44:05 +0200
 
 kdesdk (4:4.3.0-2) unstable; urgency=low
 
