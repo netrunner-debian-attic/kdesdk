@@ -1,8 +1,8 @@
-kdesdk (4:4.3.2-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.3.2-1) unstable; urgency=low
 
   * New upstream release.
 
- -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Sat, 03 Oct 2009 22:44:37 +0200
+ -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Wed, 07 Oct 2009 21:40:23 +0200
 
 kdesdk (4:4.3.1-1) unstable; urgency=low
 
