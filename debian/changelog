@@ -12,6 +12,10 @@ kdesdk (4:4.3.3-0r1) UNRELEASED; urgency=low
   * Updated build dep's version numbers in debian/control
   * Readded missing man pages (Closes: #530390)
 
+  +++ Changes by Ana Beatriz Guerrero Lopez:
+
+  * Remove myself from Uploaders.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Nov 2009 12:36:08 +0100
 
 kdesdk (4:4.3.2-1) unstable; urgency=low
