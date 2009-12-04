@@ -1,4 +1,4 @@
-kdesdk (4:4.3.3-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.3.4-0r1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -16,7 +16,7 @@ kdesdk (4:4.3.3-0r1) UNRELEASED; urgency=low
 
   * Remove myself from Uploaders.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 09 Nov 2009 12:36:08 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 05 Dec 2009 01:03:56 +0200
 
 kdesdk (4:4.3.2-1) unstable; urgency=low
 
