@@ -6,11 +6,11 @@ usr/bin/create_cvsignore
 usr/bin/create_makefile
 usr/bin/create_makefiles
 usr/bin/create_svnignore
+usr/bin/cvs-clean
 usr/bin/cvsaddcurrentdir
 usr/bin/cvsbackport
 usr/bin/cvsblame
 usr/bin/cvscheck
-usr/bin/cvs-clean
 usr/bin/cvsforwardport
 usr/bin/cvslastchange
 usr/bin/cvslastlog
@@ -25,8 +25,8 @@ usr/bin/fix-include.sh
 usr/bin/fixkdeincludes
 usr/bin/fixuifiles
 usr/bin/includemocs
-usr/bin/kdedoc
 usr/bin/kde_generate_export_header
+usr/bin/kdedoc
 usr/bin/kdekillall
 usr/bin/kdelnk2desktop.py
 usr/bin/kdemangen.pl
@@ -40,9 +40,9 @@ usr/bin/package_crystalsvg
 usr/bin/png2mng.pl
 usr/bin/pruneemptydirs
 usr/bin/qtdoc
+usr/bin/svn-clean-kde
 usr/bin/svnbackport
 usr/bin/svnchangesince
-usr/bin/svn-clean-kde
 usr/bin/svngettags
 usr/bin/svnintegrate
 usr/bin/svnlastchange

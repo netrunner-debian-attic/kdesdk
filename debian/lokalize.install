@@ -99,9 +99,9 @@ usr/share/kde4/apps/lokalize/scripts/msgmerge.py
 usr/share/kde4/apps/lokalize/scripts/msgmerge.rc
 usr/share/kde4/apps/lokalize/scripts/newprojectwizard.py
 usr/share/kde4/apps/lokalize/scripts/newprojectwizard.rc
+usr/share/kde4/apps/lokalize/scripts/odf/xliff2odf-standalone.py
 usr/share/kde4/apps/lokalize/scripts/odf/xliff2odf.py
 usr/share/kde4/apps/lokalize/scripts/odf/xliff2odf.rc
-usr/share/kde4/apps/lokalize/scripts/odf/xliff2odf-standalone.py
 usr/share/kde4/apps/lokalize/scripts/odf/xliffmerge.py
 usr/share/kde4/apps/lokalize/scriptsui.rc
 usr/share/kde4/apps/lokalize/translationmemoryrui.rc
