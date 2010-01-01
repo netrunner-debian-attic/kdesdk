@@ -169,7 +169,7 @@ Package: kdesdk-scripts
 Architecture: all
 Section: devel
 Depends: ${perl:Depends}, python
-Recommends: svn, gawk, optipng, advancecomp
+Recommends: subversion, gawk, optipng, advancecomp
 Suggests: cvs, khelpcenter4, dmalloc, gdb, kdelibs5-doc, qt4-doc, valgrind, devscripts, xsltproc
 Enhances: kate
 Description: scripts and data files for KDE 4 development

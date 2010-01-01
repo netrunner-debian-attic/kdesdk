@@ -1,9 +1,14 @@
 kdesdk (4:4.3.4-2) UNRELEASED; urgency=low
 
+  [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
 
- -- Modestas Vainius <modax@debian.org>  Sat, 12 Dec 2009 17:48:54 +0200
+  [ Pino Toscano ]
+  * svn does not exist while subversion does, so adjust kdesdk-scripts
+    recommend. (Closes: #554009)
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Jan 2010 02:41:00 +0100
 
 kdesdk (4:4.3.4-1) unstable; urgency=low
 
