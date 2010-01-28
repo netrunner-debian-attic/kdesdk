@@ -7,8 +7,10 @@ kdesdk (4:4.3.4-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * svn does not exist while subversion does, so adjust kdesdk-scripts
     recommend. (Closes: #554009)
+  * Add brief descriptions of the conversion scripts provided in
+    kcachegrind-converters. (Closes: #403608)
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Jan 2010 02:41:00 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jan 2010 23:48:40 +0100
 
 kdesdk (4:4.3.4-1) unstable; urgency=low
 
