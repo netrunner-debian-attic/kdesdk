@@ -9,8 +9,10 @@ kdesdk (4:4.3.4-2) UNRELEASED; urgency=low
     recommend. (Closes: #554009)
   * Add brief descriptions of the conversion scripts provided in
     kcachegrind-converters. (Closes: #403608)
+  * kdesdk-kio-plugins contains also the perldoc kioslave, so add that in the
+    description and suggest perl-doc.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 28 Jan 2010 23:48:40 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 18 Feb 2010 15:28:24 +0100
 
 kdesdk (4:4.3.4-1) unstable; urgency=low
 

@@ -151,9 +151,11 @@ Package: kdesdk-kio-plugins
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, subversion
-Description: transparent Subversion access for KDE 4 applications
+Suggests: perl-doc
+Description: transparent Subversion access and Perl documentation KIO slaves
  This package includes the svn and svn+ssh KIO plugins, which allows KDE 4
- applications to browse remote Subversion repositories.
+ applications to browse remote Subversion repositories, and the perldoc KIO
+ plugin, which can be used to browse the Perl documentation within Konqueror.
  .
  This package is part of the KDE 4 Software Development Kit module.
 
