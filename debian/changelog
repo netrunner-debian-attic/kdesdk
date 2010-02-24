@@ -3,6 +3,8 @@ kdesdk (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
+  * Add cmake to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.1~) | kde-sc-dev-maint to Build-Depends.
 
   [ Pino Toscano ]
   * svn does not exist while subversion does, so adjust kdesdk-scripts
