@@ -1,4 +1,4 @@
-kdesdk (4:4.4.1~svn-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.4.1-0) UNRELEASED; urgency=low
 
   * New upstream release:
     - Kate now always uses the encoding specified in the File Open dialog.
