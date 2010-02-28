@@ -19,7 +19,7 @@ usr/lib/kde4/katetextfilterplugin.so
 usr/lib/kde4/katexmlcheckplugin.so
 usr/lib/kde4/plasma_applet_katesession.so
 usr/lib/libkateinterfaces.so.4
-usr/lib/libkateinterfaces.so.4.3.0
+usr/lib/libkateinterfaces.so.4.4.0
 usr/lib/libkdeinit4_kate.so
 usr/share/applications/kde4/kate.desktop
 usr/share/doc/kde4/HTML/en/kate-plugins/common
@@ -37,7 +37,6 @@ usr/share/doc/kde4/HTML/en/kate-plugins/xmltools.docbook
 usr/share/doc/kde4/HTML/en/kate/advanced.docbook
 usr/share/doc/kde4/HTML/en/kate/common
 usr/share/doc/kde4/HTML/en/kate/configdialog01.png
-usr/share/doc/kde4/HTML/en/kate/configdialog02.png
 usr/share/doc/kde4/HTML/en/kate/configuring.docbook
 usr/share/doc/kde4/HTML/en/kate/fundamentals.docbook
 usr/share/doc/kde4/HTML/en/kate/highlighted.png
@@ -48,7 +47,6 @@ usr/share/doc/kde4/HTML/en/kate/kate.png
 usr/share/doc/kde4/HTML/en/kate/man-kate.1.docbook
 usr/share/doc/kde4/HTML/en/kate/mdi.docbook
 usr/share/doc/kde4/HTML/en/kate/menus.docbook
-usr/share/doc/kde4/HTML/en/kate/mimetypechooser.png
 usr/share/doc/kde4/HTML/en/kate/part.docbook
 usr/share/doc/kde4/HTML/en/kate/plugins.docbook
 usr/share/doc/kde4/HTML/en/kate/regular-expressions.docbook
@@ -62,7 +60,6 @@ usr/share/icons/hicolor/64x64/apps/kate.png
 usr/share/icons/hicolor/scalable/apps/kate.svgz
 usr/share/kde4/apps/kate/default.katesession
 usr/share/kde4/apps/kate/externaltools
-usr/share/kde4/apps/kate/icons/oxygen/16x16/actions/curfiledir.png
 usr/share/kde4/apps/kate/icons/oxygen/16x16/actions/modified.png
 usr/share/kde4/apps/kate/icons/oxygen/16x16/actions/modmod.png
 usr/share/kde4/apps/kate/icons/oxygen/16x16/actions/modonhd.png
@@ -117,3 +114,15 @@ usr/share/kde4/services/katexmlcheck.desktop
 usr/share/kde4/services/plasma-applet-katesession.desktop
 usr/share/kde4/servicetypes/kateplugin.desktop
 usr/share/man/man1/kate.1
+usr/bin/katesnippetstng_editor
+usr/lib/kde4/katesnippets_tngplugin.so
+usr/lib/libktexteditor_codesnippets_core.so.0
+usr/lib/libktexteditor_codesnippets_core.so.0.0.1
+usr/share/applications/kde4/katesnippetstng_editor.desktop
+usr/share/kde4/apps/kate/plugins/katesnippets_tng/ui.rc
+usr/share/kde4/apps/ktexteditor_snippets/data/testsnippets.xml
+usr/share/kde4/apps/ktexteditor_snippets/data/testsnippetscpp.xml
+usr/share/kde4/config/ktexteditor_codesnippets_core.knsrc
+usr/share/kde4/services/katesnippets_tngplugin.desktop
+usr/share/mime/packages/kateplugin_katesnippets_tng.xml
+

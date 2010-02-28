@@ -32,9 +32,12 @@ usr/share/kde4/apps/kdevappwizard/template_previews/qmake4gui.png
 usr/share/kde4/apps/kdevappwizard/template_previews/runner.png
 usr/share/kde4/apps/kdevappwizard/templates/akonadiresource.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/akonadiserializer.tar.bz2
+usr/share/kde4/apps/kdevappwizard/templates/flake.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/kapp4.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/kderubyapp.tar.bz2
+usr/share/kde4/apps/kdevappwizard/templates/kofficetext.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/kpartapp.tar.bz2
+usr/share/kde4/apps/kdevappwizard/templates/ktexteditor.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/plasmoid.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/pykde4app.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/pyqt4app.tar.bz2

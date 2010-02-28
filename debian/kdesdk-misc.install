@@ -1,3 +1,5 @@
 usr/include/kprofilemethod.h
 usr/lib/kde4/kabcformat_kdeaccounts.so
 usr/share/kde4/apps/kabc/formats/kdeaccountsplugin.desktop
+usr/bin/kstartperf
+usr/lib/kde4/kstartperf.so

@@ -24,3 +24,16 @@
 ./usr/share/man/man1/transxx.1
 ./usr/share/man/man1/xml2pot.1
 ./usr/share/man/man1/zonetab2pot.py.1
+
+#kdeinit things is handled differently
+./usr/lib/libkdeinit4_cervisia.so
+./usr/lib/libkdeinit4_cvsaskpass.so
+./usr/lib/libkdeinit4_cvsservice.so
+./usr/lib/libkdeinit4_kate.so
+
+
+#devstuff
+./usr/include/ktexteditor_codesnippets_core/completionmodel.h
+./usr/include/ktexteditor_codesnippets_core/ktexteditor_codesnippets_core_export.h
+./usr/include/ktexteditor_codesnippets_core/repository.h
+./usr/lib/libktexteditor_codesnippets_core.so
