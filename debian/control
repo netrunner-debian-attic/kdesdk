@@ -8,7 +8,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.4.1),
  kdepimlibs5-dev (>= 4:4.3.4), libphonon-dev (>= 4:4.3.1),
  libsvn-dev, libstreamanalyzer-dev (>= 0.6.3), libxslt1-dev, libboost-dev,
  binutils-dev, libhunspell-dev
-Standards-Version: 3.8.3
+Standards-Version: 3.8.4
 Homepage: http://www.kde.org
 Vcs-Browser: http://svn.debian.org/wsvn/pkg-kde/trunk/packages/kdesdk/#_trunk_packages_kdesdk_
 Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdesdk
