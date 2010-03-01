@@ -16,7 +16,7 @@ Vcs-Svn: svn://svn.debian.org/pkg-kde/trunk/packages/kdesdk
 Package: kdesdk
 Architecture: all
 Section: kde
-Depends: cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
+Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
  kate (>= ${source:Version}), kbugbuster (>= ${source:Version}),
  kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins,
  kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
@@ -39,7 +39,7 @@ Description: Software Development Kit from the official KDE 4 release
 Package: cervisia
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, cvsservice
+Depends: ${shlibs:Depends}, ${misc:Depends}, cvsservice
 Suggests: khelpcenter4
 Description: CVS client for KDE 4
  Cervisia is a front-end for the CVS version control system client.
@@ -55,7 +55,7 @@ Description: CVS client for KDE 4
 Package: kapptemplate
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdelibs5-dev (>= 4:4.1.80)
 Description: KDE 4 application template generator
  KAppTemplate is a shell script that will create the necessary framework to
@@ -67,7 +67,7 @@ Description: KDE 4 application template generator
 Package: kate
 Section: editors
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: aspell | ispell | hspell, khelpcenter4, konsole
 Description: KDE 4 Advanced Text Editor
  Kate is a powerful text editor that can open multiple files simultaneously.
@@ -89,7 +89,7 @@ Description: KDE 4 Advanced Text Editor
 Package: kbugbuster
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
 Description: Bugzilla client for KDE 4
  KBugBuster is a client for the Bugzilla bug tracking system.
@@ -101,7 +101,7 @@ Description: Bugzilla client for KDE 4
 Package: kcachegrind
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Recommends: valgrind, graphviz
 Suggests: kcachegrind-converters, khelpcenter4
 Description: visualisation tool for the Valgrind profiler
@@ -118,7 +118,7 @@ Description: visualisation tool for the Valgrind profiler
 Package: kcachegrind-converters
 Architecture: all
 Section: devel
-Depends: ${perl:Depends}, php5-cli, python
+Depends: ${misc:Depends}, ${perl:Depends}, php5-cli, python
 Recommends: kcachegrind
 Description: format converters for KCachegrind profiler visualisation tool
  This is a collection of scripts for converting the output from several
@@ -142,7 +142,7 @@ Description: format converters for KCachegrind profiler visualisation tool
 Package: kdesdk-dev
 Architecture: any
 Section: libdevel
-Depends: kate (= ${binary:Version}), poxml (= ${binary:Version}), libsvn-dev
+Depends: ${misc:Depends}, kate (= ${binary:Version}), poxml (= ${binary:Version}), libsvn-dev
 Replaces: cervisia (<< 4:4.1.86+svn903431), kdesdk-kio-plugins (<< 4:4.1.86+svn903431)
 Description: development files for the KDE 4 Software Development Kit module
  This package contains development files for building software that uses
@@ -151,7 +151,7 @@ Description: development files for the KDE 4 Software Development Kit module
 Package: kdesdk-kio-plugins
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, subversion
+Depends: ${shlibs:Depends}, ${misc:Depends}, subversion
 Suggests: perl-doc
 Description: transparent Subversion access and Perl documentation KIO slaves
  This package includes the svn and svn+ssh KIO plugins, which allows KDE 4
@@ -163,7 +163,7 @@ Description: transparent Subversion access and Perl documentation KIO slaves
 Package: kdesdk-misc
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: libqt4-dev, gimp, inkscape, xpaint
 Description: miscellaneous tools from the KDE 4 Software Development Kit
  This package contains additional tools to aid in development for KDE 4.
@@ -178,7 +178,7 @@ Description: miscellaneous tools from the KDE 4 Software Development Kit
 Package: kdesdk-scripts
 Architecture: all
 Section: devel
-Depends: ${perl:Depends}, python
+Depends: ${misc:Depends}, ${perl:Depends}, python
 Recommends: subversion, gawk, optipng, advancecomp
 Suggests: cvs, khelpcenter4, dmalloc, gdb, kdelibs5-doc, qt4-doc, valgrind, devscripts, xsltproc
 Enhances: kate
@@ -197,7 +197,7 @@ Description: scripts and data files for KDE 4 development
 
 Package: kdesdk-strigi-plugins
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: software development file format plugins for Strigi Desktop Search
  These plugins allow Strigi Desktop Search to extract additional information
  about some file formats often used in software development.
@@ -212,7 +212,7 @@ Description: software development file format plugins for Strigi Desktop Search
 Package: kmtrace
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, less
+Depends: ${shlibs:Depends}, ${misc:Depends}, less
 Replaces: kdesdk-scripts (= 4:4.2.0-1)
 Description: memory leak tracer for KDE 4
  KMtrace is a KDE tool to assist with malloc debugging using glibc's
@@ -223,7 +223,7 @@ Description: memory leak tracer for KDE 4
 Package: kompare
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
 Replaces: libcvsservice0 (<<4:4.0.0)
 Description: file difference viewer for KDE 4
@@ -236,7 +236,7 @@ Description: file difference viewer for KDE 4
 Package: kuiviewer
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: qt4-designer
 Description: viewer for Qt Designer user interface files
  KUIViewer is a utility to display and check user interface (.ui) files
@@ -251,7 +251,7 @@ Description: viewer for Qt Designer user interface files
 Package: cvsservice
 Architecture: any
 Section: vcs
-Depends: ${shlibs:Depends}, cvs
+Depends: ${shlibs:Depends}, ${misc:Depends}, cvs
 Replaces: libcvsservice0
 Conflicts: libcvsservice0
 Description: D-Bus service for accessing CVS repositories
@@ -264,7 +264,7 @@ Description: D-Bus service for accessing CVS repositories
 Package: poxml
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdesdk-scripts (= 4:4.2.0-1)
 Description: tools for translating DocBook XML files with gettext
  This is a collection of tools that facilitate translating DocBook XML
@@ -278,7 +278,7 @@ Description: tools for translating DocBook XML files with gettext
 Package: umbrello
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
 Description: UML modelling tool and code generator
  Umbrello UML Modeller is a Unified Modelling Language diagram editor for KDE.
@@ -291,7 +291,7 @@ Description: UML modelling tool and code generator
 Package: lokalize
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, libqt4-sql-sqlite, kdesdk-strigi-plugins
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-sql-sqlite, kdesdk-strigi-plugins
 Recommends: krosspython, python-kde4, gettext, translate-toolkit (>= 1.3.0), python-lxml, python-dbus, subversion
 Suggests: khelpcenter4, poxml
 Description: computer-aided translation system for KDE 4
@@ -307,7 +307,7 @@ Description: computer-aided translation system for KDE 4
 Package: kpartloader
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: test tool for KParts
  KPartloader is a very simple application to test loading of a KPart.
  KPartloader is called with a simple argument to tell which KPart to load.
@@ -322,7 +322,7 @@ Package: kdesdk-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: kdebase-runtime-dbg
+Depends: ${misc:Depends}, kdebase-runtime-dbg
 Conflicts: kdebase-dbg (<<4:4.0.0)
 Replaces: kdebase-dbg (<<4:4.0.0)
 Suggests: kdesdk (= ${source:Version})
