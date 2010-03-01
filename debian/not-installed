@@ -37,3 +37,6 @@
 ./usr/include/ktexteditor_codesnippets_core/ktexteditor_codesnippets_core_export.h
 ./usr/include/ktexteditor_codesnippets_core/repository.h
 ./usr/lib/libktexteditor_codesnippets_core.so
+
+# private old copy of antlr, no need to expose it to the world
+./usr/lib/libantlr.so

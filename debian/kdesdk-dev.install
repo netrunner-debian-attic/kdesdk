@@ -6,7 +6,6 @@ usr/include/kate/pluginconfigpageinterface.h
 usr/include/kate/pluginmanager.h
 usr/include/kate_export.h
 usr/include/kompare/kompareinterface.h
-usr/lib/libantlr.so
 usr/lib/libkateinterfaces.so
 usr/lib/libkomparedialogpages.so
 usr/lib/libkomparediff2.so
