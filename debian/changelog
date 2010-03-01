@@ -22,6 +22,7 @@ kdesdk (4:4.4.1-0r0) UNRELEASED; urgency=low
     description and suggest perl-doc.
   * Add dependency on ${misc:Depends} in all the packages.
   * Do not install the .so symlink of our antlr copy.
+  * Drop the poxml and libsvn-dev Depends in kdesdk-dev, as they are not used.
 
   [ Sune Vuorela ]
   * Install the kde gdb macros as a example
