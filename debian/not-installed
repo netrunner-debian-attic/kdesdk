@@ -33,10 +33,30 @@
 
 
 #devstuff
+./usr/include/kate/application.h
+./usr/include/kate/documentmanager.h
+./usr/include/kate/mainwindow.h
+./usr/include/kate/plugin.h
+./usr/include/kate/pluginconfigpageinterface.h
+./usr/include/kate/pluginmanager.h
+./usr/include/kate_export.h
+./usr/include/kompare/kompareinterface.h
 ./usr/include/ktexteditor_codesnippets_core/completionmodel.h
 ./usr/include/ktexteditor_codesnippets_core/ktexteditor_codesnippets_core_export.h
 ./usr/include/ktexteditor_codesnippets_core/repository.h
+./usr/include/ktrace.h
+./usr/lib/libantlr.so
+./usr/lib/libkateinterfaces.so
+./usr/lib/libkomparedialogpages.so
+./usr/lib/libkomparediff2.so
+./usr/lib/libkompareinterface.so
 ./usr/lib/libktexteditor_codesnippets_core.so
+./usr/lib/libktrace.so
+./usr/share/dbus-1/interfaces/org.kde.cervisia.cvsjob.xml
+./usr/share/dbus-1/interfaces/org.kde.cervisia.cvsloginjob.xml
+./usr/share/dbus-1/interfaces/org.kde.cervisia.cvsservice.xml
+./usr/share/dbus-1/interfaces/org.kde.cervisia.repository.xml
+./usr/share/dbus-1/interfaces/org.kde.ksvnd.xml
 
 # private old copy of antlr, no need to expose it to the world
 ./usr/lib/libantlr.so

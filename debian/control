@@ -139,15 +139,6 @@ Description: format converters for KCachegrind profiler visualisation tool
  .
  This package is part of the KDE 4 Software Development Kit module.
 
-Package: kdesdk-dev
-Architecture: any
-Section: libdevel
-Depends: ${misc:Depends}, kate (= ${binary:Version})
-Replaces: cervisia (<< 4:4.1.86+svn903431), kdesdk-kio-plugins (<< 4:4.1.86+svn903431)
-Description: development files for the KDE 4 Software Development Kit module
- This package contains development files for building software that uses
- libraries from the KDE 4 Software Development Kit module.
-
 Package: kdesdk-kio-plugins
 Architecture: any
 Section: devel
