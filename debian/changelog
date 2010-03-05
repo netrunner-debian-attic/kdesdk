@@ -12,6 +12,7 @@ kdesdk (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump KDE build dependencies to 4:4.4.
   * Bump pkg-kde-tools build dependency to 0.6.4.
+  * Build depend on shared-mime-info (>= 0.30).
 
   [ Pino Toscano ]
   * svn does not exist while subversion does, so adjust kdesdk-scripts
