@@ -3,6 +3,8 @@ kdesdk (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * New upstream release:
     - Kate now always uses the encoding specified in the File Open dialog.
       (Closes: #316258)
+    - KCacheGrind now displays an error message when failing to open a file.
+      (Closes: #497852)
 
   [ Modestas Vainius ]
   * Add myself as uploader.
