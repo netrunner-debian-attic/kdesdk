@@ -10,7 +10,7 @@ kdesdk (4:4.4.1-0rc1) UNRELEASED; urgency=low
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
   * Add cmake to Build-Depends.
-  * Add kde-sc-dev-latest (>= 4:4.4.1) to Build-Depends.
+  * Add kde-sc-dev-latest (>= 4:4.4.2) to Build-Depends.
   * Bump Standards-Version to 3.8.4: no changes needed.
   * Bump KDE build dependencies to 4:4.4.
   * Bump pkg-kde-tools build dependency to 0.6.4.
