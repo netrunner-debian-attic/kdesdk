@@ -6,6 +6,9 @@ kdesdk (4:4.4.2-1) experimental; urgency=low
     - KCacheGrind now displays an error message when failing to open a file.
       (Closes: #497852)
 
+  [ Ferdinand Thommes]
+  * updated copyright
+  
   [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
