@@ -6,15 +6,12 @@ kdesdk (4:4.4.2-2) UNRELEASED; urgency=low
 
 kdesdk (4:4.4.2-1) experimental; urgency=low
 
-    * New upstream release
-
+  * New upstream release:
     - Kate now always uses the encoding specified in the File Open dialog.
       (Closes: #316258)
     - KCacheGrind now displays an error message when failing to open a file.
       (Closes: #497852)
-   [ Ferdinand Thommes ]
-   *updated copyright
-  
+
   [ Modestas Vainius ]
   * Add myself as uploader.
   * Fix Vcs-Browser URL.
