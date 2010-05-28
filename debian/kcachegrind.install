@@ -1,8 +1,8 @@
 usr/bin/kcachegrind
 usr/share/applications/kde4/kcachegrind.desktop
-usr/share/doc/kde4/HTML/en/kcachegrind/common
-usr/share/doc/kde4/HTML/en/kcachegrind/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kcachegrind/index.docbook
+usr/share/doc/kde/HTML/en/kcachegrind/common
+usr/share/doc/kde/HTML/en/kcachegrind/index.cache.bz2
+usr/share/doc/kde/HTML/en/kcachegrind/index.docbook
 usr/share/icons/hicolor/32x32/apps/kcachegrind.png
 usr/share/icons/hicolor/48x48/apps/kcachegrind.png
 usr/share/kde4/apps/kcachegrind/icons/hicolor/16x16/actions/move.png

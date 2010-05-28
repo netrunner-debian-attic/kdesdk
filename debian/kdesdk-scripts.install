@@ -53,9 +53,9 @@ usr/bin/svnversions
 usr/bin/wcgrep
 usr/bin/zonetab2pot.py
 usr/share/applications/kde4/kdesvn-build.desktop
-usr/share/doc/kde4/HTML/en/kdesvn-build/common
-usr/share/doc/kde4/HTML/en/kdesvn-build/index.cache.bz2
-usr/share/doc/kde4/HTML/en/kdesvn-build/index.docbook
+usr/share/doc/kde/HTML/en/kdesvn-build/common
+usr/share/doc/kde/HTML/en/kdesvn-build/index.cache.bz2
+usr/share/doc/kde/HTML/en/kdesvn-build/index.docbook
 usr/share/kde4/apps/katepart/syntax/kdesvn-buildrc.xml
 usr/share/man/man1/adddebug.1
 usr/share/man/man1/cheatmake.1
