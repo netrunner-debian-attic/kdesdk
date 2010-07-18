@@ -6,6 +6,7 @@ kdesdk (4:4.4.5-1) UNRELEASED; urgency=low
 
   [ Sune Vuorela ]
   * Update email address
+  * Update descriptions
 
  -- Sune Vuorela <sune@debian.org>  Sun, 18 Jul 2010 10:40:07 +0200
 

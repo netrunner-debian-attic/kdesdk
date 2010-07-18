@@ -26,7 +26,7 @@ Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${so
  poxml (>= ${source:Version}), umbrello (>= ${source:Version}),
  kpartloader (>= ${source:Version}), kmtrace (>= ${source:Version})
 Suggests: kcachegrind-converters (>= ${source:Version})
-Description: Software Development Kit from the official KDE 4 release
+Description: Software Development Kit from the official KDE release
  KDE is produced by an international technology team that creates free and open
  source software for desktop and portable computing. Among KDE's products are a
  modern desktop system for Linux and UNIX platforms, comprehensive office
@@ -35,14 +35,14 @@ Description: Software Development Kit from the official KDE 4 release
  educational, graphics and software development.
  .
  This metapackage includes software development applications provided with the
- official release of KDE 4.
+ official release of KDE.
 
 Package: cervisia
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}, cvsservice
 Suggests: khelpcenter4
-Description: CVS client for KDE 4
+Description: graphical CVS client
  Cervisia is a front-end for the CVS version control system client.
  .
  In addition to basic and advanced CVS operations, it provides a convenient
@@ -51,26 +51,29 @@ Description: CVS client for KDE 4
  of CVS, such as a log browser, conflict resolver, and changelog editor that
  checks for incorrect formatting.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kapptemplate
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: kdelibs5-dev (>= 4:4.1.80)
-Description: KDE 4 application template generator
+Description: application template generator
  KAppTemplate is a shell script that will create the necessary framework to
- develop several types of KDE application.  It generates the build-system
- configuration and provides example code for a simple application.
+ develop several types of applications, including applications based on the 
+ KDE development platform.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ It generates the build-system  configuration and provides example code 
+ for a simple application.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: kate
 Section: editors
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: aspell | ispell | hspell, khelpcenter4, konsole
-Description: KDE 4 Advanced Text Editor
+Description: K Advanced Text Editor
  Kate is a powerful text editor that can open multiple files simultaneously.
  .
  With a built-in terminal, syntax highlighting, and tabbed sidebar, it performs
@@ -85,19 +88,19 @@ Description: KDE 4 Advanced Text Editor
   * Symbol viewers for C, C++, and Python
   * XML completion and validation
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kbugbuster
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
-Description: Bugzilla client for KDE 4
+Description: Bugzilla client 
  KBugBuster is a client for the Bugzilla bug tracking system.
  It provides a variety of tools for querying, viewing, and manipulating bug
  reports.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kcachegrind
 Architecture: any
@@ -114,7 +117,7 @@ Description: visualisation tool for the Valgrind profiler
  For visualising the output from profiling tools other than Valgrind, several
  converters can be found in the kcachegrind-converters package.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kcachegrind-converters
 Architecture: all
@@ -138,7 +141,7 @@ Description: format converters for KCachegrind profiler visualisation tool
   * op2calltree: converts the OProfile's output of "opreport -gdf" (v 0.8)
   * hotshot2calltree: converts the pstat output of the hotshot Python profiler
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kdesdk-kio-plugins
 Architecture: any
@@ -146,26 +149,26 @@ Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}, subversion
 Suggests: perl-doc
 Description: transparent Subversion access and Perl documentation KIO slaves
- This package includes the svn and svn+ssh KIO plugins, which allows KDE 4
+ This package includes the svn and svn+ssh KIO plugins, which allows KDE
  applications to browse remote Subversion repositories, and the perldoc KIO
  plugin, which can be used to browse the Perl documentation within Konqueror.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kdesdk-misc
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: libqt4-dev, gimp, inkscape, xpaint
-Description: miscellaneous tools from the KDE 4 Software Development Kit
- This package contains additional tools to aid in development for KDE 4.
+Description: miscellaneous tools from the KDE Software Development Kit
+ This package contains additional tools to aid in development for KDE.
  .
  Included are:
   - headers to assist with profiling KDE code
   - a KDE address book resource for KDE Subversion repository accounts
   - kstartperf to measure startup time
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kdesdk-scripts
 Architecture: all
@@ -174,18 +177,18 @@ Depends: ${misc:Depends}, ${perl:Depends}, python
 Recommends: subversion, gawk, optipng, advancecomp
 Suggests: cvs, khelpcenter4, dmalloc, gdb, kdelibs5-doc, qt4-doc, valgrind, devscripts, xsltproc
 Enhances: kate
-Description: scripts and data files for KDE 4 development
+Description: scripts and data files for development
  This package contains scripts and data files to facilitate development of
  KDE software.  Also included are scripts which are not specific to
  KDE, such as helper scripts for working with Subversion and CVS repositories.
  .
  In addition to these scripts, this package provides:
-  - gdb macros for Qt/KDE programming
+  - gdb macros for Qt programming
   - Vim and EMACS helper files for Qt/KDE programming
   - bash and zsh completion rules for KDE applications
   - Valgrind error suppressions for KDE applications
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kdesdk-strigi-plugins
 Architecture: any
@@ -199,18 +202,18 @@ Description: software development file format plugins for Strigi Desktop Search
   * Qt Linguist files (ts)
   * Gettext translation files (po)
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kmtrace
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}, less
 Replaces: kdesdk-scripts (= 4:4.2.0-1)
-Description: memory leak tracer for KDE 4
+Description: memory leak tracer
  KMtrace is a KDE tool to assist with malloc debugging using glibc's
  "mtrace" functionality.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kompare
 Architecture: any
@@ -218,12 +221,12 @@ Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Suggests: khelpcenter4
 Replaces: libcvsservice0 (<<4:4.0.0)
-Description: file difference viewer for KDE 4
+Description: file difference viewer 
  Kompare is displays the differences between files.  It can compare the
  contents of files or directories, as well as create, display, and merge patch
  files.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kuiviewer
 Architecture: any
@@ -238,7 +241,7 @@ Description: viewer for Qt Designer user interface files
  .
  The Qt Designer itself is in the package qt4-designer.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: cvsservice
 Architecture: any
@@ -251,7 +254,7 @@ Description: D-Bus service for accessing CVS repositories
  remote CVS repositories.  Applications may make use of it directly from
  C++, or access the service over D-Bus.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: poxml
 Architecture: any
@@ -265,7 +268,7 @@ Description: tools for translating DocBook XML files with gettext
  Also included are several command-line utilities for manipulating DocBook XML
  files, PO-files and PO-template files.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: umbrello
 Architecture: any
@@ -278,7 +281,7 @@ Description: UML modelling tool and code generator
  UML format, and can also generate code from UML diagrams in a variety of
  programming languages.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: lokalize
 Architecture: any
@@ -286,15 +289,15 @@ Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-sql-sqlite, kdesdk-strigi-plugins
 Recommends: krosspython, python-kde4, gettext, translate-toolkit (>= 1.3.0), python-lxml, python-dbus, subversion
 Suggests: khelpcenter4, poxml
-Description: computer-aided translation system for KDE 4
+Description: computer-aided translation system
  Lokalize is a computer-aided translation system that focuses on productivity 
  and quality assurance. It has components usual for CAT tools: translation 
  memory, glossary, and also a unique translation merging (synchronization) 
  capability. It is primarily targeted at software translation and also 
  integrates external conversion tools for office document translation.
- Lokalize is a replacement for KDE 4 of KBabel.
+ Lokalize is a replacement of KBabel.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kpartloader
 Architecture: any
@@ -308,7 +311,7 @@ Description: test tool for KParts
  other applications. This application is used for testing such components 
  during development.
  .
- This package is part of the KDE 4 Software Development Kit module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kdesdk-dbg
 Section: debug
@@ -318,7 +321,7 @@ Depends: ${misc:Depends}, kdebase-runtime-dbg
 Conflicts: kdebase-dbg (<<4:4.0.0)
 Replaces: kdebase-dbg (<<4:4.0.0)
 Suggests: kdesdk (= ${source:Version})
-Description: debugging symbols for the KDE 4 Software Development Kit module
+Description: debugging symbols for the KDE Software Development Kit module
  This package contains debugging files used to investigate problems with
- binaries included in the KDE 4 Software Development Kit module.
+ binaries included in the KDE Software Development Kit module.
 
