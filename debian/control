@@ -2,7 +2,7 @@ Source: kdesdk
 Section: kde
 Priority: optional
 Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
-Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <debian@pusling.com>, Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>
+Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <sune@debian.org>, Armin Berres <armin+debian@space-based.de>, Modestas Vainius <modax@debian.org>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
  kdepimlibs5-dev (>= 4:4.4), libphonon-dev (>= 4:4.3.1),
