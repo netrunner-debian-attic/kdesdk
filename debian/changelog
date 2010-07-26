@@ -304,7 +304,7 @@ kdesdk (4:4.1.1-1) experimental; urgency=low
 
 kdesdk (4:4.1.0-1) experimental; urgency=low
 
-  * New upstream release. 
+  * New upstream release.
 
  -- Ana Beatriz Guerrero Lopez <ana@debian.org>  Mon, 28 Jul 2008 00:21:25 +0200
 
@@ -324,7 +324,7 @@ kdesdk (4:4.0.84-1) experimental; urgency=low
 kdesdk (4:4.0.82+svn819867-1) experimental; urgency=low
 
   * New upstream development snapshot.
- 
+
   +++ Changes by Fathi Boudra:
 
   * Update installed files:
@@ -333,7 +333,7 @@ kdesdk (4:4.0.82+svn819867-1) experimental; urgency=low
   * Make kapptemplate arch: any. It contains kapptemplate binary.
 
   +++ Changes by Ana Beatriz Guerrero Lopez:
-   
+
    * Bump build dependencies to (>= 4:4.0.81).
    * Change libphonon-dev to new versioning (>= 4:4.2~).
 
@@ -430,7 +430,7 @@ kdesdk (4:4.0.0-1) experimental; urgency=low
 
   * Remove kate's Recommends on kregexpeditor, it is not being released in KDE 4.
   * Update years in copyright.
-  * Lower kdesdk-misc's Recommends: libqt4-dev to Suggests and kapptemplate 
+  * Lower kdesdk-misc's Recommends: libqt4-dev to Suggests and kapptemplate
     Recommends: kdelibs5-dev to Suggests.
 
   +++ Changes by Matthew Rosewarne:
