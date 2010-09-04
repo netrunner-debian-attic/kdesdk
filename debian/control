@@ -144,6 +144,17 @@ Description: format converters for KCachegrind profiler visualisation tool
  .
  This package is part of the KDE Software Development Kit module.
 
+Package: kdesdk-dolphin-plugins
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}, dolphin
+Replaces: dolphin (<< 4:4.5.0)
+Description: dolphin vcs plugins
+ This package contains plugins that offer subversion and git integration
+ to dolphin.
+ .
+ This package is part of the KDE Software Development Kit module.
+
 Package: kdesdk-kio-plugins
 Architecture: any
 Section: devel
