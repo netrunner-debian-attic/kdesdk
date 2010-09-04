@@ -9,6 +9,7 @@ kdesdk (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Add myself to uploaders.
   * Refresh patch 02_append_kde.diff.
   * Drop patch 03_kmtrace_compile.diff; fixed upstream in a better way.
+  * Add libkonq5-dev to build depends.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 12:56:39 +0300
 
