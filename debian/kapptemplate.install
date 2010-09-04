@@ -24,6 +24,7 @@ usr/share/kde4/apps/kdevappwizard/template_previews/akonadi-serializer.png
 usr/share/kde4/apps/kdevappwizard/template_previews/default.png
 usr/share/kde4/apps/kdevappwizard/template_previews/kapp4.png
 usr/share/kde4/apps/kdevappwizard/template_previews/kderubyapp.png
+usr/share/kde4/apps/kdevappwizard/template_previews/konqplugin.png
 usr/share/kde4/apps/kdevappwizard/template_previews/kpartapp.png
 usr/share/kde4/apps/kdevappwizard/template_previews/plasma-applet.png
 usr/share/kde4/apps/kdevappwizard/template_previews/pykde4.png
@@ -36,11 +37,13 @@ usr/share/kde4/apps/kdevappwizard/templates/flake.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/kapp4.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/kderubyapp.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/kofficetext.tar.bz2
+usr/share/kde4/apps/kdevappwizard/templates/konqplugin.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/kpartapp.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/ktexteditor.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/plasmoid.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/pykde4app.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/pyqt4app.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/qmake_qt4guiapp.tar.bz2
+usr/share/kde4/apps/kdevappwizard/templates/rubykonqplugin.tar.bz2
 usr/share/kde4/apps/kdevappwizard/templates/runner.tar.bz2
 usr/share/kde4/config.kcfg/kapptemplate.kcfg
