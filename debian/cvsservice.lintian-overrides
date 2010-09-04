@@ -1,4 +1,0 @@
-cvsservice: no-shlibs-control-file usr/lib/libkdeinit4_cvsservice.so
-cvsservice: no-shlibs-control-file usr/lib/libkdeinit4_cvsaskpass.so
-cvsservice: postinst-must-call-ldconfig usr/lib/libkdeinit4_cvsservice.so
-cvsservice: package-name-doesnt-match-sonames libkdeinit4-cvsaskpass libkdeinit4-cvsservice

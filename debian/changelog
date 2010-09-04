@@ -13,6 +13,7 @@ kdesdk (4:4.5.1-0r1) UNRELEASED; urgency=low
   * Bump kdepimlibs5-dev build dependency to version 4:4.5.
   * Update installed files.
   * Add new package: kdesdk-dolphin-plugins.
+  * Update lintian overrides.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 12:56:39 +0300
 

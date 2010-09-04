@@ -1,4 +1,0 @@
-cervisia: no-shlibs-control-file usr/lib/libkdeinit4_cervisia.so
-cervisia: postinst-must-call-ldconfig usr/lib/libkdeinit4_cervisia.so
-cervisia: postrm-should-call-ldconfig usr/lib/libkdeinit4_cervisia.so
-cervisia: package-name-doesnt-match-sonames libkdeinit4-cervisia
