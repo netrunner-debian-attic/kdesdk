@@ -6,7 +6,7 @@ Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <sune@debian.org>, Armin
  Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>
 Build-Depends: kde-sc-dev-latest (>= 4:4.4.5),
  cdbs (>= 0.4.51), cmake, debhelper (>= 7), pkg-kde-tools (>= 0.9),
- kdepimlibs5-dev (>= 4:4.4), libphonon-dev (>= 4:4.3.1),
+ kdepimlibs5-dev (>= 4:4.5), libphonon-dev (>= 4:4.3.1),
  libsvn-dev, libstreamanalyzer-dev (>= 0.6.3), libxslt1-dev, libboost-dev,
  binutils-dev, libhunspell-dev, libltdl-dev, libx11-dev, x11proto-core-dev,
  shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.5)
