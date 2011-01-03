@@ -35,10 +35,10 @@ usr/share/doc/kde/HTML/en/umbrello/use-case-diagram.png
 usr/share/doc/kde/HTML/en/umbrello/working_with_umbrello.docbook
 usr/share/icons/hicolor/128x128/apps/umbrello.png
 usr/share/icons/hicolor/16x16/apps/umbrello.png
-usr/share/icons/hicolor/16x16/mimetypes/umbrellofile.png
+usr/share/icons/hicolor/16x16/mimetypes/application-x-uml.png
 usr/share/icons/hicolor/22x22/apps/umbrello.png
 usr/share/icons/hicolor/32x32/apps/umbrello.png
-usr/share/icons/hicolor/32x32/mimetypes/umbrellofile.png
+usr/share/icons/hicolor/32x32/mimetypes/application-x-uml.png
 usr/share/icons/hicolor/48x48/apps/umbrello.png
 usr/share/icons/hicolor/64x64/apps/umbrello.png
 usr/share/icons/hicolor/scalable/apps/umbrello.svgz

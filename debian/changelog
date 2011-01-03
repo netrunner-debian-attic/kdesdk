@@ -15,6 +15,11 @@ kdesdk (4:4.5.90-0r1) UNRELEASED; urgency=low
   * Add new package: kdesdk-dolphin-plugins.
   * Update lintian overrides.
 
+  [ José Manuel Santamaría Lema ]
+  * Update installed files.
+  * Remove package kbugbuster.
+  * Add package okteta.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 12:56:39 +0300
 
 kdesdk (4:4.4.5-1) unstable; urgency=low
