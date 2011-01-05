@@ -343,7 +343,7 @@ Description: hexadecimal editor for binary files
  filter tool. All modifications to the data loaded can be endlessly undone or
  redone.
  .
- This package is part of the KDE SC utilities module.
+ This package is part of the KDE Software Development Kit module.
 
 Package: kdesdk-dbg
 Section: debug
