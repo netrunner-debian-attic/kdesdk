@@ -10,7 +10,7 @@ kdesdk (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Refresh patch 02_append_kde.diff.
   * Drop patch 03_kmtrace_compile.diff; fixed upstream in a better way.
   * Add libkonq5-dev, libantlr-dev and antlr to build depends.
-  * Bump kdepimlibs5-dev build dependency to version 4:4.5.
+  * Bump kdepimlibs5-dev build dependency to version 4:4.5.95.
   * Update installed files.
   * Add new package: kdesdk-dolphin-plugins.
   * Update lintian overrides.
