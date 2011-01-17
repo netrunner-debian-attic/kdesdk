@@ -24,6 +24,9 @@ kdesdk (4:4.5.95-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Remove package kbugbuster.
   * Add package okteta.
+  
+  [ Pino Toscano ]
+  * Add build dependency on libqca2-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 12:56:39 +0300
 
