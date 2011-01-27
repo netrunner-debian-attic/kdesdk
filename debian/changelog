@@ -15,7 +15,7 @@ kdesdk (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Drop patch 03_kmtrace_compile.diff; fixed upstream in a better way.
   * Add libkonq5-dev, libantlr-dev and antlr to build depends.
     (Closes: #505425)
-  * Bump kdepimlibs5-dev build dependency to version 4:4.5.95.
+  * Bump kdepimlibs5-dev build dependency to version 4:4.6.
   * Update installed files.
   * Add new package: kdesdk-dolphin-plugins.
   * Update lintian overrides.
@@ -24,6 +24,7 @@ kdesdk (4:4.6.0-0r1) UNRELEASED; urgency=low
   * Update installed files.
   * Remove package kbugbuster.
   * Add package okteta.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.0.
   
   [ Pino Toscano ]
   * Add build dependency on libqca2-dev.
