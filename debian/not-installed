@@ -386,6 +386,7 @@
 ./usr/include/okteta/offsetformat.h
 ./usr/include/okteta/oktetacore_export.h
 ./usr/include/okteta/oktetacore.h
+./usr/include/okteta/oktetagui.h
 ./usr/include/okteta/oktetagui_export.h
 ./usr/include/okteta/piecetablebytearraymodel.h
 ./usr/include/okteta/range.h
