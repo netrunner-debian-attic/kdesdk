@@ -25,6 +25,7 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Remove package kbugbuster.
   * Add package okteta.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Add myself to Uploaders.
   
   [ Pino Toscano ]
   * Add build dependency on libqca2-dev.
