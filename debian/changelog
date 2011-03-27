@@ -23,7 +23,17 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Update installed files.
   * Remove package kbugbuster.
-  * Add package okteta.
+  * Add packages for okteta:
+    - okteta
+    - okteta-dev
+    - libkastencontrollers4
+    - libkastencore4
+    - libkastengui4
+    - liboktetacore4
+    - liboktetagui4
+    - liboktetakastencontrollers4
+    - liboktetakastencore4
+    - liboktetakastengui4
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Add myself to Uploaders.
