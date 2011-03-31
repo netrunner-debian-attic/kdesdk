@@ -23,6 +23,9 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Update installed files.
   * Remove package kbugbuster.
+  * Enable DebianABIManager:
+    - include DebianABIManager.cmake at the bottom of the main CMakeLists.txt
+      (patch enable_debianabimanager.diff).
   * Add packages for okteta:
     - okteta
     - okteta-dev
