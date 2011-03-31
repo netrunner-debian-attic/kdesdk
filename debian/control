@@ -69,7 +69,7 @@ Description: application template generator
  develop several types of applications, including applications based on the 
  KDE development platform.
  .
- It generates the build-system  configuration and provides example code 
+ It generates the build-system configuration and provides example code
  for a simple application.
  .
  This package is part of the KDE Software Development Kit module.
@@ -154,9 +154,9 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}, dolphin
 Replaces: dolphin (<< 4:4.5.0)
-Description: dolphin vcs plugins
- This package contains plugins that offer subversion and git integration
- to dolphin.
+Description: dolphin VCS plugins
+ This package contains plugins that offer Subversion and Git integration
+ in Dolphin.
  .
  This package is part of the KDE Software Development Kit module.
 
@@ -281,12 +281,12 @@ Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: kdesdk-scripts (= 4:4.2.0-1)
 Breaks: kdesdk-scripts (= 4:4.2.0-1)
-Description: tools for translating DocBook XML files with gettext
+Description: tools for translating DocBook XML files with Gettext
  This is a collection of tools that facilitate translating DocBook XML
- files using gettext message files (PO-files).
+ files using Gettext message files (PO files).
  .
  Also included are several command-line utilities for manipulating DocBook XML
- files, PO-files and PO-template files.
+ files, PO files and PO template files.
  .
  This package is part of the KDE Software Development Kit module.
 
@@ -339,6 +339,7 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: hexadecimal editor for binary files
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
+ .
  The data is displayed in the traditional view with two columns: one with the
  numeric values and one with the assigned characters. Editing can be done both
  in the value column and the character column. Besides the usual editing
@@ -362,7 +363,9 @@ Description: Development files for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
- This package contains the development files for Okteta
+ This package contains the development files for Okteta.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: libkastencontrollers4
 Architecture: any
@@ -370,7 +373,9 @@ X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: controllers Kasten library for Okteta
- Kasten is a framework for composing programs
+ Kasten is a framework for composing programs.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: libkastencore4
 Architecture: any
@@ -378,7 +383,9 @@ X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: core Kasten library for Okteta
- Kasten is a framework for composing programs
+ Kasten is a framework for composing programs.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: libkastengui4
 Architecture: any
@@ -386,7 +393,9 @@ X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: gui Kasten library for Okteta
- Kasten is a framework for composing programs
+ Kasten is a framework for composing programs.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: liboktetacore4
 Architecture: any
@@ -396,6 +405,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: core Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: liboktetagui4
 Architecture: any
@@ -405,6 +416,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: gui Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: liboktetakastencontrollers4
 Architecture: any
@@ -414,6 +427,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: kastencontrollers library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: liboktetakastencore4
 Architecture: any
@@ -423,6 +438,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: kastencore library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: liboktetakastengui4
 Architecture: any
@@ -432,6 +449,8 @@ Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: kastengui library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
+ .
+ This package is part of the KDE Software Development Kit module.
 
 Package: kdesdk-dbg
 Section: debug
