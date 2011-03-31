@@ -39,6 +39,7 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
     - liboktetakastencore4
     - liboktetakastengui4
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump pkg-kde-tools build dependency to 0.12.
   * Bump S-V to 3.9.1; update Replaces/Breaks/Conflicts.
   * Add myself to Uploaders.
   
@@ -47,7 +48,7 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Do not ship kdesrc-build with kdesdk-scripts, it will be packaged
     separately.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 04 Sep 2010 12:56:39 +0300
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 31 Mar 2011 17:24:50 +0000
 
 kdesdk (4:4.4.5-1) unstable; urgency=low
 
