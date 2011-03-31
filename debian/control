@@ -366,6 +366,7 @@ Description: Development files for Okteta
 
 Package: libkastencontrollers4
 Architecture: any
+X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: controllers Kasten library for Okteta
@@ -373,6 +374,7 @@ Description: controllers Kasten library for Okteta
 
 Package: libkastencore4
 Architecture: any
+X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: core Kasten library for Okteta
@@ -380,6 +382,7 @@ Description: core Kasten library for Okteta
 
 Package: libkastengui4
 Architecture: any
+X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: gui Kasten library for Okteta
@@ -387,6 +390,7 @@ Description: gui Kasten library for Okteta
 
 Package: liboktetacore4
 Architecture: any
+X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: core Okteta library
@@ -395,6 +399,7 @@ Description: core Okteta library
 
 Package: liboktetagui4
 Architecture: any
+X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: gui Okteta library
@@ -403,6 +408,7 @@ Description: gui Okteta library
 
 Package: liboktetakastencontrollers4
 Architecture: any
+X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: kastencontrollers library for Okteta
@@ -411,6 +417,7 @@ Description: kastencontrollers library for Okteta
 
 Package: liboktetakastencore4
 Architecture: any
+X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: kastencore library for Okteta
@@ -419,6 +426,7 @@ Description: kastencore library for Okteta
 
 Package: liboktetakastengui4
 Architecture: any
+X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: kastengui library for Okteta
