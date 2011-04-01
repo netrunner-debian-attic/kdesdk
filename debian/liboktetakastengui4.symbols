@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.1 amd64
 liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
+* Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN6Kasten13ByteArrayView10insertDataEPK9QMimeData@ABI_4_0 4:4.6.1
  _ZN6Kasten13ByteArrayView10setMarkingERKN3KDE11NumberRangeIiiEEb@ABI_4_0 4:4.6.1

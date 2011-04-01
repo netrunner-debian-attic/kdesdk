@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.1 amd64
 liboktetacore.so.4 liboktetacore4 #MINVER#
+* Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN6Okteta10ValueCodec11createCodecENS_11ValueCodingE@ABI_4_0 4:4.6.1
  _ZN6Okteta10ValueCodecD0Ev@ABI_4_0 4:4.6.1

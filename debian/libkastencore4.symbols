@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.1 amd64
 libkastencore.so.4 libkastencore4 #MINVER#
+* Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN6Kasten10JobManager10executeJobEP4KJobP7QWidget@ABI_4_0 4:4.6.1
  _ZN6Kasten12AbstractTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1

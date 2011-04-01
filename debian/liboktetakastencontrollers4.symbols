@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.1 amd64
 liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
+* Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN6Kasten10FilterTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten10FilterTool11qt_metacastEPKc@ABI_4_0 4:4.6.1

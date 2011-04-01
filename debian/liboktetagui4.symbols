@@ -1,5 +1,6 @@
 # SymbolsHelper-Confirmed: 4:4.6.1 amd64
 liboktetagui.so.4 liboktetagui4 #MINVER#
+* Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
  _ZN6Okteta11ColumnsView10paintEventEP11QPaintEvent@ABI_4_0 4:4.6.1
  _ZN6Okteta11ColumnsView11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
