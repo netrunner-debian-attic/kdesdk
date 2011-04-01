@@ -1,0 +1,12 @@
+usr/include/KDE/Kasten/*
+usr/include/KDE/Okteta/*
+usr/include/kasten/*
+usr/include/okteta/*
+usr/lib/libkastencontrollers.so
+usr/lib/libkastencore.so
+usr/lib/libkastengui.so
+usr/lib/liboktetacore.so
+usr/lib/liboktetagui.so
+usr/lib/liboktetakastencontrollers.so
+usr/lib/liboktetakastencore.so
+usr/lib/liboktetakastengui.so
