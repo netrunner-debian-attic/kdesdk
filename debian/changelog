@@ -1,4 +1,4 @@
-kdesdk (4:4.6.1-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.6.1-0r3) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes plugin loading in kate sessions (Closes: #525853)
@@ -54,7 +54,7 @@ kdesdk (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Do not ship kdesrc-build with kdesdk-scripts, it is packaged separately.
   * Small updates to descriptions.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 01 Apr 2011 04:49:22 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Apr 2011 22:43:32 +0300
 
 kdesdk (4:4.4.5-1) unstable; urgency=low
 
