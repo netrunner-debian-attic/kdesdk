@@ -10,6 +10,7 @@ kdesdk (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
+  * Strip sequence numbers from debian/patches.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
