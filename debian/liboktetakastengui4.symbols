@@ -1,0 +1,180 @@
+# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
+ ABI_4_0@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView10insertDataEPK9QMimeData@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView10setMarkingERKN3KDE11NumberRangeIiiEEb@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView11qt_metacastEPKc@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView11setReadOnlyEb@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView12setSelectionEii@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView12setViewModusEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView12setZoomLevelEd@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView13selectAllDataEb@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView13setCharCodingERK7QString@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView14setLayoutStyleEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView14setValueCodingEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView15cutSelectedDataEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView16charCodecChangedERK7QString@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView16setOverwriteModeEb@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView16staticMetaObjectE@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView16zoomLevelChangedEd@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView17setCursorPositionEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView18deleteSelectedDataEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView18onSelectionChangedERKN3KDE11NumberRangeIiiEE@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView18toggleOffsetColumnEb@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView18valueCodingChangedEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView19selectedDataChangedEPKNS_22AbstractModelSelectionE@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView19setNoOfBytesPerLineEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView19setNoOfGroupedBytesEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView19setShowsNonprintingEb@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView20overwriteModeChangedEb@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView21cursorPositionChangedEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView22hasSelectedDataChangedEb@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView23setFontByGlobalSettingsEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView26setSelectionCursorPositionEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView26setVisibleByteArrayCodingsEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView4initEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView6insertERK10QByteArray@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayView8setFocusEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayViewC1EPNS_17ByteArrayDocumentE@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayViewC1EPS0_6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayViewC2EPNS_17ByteArrayDocumentE@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayViewC2EPS0_6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayViewD0Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayViewD1Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten13ByteArrayViewD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten19AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.1
+ _ZN6Kasten19AbstractViewFactoryD0Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten19AbstractViewFactoryD1Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten19AbstractViewFactoryD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten20ByteArrayViewFactory13createViewForEPNS_16AbstractDocumentE@ABI_4_0 4:4.6.1
+ _ZN6Kasten20ByteArrayViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.1
+ _ZN6Kasten29ByteArrayDataGeneratorFactory20createDataGeneratorsEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten29ByteArrayStreamEncoderFactory20createStreamEncodersEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoder11previewDataEPNS_13AbstractModelEPKNS_22AbstractModelSelectionE@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoder11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoder11qt_metacastEPKc@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoder14encodeToStreamEP9QIODevicePNS_13AbstractModelEPKNS_22AbstractModelSelectionE@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoder15settingsChangedEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoder16staticMetaObjectE@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoderC1ERK7QStringS3_@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoderC2ERK7QStringS3_@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoderD0Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoderD1Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten30AbstractByteArrayStreamEncoderD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten48ByteArrayDataGeneratorConfigEditorFactoryFactory14createFactorysEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten48ByteArrayStreamEncoderConfigEditorFactoryFactory14createFactorysEv@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBox11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBox11qt_metacastEPKc@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBox13formatChangedEi@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBox14addressChangedEi@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBox16staticMetaObjectE@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBox18addressTypeChangedEi@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBox22rememberCurrentAddressEv@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBoxC1EP7QWidget@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBoxC2EP7QWidget@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBoxD0Ev@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBoxD1Ev@ABI_4_0 4:4.6.1
+ _ZN6Okteta15AddressComboBoxD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox11qt_metacastEPKc@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox12setByteArrayERK10QByteArray@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox12setCharCodecERK7QString@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox13formatChangedEi@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox16byteArrayChangedERK10QByteArray@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox16staticMetaObjectE@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox24rememberCurrentByteArrayEv@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBoxC1EP7QWidget@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBoxC2EP7QWidget@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBoxD0Ev@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBoxD1Ev@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBoxD2Ev@ABI_4_0 4:4.6.1
+ (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPKNS_17ByteArrayDocumentEEET_v@ABI_4_0 4:4.6.1
+ (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_16AbstractDocumentEEET_v@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView10cursorRectEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView10isReadOnlyEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView10metaObjectEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView11canReadDataEPK9QMimeData@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView11layoutStyleEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView11startOffsetEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView11valueCodingEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView12isModifiableEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView13undefinedCharEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView14binaryGapWidthEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView14charCodingNameEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView14cursorPositionEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView14modelSelectionEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView14substituteCharEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView15firstLineOffsetEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView15hasSelectedDataEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView15isOverwriteModeEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView15isOverwriteOnlyEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView16byteSpacingWidthEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView16copySelectedDataEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView16noOfBytesPerLineEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView16noOfGroupedBytesEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView16showsNonprintingEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView17groupSpacingWidthEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView19offsetColumnVisibleEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView23visibleByteArrayCodingsEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView5titleEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView6widgetEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView8hasFocusEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView9selectionEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView9viewModusEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten13ByteArrayView9zoomLevelEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten30AbstractByteArrayStreamEncoder10metaObjectEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten30AbstractByteArrayStreamEncoder13modelTypeNameEPNS_13AbstractModelEPKNS_22AbstractModelSelectionE@ABI_4_0 4:4.6.1
+ _ZNK6Okteta15AddressComboBox10metaObjectEv@ABI_4_0 4:4.6.1
+ _ZNK6Okteta15AddressComboBox11addressTypeEv@ABI_4_0 4:4.6.1
+ _ZNK6Okteta15AddressComboBox6formatEv@ABI_4_0 4:4.6.1
+ _ZNK6Okteta15AddressComboBox7addressEv@ABI_4_0 4:4.6.1
+ _ZNK6Okteta17ByteArrayComboBox10metaObjectEv@ABI_4_0 4:4.6.1
+ _ZNK6Okteta17ByteArrayComboBox6formatEv@ABI_4_0 4:4.6.1
+ _ZNK6Okteta17ByteArrayComboBox9byteArrayEv@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten13ByteArrayViewE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten20ByteArrayViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten30AbstractByteArrayStreamEncoderE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ _ZTIN6Okteta15AddressComboBoxE@ABI_4_0 4:4.6.1
+ _ZTIN6Okteta17ByteArrayComboBoxE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten13ByteArrayViewE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten20ByteArrayViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten30AbstractByteArrayStreamEncoderE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ _ZTSN6Okteta15AddressComboBoxE@ABI_4_0 4:4.6.1
+ _ZTSN6Okteta17ByteArrayComboBoxE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten13ByteArrayViewE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten20ByteArrayViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten30AbstractByteArrayStreamEncoderE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ _ZTVN6Okteta15AddressComboBoxE@ABI_4_0 4:4.6.1
+ _ZTVN6Okteta17ByteArrayComboBoxE@ABI_4_0 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::canReadData(QMimeData const*) const@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::copySelectedData() const@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::cutSelectedData()@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::deleteSelectedData()@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::hasSelectedData() const@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::hasSelectedDataChanged(bool)@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::insertData(QMimeData const*)@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::modelSelection() const@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::selectAllData(bool)@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::selectedDataChanged(Kasten::AbstractModelSelection const*)@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::setZoomLevel(double)@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::zoomLevel() const@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::zoomLevelChanged(double)@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Kasten::ByteArrayView::~ByteArrayView()@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Okteta::AddressComboBox::~AddressComboBox()@ABI_4_0" 4:4.6.1
+ (c++)"non-virtual thunk to Okteta::ByteArrayComboBox::~ByteArrayComboBox()@ABI_4_0" 4:4.6.1

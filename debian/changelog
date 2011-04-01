@@ -38,6 +38,7 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
     - liboktetakastencontrollers4
     - liboktetakastencore4
     - liboktetakastengui4
+  * Add symbols files for new library packages.
   * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
   * Bump pkg-kde-tools build dependency to 0.12.
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*
