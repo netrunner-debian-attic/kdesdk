@@ -16,75 +16,75 @@ Upstream Authors and copyright holders:
 
    © 2002, 2002-2003, 2003-2009 Umbrello UML Modeller Authors <uml-devel@uml.sf.net>
    © 2002-2003 Brian Thomas <thomas@mail630.gsfc.nasa.gov> <brian.thomas@gsfc.nasa.gov>
-   © 2001, 2007-2009 Nick Shaforostoff <shafff@ukr.net> <shaforostoff@kde.ru>          
-   © 2002-2009 Josef Weidendorfer <Josef.Weidendorfer@gmx.de>                          
+   © 2001, 2007-2009 Nick Shaforostoff <shafff@ukr.net> <shaforostoff@kde.ru>
+   © 2002-2009 Josef Weidendorfer <Josef.Weidendorfer@gmx.de>
    © 2002-2008 Christian Loose <christian.loose@kdemail.net> <christian.loose@hamburg.de>
    © 1999-2002 Bernd Gehrmann <bernd@mail.berlios.de> <bernd@physik.hu-berlin.de> <bernd@kdevelop.org>
-   © 2001-2005, 2009 Otto Bruggeman <otto.bruggeman@home.nl> <bruggie@home.nl>                              
-   © 2001-2004, 2006-2009 Joseph Wenninger <jowenn@kde.org> <jowenn@bigfoot.com>                      
-   © 2001, 2005, 2007 Christoph Cullmann <cullmann@kde.org>                                           
-   © 2001-2002, 2004-2005, 2007 Anders Lund <anders@alweb.dk> <anders.lund@lund.tdcadsl.dk>           
-   © 2001-2003 John Firebaugh <jfirebaugh@kde.org>                                                    
-   © 2008 KBugBuster Authors <kde-ev-board@kde.org>                                                   
-   © 2007-2009 Kevin Kofler <kevin.kofler@chello.at>                                                  
-   © 2001-2003 Cornelius Schumacher <schumacher@kde.org>                                              
-   © 2005 Richard Dale <Richard_Dale@tipitina.demon.co.uk>                                            
-   © 2004-2005, 2007-2009 Dominik Haumann <dhdev@gmx.de>                                              
-   © 2007 Jari-Matti Mäkelä <jmjm@iki.fi>                                                             
-   © 2001-2004 Martijn Klingens <klingens@kde.org>                                                    
-   © 1998-1999 Pete Wells <pete@yamuna.demon.co.uk>                                                             
-   © 2003-2008 André Wöbbeking <Woebbeking@kde.org>                                                   
-   © 2001, 2003 Richard Moore <rich@kde.org>                                                          
-   © 2005-2009 Montel <montel@kde.org>                                                                
-   © 2005 Jeroen Wijnhout <Jeroen.Wijnhout@kdemail.net>                                               
-   © 2002-2003 Roberto Raggi <roberto@kdevelop.org>                                                   
-   © 2008 Anne-Marie Mahfouf <annma@kde.org>                                                          
-   © 2001-2005 Stanislav Visnovsky <visnovsky@kde.org> <visnovsky@nenya.ms.mff.cuni.cz>               
-   © 2005-2008 Laurent Montel <montel@kde.org> <faure@kde.org>                                        
-   © 2003 Ian Reinhart Geiser <geiseri@kde.org>                                                       
-   © 2002-2003 Luis De la Parra <luis@delaparra.org> <lparrab@gmx.net>                                
-   © 2002, 2007-2008 David Faure <david@mandrakesoft.com> <faure@kde.org>                             
-   © 1999-2000 Matthias Kiefer <matthias.kiefer@gmx.de>                                               
-   © 2003, 2007 Alexander Dymo <adymo@kdevelop.org> <cloudtemple@mksat.net>                           
-   © 2007 Flavio Castelli <flavio.castelli@gmail.com>                                                 
-   © 2001, 2003 Bugs <uml-devel@lists.sf.net>                                                         
-   © 2007 Mirko Stocker <me@misto.ch>                                                                 
-   © 2004-2005 Jeff Snyder <jeff@caffeinated.me.uk> <jeff-webcvsspam@caffeinated.me.uk>               
-   © 2001-2002 Daniel Naber <daniel.naber@t-online.de>                                                
-   © 2006 Reinhold Kainhofer <reinhold@kainhofer.com>                                                 
-   © 2003-2005 Mickael Marchand <marchand@kde.org>                                                    
-   © 2003 Andrew Sutton <ansutton@kent.edu>                                                           
-   © 2004 Stephan Möres <Erdling@gmx.net>                                                             
-   © 2001 Christian Bird <chrisb@lineo.com>                                                           
-   © 2008 Jakob Petsovits <jpetso@gmx.at>                                                             
-   © 2008 Eduardo Robles Elvira <edulix@gmail.com>                                                    
-   © 2004, 2007	 Graciliano M. P.                                                    
-   © 2004 Benjamin C. Meyer <ben+kuiviewer@meyerhome.net>                                             
-   © 2005-2006 Nicolas GOUTTE <goutte@kde.org> <nicolasg@snafu.de>                                    
-   © 1992-2003, 2004-2007 Trolltech AS.                                                   
-   © 2003 Alexander Blum <blum@kewbee.de>                                                             
-   © 2002 Heiko Nardmann <h.nardmann@secunet.de>                                                                                                                            
-   © 2004-2005 Sascha Cunz <sascha@kdevelop.org>                                                      
-   © 2001 Gustavo Madrigal <gmadrigal@nextphere.com>                                                  
-   © 2002-2003 Oliver Kellogg <okellogg@users.sourceforge.net>                                        
-   © 2004 Jarosław Staniek <staniek@kde.org>                                                          
-   © 2007-2008 Michael Pyne <michael.pyne@kdemail.net>                                                
-   © 2008 Jakub Stachowski <qbast@go2.pl>                                                             
-   © 2006 Matt Rogers <mattr@kde.org>                                                                 
-   © 2002 Vincent Decorges <vincent.decorges@eivd.ch>                                                 
-   © 2007 Andreas Pakulat <apaku@gmx.de>                                                              
-   © 2008 Andreas Fischer <andi.fischer@hispeed.ch>                                                   
-   © 2004 Jason Kivlighn <mizunoami44@users.sourceforge.net>                                          
-   © 2003 Nikolaus Gradwohl <guru@local-guru.net>                                                     
-   © 1996-2003 Darren Hiebert <dhiebert@users.sourceforge.net>                                        
-   © 2002 Thorsten Kunz <tk@bytecrash.net>                                                            
-   © 1999-2000 Harri Porten <porten@kde.org>                                                          
-   © 2001-2002 Fredrik Höglund <fredrik@kde.org>                                                      
-   © 2008 Kare Sars <kare.sars@iki.fi>                                                                
-   © 2000 Dirk Mueller <mueller@kde.org>                                                              
-   © 2003 David Hugh-Jones <hughjonesd@yahoo.co.uk>                                                   
-   © 2003 Julian Rockey <linux@jrockey.com>                                                           
-   © 2003 Mario Scalas <mario.scalas@libero.it>                                                                                
+   © 2001-2005, 2009 Otto Bruggeman <otto.bruggeman@home.nl> <bruggie@home.nl>
+   © 2001-2004, 2006-2009 Joseph Wenninger <jowenn@kde.org> <jowenn@bigfoot.com>
+   © 2001, 2005, 2007 Christoph Cullmann <cullmann@kde.org>
+   © 2001-2002, 2004-2005, 2007 Anders Lund <anders@alweb.dk> <anders.lund@lund.tdcadsl.dk>
+   © 2001-2003 John Firebaugh <jfirebaugh@kde.org>
+   © 2008 KBugBuster Authors <kde-ev-board@kde.org>
+   © 2007-2009 Kevin Kofler <kevin.kofler@chello.at>
+   © 2001-2003 Cornelius Schumacher <schumacher@kde.org>
+   © 2005 Richard Dale <Richard_Dale@tipitina.demon.co.uk>
+   © 2004-2005, 2007-2009 Dominik Haumann <dhdev@gmx.de>
+   © 2007 Jari-Matti Mäkelä <jmjm@iki.fi>
+   © 2001-2004 Martijn Klingens <klingens@kde.org>
+   © 1998-1999 Pete Wells <pete@yamuna.demon.co.uk>
+   © 2003-2008 André Wöbbeking <Woebbeking@kde.org>
+   © 2001, 2003 Richard Moore <rich@kde.org>
+   © 2005-2009 Montel <montel@kde.org>
+   © 2005 Jeroen Wijnhout <Jeroen.Wijnhout@kdemail.net>
+   © 2002-2003 Roberto Raggi <roberto@kdevelop.org>
+   © 2008 Anne-Marie Mahfouf <annma@kde.org>
+   © 2001-2005 Stanislav Visnovsky <visnovsky@kde.org> <visnovsky@nenya.ms.mff.cuni.cz>
+   © 2005-2008 Laurent Montel <montel@kde.org> <faure@kde.org>
+   © 2003 Ian Reinhart Geiser <geiseri@kde.org>
+   © 2002-2003 Luis De la Parra <luis@delaparra.org> <lparrab@gmx.net>
+   © 2002, 2007-2008 David Faure <david@mandrakesoft.com> <faure@kde.org>
+   © 1999-2000 Matthias Kiefer <matthias.kiefer@gmx.de>
+   © 2003, 2007 Alexander Dymo <adymo@kdevelop.org> <cloudtemple@mksat.net>
+   © 2007 Flavio Castelli <flavio.castelli@gmail.com>
+   © 2001, 2003 Bugs <uml-devel@lists.sf.net>
+   © 2007 Mirko Stocker <me@misto.ch>
+   © 2004-2005 Jeff Snyder <jeff@caffeinated.me.uk> <jeff-webcvsspam@caffeinated.me.uk>
+   © 2001-2002 Daniel Naber <daniel.naber@t-online.de>
+   © 2006 Reinhold Kainhofer <reinhold@kainhofer.com>
+   © 2003-2005 Mickael Marchand <marchand@kde.org>
+   © 2003 Andrew Sutton <ansutton@kent.edu>
+   © 2004 Stephan Möres <Erdling@gmx.net>
+   © 2001 Christian Bird <chrisb@lineo.com>
+   © 2008 Jakob Petsovits <jpetso@gmx.at>
+   © 2008 Eduardo Robles Elvira <edulix@gmail.com>
+   © 2004, 2007	 Graciliano M. P.
+   © 2004 Benjamin C. Meyer <ben+kuiviewer@meyerhome.net>
+   © 2005-2006 Nicolas GOUTTE <goutte@kde.org> <nicolasg@snafu.de>
+   © 1992-2003, 2004-2007 Trolltech AS.
+   © 2003 Alexander Blum <blum@kewbee.de>
+   © 2002 Heiko Nardmann <h.nardmann@secunet.de>
+   © 2004-2005 Sascha Cunz <sascha@kdevelop.org>
+   © 2001 Gustavo Madrigal <gmadrigal@nextphere.com>
+   © 2002-2003 Oliver Kellogg <okellogg@users.sourceforge.net>
+   © 2004 Jarosław Staniek <staniek@kde.org>
+   © 2007-2008 Michael Pyne <michael.pyne@kdemail.net>
+   © 2008 Jakub Stachowski <qbast@go2.pl>
+   © 2006 Matt Rogers <mattr@kde.org>
+   © 2002 Vincent Decorges <vincent.decorges@eivd.ch>
+   © 2007 Andreas Pakulat <apaku@gmx.de>
+   © 2008 Andreas Fischer <andi.fischer@hispeed.ch>
+   © 2004 Jason Kivlighn <mizunoami44@users.sourceforge.net>
+   © 2003 Nikolaus Gradwohl <guru@local-guru.net>
+   © 1996-2003 Darren Hiebert <dhiebert@users.sourceforge.net>
+   © 2002 Thorsten Kunz <tk@bytecrash.net>
+   © 1999-2000 Harri Porten <porten@kde.org>
+   © 2001-2002 Fredrik Höglund <fredrik@kde.org>
+   © 2008 Kare Sars <kare.sars@iki.fi>
+   © 2000 Dirk Mueller <mueller@kde.org>
+   © 2003 David Hugh-Jones <hughjonesd@yahoo.co.uk>
+   © 2003 Julian Rockey <linux@jrockey.com>
+   © 2003 Mario Scalas <mario.scalas@libero.it>
    © 2006 Gael de Chalendar (aka Kleag) <kleag@free.fr>
    © 2008 Don Sanders <sanders@kde.org>
    © 2000, 2002 Simon Hausmann <hausmann@kde.org>
@@ -100,7 +100,7 @@ Upstream Authors and copyright holders:
    © 2000 Geert Jansen <jansen@kde.org>
    © 2001 Markus Stengel's GPL implementation of LCS-Delta
    © 2008 Jean Vittor <jean.vittor@free.fr>
-   © 2001 Thomas H. Cormen et. al. 
+   © 2001 Thomas H. Cormen et. al.
    © 2001-2002 Karol Szwed <gallium@kde.org>
    © 2008 Beat Wolf <asraniel@fryx.ch>
    © 2006-2008 Allen Winter <winter@kde.org>
@@ -139,10 +139,10 @@ When "under GPL" is mentioned, it means GPL like this:
     | along with this program; if not, write to the Free Software Foundation,
     | Inc., 51 Franklin St, Fifth Floor, Boston, MA 02110-1301 USA
 
-    (Some files have the additional freedom of being GPLv2 or later, but 
+    (Some files have the additional freedom of being GPLv2 or later, but
     many files are just GPLv2)
 
-    You can find the complete text of the license GPL v2 at 
+    You can find the complete text of the license GPL v2 at
     /usr/share/common-licenses/GPL-2
 
 
@@ -155,7 +155,7 @@ that are under the LGPL v2 or later.
 Files under cmake/
 
   Files under cmake/modules are under this license:
-	
+
     | Redistribution and use in source and binary forms, with or without
     | modification, are permitted provided that the following conditions
     | are met:
@@ -165,7 +165,7 @@ Files under cmake/
     | 2. Redistributions in binary form must reproduce the copyright
     |    notice, this list of conditions and the following disclaimer in the
     |    documentation and/or other materials provided with the distribution.
-    | 3. The name of the author may not be used to endorse or promote products 
+    | 3. The name of the author may not be used to endorse or promote products
     |    derived from this software without specific prior written permission.
     |
     | THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
@@ -195,13 +195,13 @@ These files are under the GNU Free Documentation License v1.2
     The full text of the GNU Free Documentation License is available on
     Debian systems in /usr/share/common-licenses/GFDL-1.2
 
-    As well, all the Manpages.dox included are under this license, unless 
+    As well, all the Manpages.dox included are under this license, unless
     specified otherwise.
 
 
 Files under kapptemplate/
 
-These files are under the GPL v2 or later. Except: 
+These files are under the GPL v2 or later. Except:
 
 
 Files under kate/
@@ -242,7 +242,7 @@ that are under GNU Library General Public License version 2.
 
 Files under kbugbuster/
 
-Most of files are under the GPL v2 or later. Except: 
+Most of files are under the GPL v2 or later. Except:
 files under kbugbuster/kresources/ that are under LGPL v2 or later.
 And
   kbugbuster/gui/loadallbugsdlg.cpp
@@ -345,24 +345,24 @@ These files are under the GPL v2 or later. Except:
   lokalize/src/catalog/gettext/gettextimport.h
 that are under the GPL v2.
 
-  
+
 Files under poxml/
 
 Those files are under the GPL, except files under poxml/antlr that are under
 the following license:
 
-  | 
+  |
   | SOFTWARE RIGHTS
-  | 
+  |
   | ANTLR MageLang Institute, 1989-1999
   | http://www.ANTLR.org
-  | 
+  |
   | We reserve no legal rights to the ANTLR--it is fully in the
   | public domain. An individual or company may do whatever
   | they wish with source code distributed with ANTLR or the
   | code generated by ANTLR, including the incorporation of
   | ANTLR, or its output, into commercial software.
-  | 
+  |
   | We encourage users to develop software with ANTLR. However,
   | we do ask that credit is given to us for developing
   | ANTLR. By "credit", we mean that if you use ANTLR or
@@ -376,9 +376,9 @@ the following license:
   | guidelines are kept, we expect to continue enhancing this
   | system and expect to make other tools available as they are
   | completed.
-  | 
+  |
   | The primary ANTLR guy:
-  | 
+  |
   | Terence Parr
   | MageLang Institute; http://www.MageLang.com
   | parrt@jguru.com
@@ -414,18 +414,18 @@ that are under the LGPL version 2.
 
 
 
-On Debian systems, the complete text of the GNU General Public License 
+On Debian systems, the complete text of the GNU General Public License
 version 2 can be found in /usr/share/common-licenses/GPL-2
 
-On Debian systems, the complete text of the GNU Library General Public 
+On Debian systems, the complete text of the GNU Library General Public
 License version 2 can be found in /usr/share/common-licenses/LGPL-2
 
-On Debian systems, the complete text of the GNU General Public License 
+On Debian systems, the complete text of the GNU General Public License
 version 3 can be found in /usr/share/common-licenses/GPL-3
 
 
 
 The Debian packaging is © 2007-2010, Debian Qt/KDE Maintainers
-<debian-qt-kde@lists.debian.org> and is licensed under the GPL, 
+<debian-qt-kde@lists.debian.org> and is licensed under the GPL,
 see `/usr/share/common-licenses/GPL'.
 
