@@ -5,6 +5,7 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
     - updates kate man page with respect to instance creation defaults
       (Closes: #598443)
     - fixes cursor position with static word-wrap in Kate (Closes: #570409)
+  * Update installed files.
   * Update lintian overrides.
 
   [ Modestas Vainius ]
@@ -17,11 +18,9 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Add libkonq5-dev, libantlr-dev and antlr to build depends.
     (Closes: #505425)
   * Bump kdepimlibs5-dev build dependency to version 4:4.6.
-  * Update installed files.
   * Add new package: kdesdk-dolphin-plugins.
 
   [ José Manuel Santamaría Lema ]
-  * Update installed files.
   * Remove package kbugbuster.
   * Enable DebianABIManager:
     - include DebianABIManager.cmake at the bottom of the main CMakeLists.txt
