@@ -372,6 +372,8 @@ Architecture: any
 X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: okteta (<< 4:4.6)
+Breaks: okteta (<< 4:4.6)
 Description: controllers Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
@@ -382,6 +384,8 @@ Architecture: any
 X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: okteta (<< 4:4.6)
+Breaks: okteta (<< 4:4.6)
 Description: core Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
@@ -392,6 +396,8 @@ Architecture: any
 X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: okteta (<< 4:4.6)
+Breaks: okteta (<< 4:4.6)
 Description: gui Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
@@ -402,6 +408,8 @@ Architecture: any
 X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: okteta (<< 4:4.6)
+Breaks: okteta (<< 4:4.6)
 Description: core Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -413,6 +421,8 @@ Architecture: any
 X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: okteta (<< 4:4.6)
+Breaks: okteta (<< 4:4.6)
 Description: gui Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -424,6 +434,8 @@ Architecture: any
 X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: okteta (<< 4:4.6)
+Breaks: okteta (<< 4:4.6)
 Description: kastencontrollers library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -435,6 +447,8 @@ Architecture: any
 X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: okteta (<< 4:4.6)
+Breaks: okteta (<< 4:4.6)
 Description: kastencore library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -446,6 +460,8 @@ Architecture: any
 X-Debian-ABI: 0
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
+Replaces: okteta (<< 4:4.6)
+Breaks: okteta (<< 4:4.6)
 Description: kastengui library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
