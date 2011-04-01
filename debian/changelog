@@ -1,4 +1,4 @@
-kdesdk (4:4.6.1-0r1) unstable; urgency=low
+kdesdk (4:4.6.1-0r1) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes plugin loading in kate sessions (Closes: #525853)
