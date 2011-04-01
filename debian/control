@@ -46,7 +46,7 @@ Description: Software Development Kit from the official KDE release
 Package: cervisia
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, ${misc:Depends}, cvsservice
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, cvsservice
 Suggests: khelpcenter4
 Description: graphical CVS client
  Cervisia is a front-end for the CVS version control system client.
@@ -163,7 +163,7 @@ Description: dolphin VCS plugins
 Package: kdesdk-kio-plugins
 Architecture: any
 Section: devel
-Depends: ${shlibs:Depends}, ${misc:Depends}, subversion
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${perl:Depends}, subversion
 Suggests: perl-doc
 Description: transparent Subversion access and Perl documentation KIO slaves
  This package includes the svn and svn+ssh KIO plugins, which allows KDE

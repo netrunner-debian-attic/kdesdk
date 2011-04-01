@@ -14,6 +14,7 @@ kdesdk (4:4.6.1-0r3) UNRELEASED; urgency=low
   * Strip trailing whitespace in debian/copyright.
   * Add kdeutils-dbg (<< 4:4.6) to kdesdk-dbg Breaks/Replaces (due to moved
     okteta).
+  * Add ${perl:Depends} to Depends of cervisia and kdesdk-kio-plugins.
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
