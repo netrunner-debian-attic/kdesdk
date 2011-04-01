@@ -5,6 +5,7 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
     - updates kate man page with respect to instance creation defaults
       (Closes: #598443)
     - fixes cursor position with static word-wrap in Kate (Closes: #570409)
+  * Update lintian overrides.
 
   [ Modestas Vainius ]
   * Point debian/control Vcs fields to the new Git repository.
@@ -18,7 +19,6 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
   * Bump kdepimlibs5-dev build dependency to version 4:4.6.
   * Update installed files.
   * Add new package: kdesdk-dolphin-plugins.
-  * Update lintian overrides.
 
   [ José Manuel Santamaría Lema ]
   * Update installed files.
