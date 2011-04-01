@@ -47,8 +47,7 @@ kdesdk (4:4.6.1-0r0) UNRELEASED; urgency=low
   
   [ Pino Toscano ]
   * Add build dependency on libqca2-dev.
-  * Do not ship kdesrc-build with kdesdk-scripts, it will be packaged
-    separately.
+  * Do not ship kdesrc-build with kdesdk-scripts, it is packaged separately.
   * Small updates to descriptions.
 
  -- José Manuel Santamaría Lema <panfaust@gmail.com>  Thu, 31 Mar 2011 17:24:50 +0000
