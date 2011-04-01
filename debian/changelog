@@ -12,6 +12,8 @@ kdesdk (4:4.6.1-0r1) UNRELEASED; urgency=low
   * Point debian/control Vcs fields to the new Git repository.
   * Strip sequence numbers from debian/patches.
   * Strip trailing whitespace in debian/copyright.
+  * Add kdeutils-dbg (<< 4:4.6) to kdesdk-dbg Breaks/Replaces (due to moved
+    okteta).
 
   [ George Kiagiadakis ]
   * Add myself to uploaders.
