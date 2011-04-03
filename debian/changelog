@@ -5,6 +5,7 @@ kdesdk (4:4.6.1-0r3) UNRELEASED; urgency=low
     - updates kate man page with respect to instance creation defaults
       (Closes: #598443)
     - fixes cursor position with static word-wrap in Kate (Closes: #570409)
+    - xml2pot creates .pot files with the correct mimetype (Closes: #326060)
   * Update installed files.
   * Update lintian overrides.
 
