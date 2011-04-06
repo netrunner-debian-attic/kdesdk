@@ -1,4 +1,4 @@
-kdesdk (4:4.6.1-0r3) UNRELEASED; urgency=low
+kdesdk (4:4.6.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release:
     - fixes plugin loading in kate sessions (Closes: #525853)
@@ -44,7 +44,7 @@ kdesdk (4:4.6.1-0r3) UNRELEASED; urgency=low
     - liboktetakastencore4
     - liboktetakastengui4
   * Add symbols files for new library packages.
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.1.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.2.
   * Bump pkg-kde-tools build dependency to 0.12.
   * Switch debian/rules engine to dhmk based qt-kde-team/2/*
     - and remove cdbs from Build-Depends.
