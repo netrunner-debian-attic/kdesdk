@@ -225,8 +225,6 @@ Package: kmtrace
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}, less
-Replaces: kdesdk-scripts (= 4:4.2.0-1)
-Breaks: kdesdk-scripts (= 4:4.2.0-1)
 Description: memory leak tracer
  KMtrace is a KDE tool to assist with malloc debugging using glibc's
  "mtrace" functionality.
@@ -279,8 +277,6 @@ Package: poxml
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Replaces: kdesdk-scripts (= 4:4.2.0-1)
-Breaks: kdesdk-scripts (= 4:4.2.0-1)
 Description: tools for translating DocBook XML files with Gettext
  This is a collection of tools that facilitate translating DocBook XML
  files using Gettext message files (PO files).
@@ -473,8 +469,8 @@ Section: debug
 Architecture: any
 Priority: extra
 Depends: ${misc:Depends}, kdebase-runtime-dbg
-Replaces: kdebase-dbg (<<4:4.0.0), kdeutils-dbg (<< 4:4.6)
-Breaks: kdebase-dbg (<<4:4.0.0), kdeutils-dbg (<< 4:4.6)
+Replaces: kdeutils-dbg (<< 4:4.6)
+Breaks: kdeutils-dbg (<< 4:4.6)
 Suggests: kdesdk (= ${source:Version})
 Description: debugging symbols for the KDE Software Development Kit module
  This package contains debugging files used to investigate problems with
