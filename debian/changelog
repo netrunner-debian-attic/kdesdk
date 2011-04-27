@@ -1,4 +1,4 @@
-kdesdk (4:4.6.2-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.6.2-1) experimental; urgency=low
 
   * New upstream release:
     - fixes plugin loading in kate sessions (Closes: #525853)
@@ -57,7 +57,7 @@ kdesdk (4:4.6.2-0r1) UNRELEASED; urgency=low
   * Small updates to descriptions.
   * Clean up Replaces/Breaks from the pre-squeeze era whenever possible.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Fri, 01 Apr 2011 22:43:32 +0300
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 27 Apr 2011 12:23:44 +0300
 
 kdesdk (4:4.4.5-1) unstable; urgency=low
 
