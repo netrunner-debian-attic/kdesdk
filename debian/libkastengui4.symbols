@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.2 amd64 armel i386 ia64 kfreebsd-amd64 powerpc s390 sparc
 libkastengui.so.4 libkastengui4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -144,10 +144,10 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZN6Kasten18AbstractToolWidgetD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten18AbstractToolWidgetD1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten18AbstractToolWidgetD2Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten19AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.1
- _ZN6Kasten19AbstractViewFactoryD0Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten19AbstractViewFactoryD1Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten19AbstractViewFactoryD2Ev@ABI_4_0 4:4.6.1
+ (arch=!armel)_ZN6Kasten19AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZN6Kasten19AbstractViewFactoryD0Ev@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZN6Kasten19AbstractViewFactoryD1Ev@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZN6Kasten19AbstractViewFactoryD2Ev@ABI_4_0 4:4.6.2
  _ZN6Kasten20AbstractGroupedViews11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten20AbstractGroupedViews11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten20AbstractGroupedViews12closeRequestERK5QListIPNS_12AbstractViewEE@ABI_4_0 4:4.6.1
@@ -232,12 +232,12 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZN6Kasten42ModelEncoderFileSystemExporterConfigEditorD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten42ModelEncoderFileSystemExporterConfigEditorD1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten42ModelEncoderFileSystemExporterConfigEditorD2Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.1
+ (arch=!armel)_ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.2
  _ZN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryC1EPNS_45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.1
  _ZN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryC2EPNS_45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.1
  _ZN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.1
@@ -326,7 +326,7 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZTIN6Kasten17AbstractLinePopupE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten18AbstractControllerE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten18AbstractToolWidgetE@ABI_4_0 4:4.6.1
- _ZTIN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.1
+ (arch=!armel)_ZTIN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.2
  _ZTIN6Kasten20AbstractGroupedViewsE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten21AbstractSelectionViewE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten21ModelCodecViewManagerE@ABI_4_0 4:4.6.1
@@ -337,8 +337,8 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZTIN6Kasten38AbstractModelStreamEncoderConfigEditorE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten40AbstractModelExporterConfigEditorFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten42ModelEncoderFileSystemExporterConfigEditorE@ABI_4_0 4:4.6.1
- _ZTIN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.1
- _ZTIN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ (arch=!armel)_ZTIN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZTIN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.2
  _ZTIN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten9DummyViewE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten9StatusBarE@ABI_4_0 4:4.6.1
@@ -353,7 +353,7 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZTSN6Kasten17AbstractLinePopupE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten18AbstractControllerE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten18AbstractToolWidgetE@ABI_4_0 4:4.6.1
- _ZTSN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.1
+ (arch=!armel)_ZTSN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.2
  _ZTSN6Kasten20AbstractGroupedViewsE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten21AbstractSelectionViewE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten21ModelCodecViewManagerE@ABI_4_0 4:4.6.1
@@ -364,8 +364,8 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZTSN6Kasten38AbstractModelStreamEncoderConfigEditorE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten40AbstractModelExporterConfigEditorFactoryE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten42ModelEncoderFileSystemExporterConfigEditorE@ABI_4_0 4:4.6.1
- _ZTSN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.1
- _ZTSN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ (arch=!armel)_ZTSN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZTSN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.2
  _ZTSN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten9DummyViewE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten9StatusBarE@ABI_4_0 4:4.6.1
@@ -381,7 +381,7 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZTVN6Kasten17AbstractLinePopupE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten18AbstractControllerE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten18AbstractToolWidgetE@ABI_4_0 4:4.6.1
- _ZTVN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.1
+ (arch=!armel)_ZTVN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.2
  _ZTVN6Kasten20AbstractGroupedViewsE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten21AbstractSelectionViewE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten21ModelCodecViewManagerE@ABI_4_0 4:4.6.1
@@ -392,8 +392,8 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZTVN6Kasten38AbstractModelStreamEncoderConfigEditorE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten40AbstractModelExporterConfigEditorFactoryE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten42ModelEncoderFileSystemExporterConfigEditorE@ABI_4_0 4:4.6.1
- _ZTVN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.1
- _ZTVN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.1
+ (arch=!armel)_ZTVN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryE@ABI_4_0 4:4.6.2
+ (arch=!armel)_ZTVN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_4_0 4:4.6.2
  _ZTVN6Kasten49ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten9DummyViewE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten9StatusBarE@ABI_4_0 4:4.6.1
