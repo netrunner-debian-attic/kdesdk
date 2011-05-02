@@ -1,4 +1,4 @@
-kdesdk (4:4.6.2-2) UNRELEASED; urgency=low
+kdesdk (4:4.6.2-2) experimental; urgency=low
 
   * Confirm symbol files on more debian arches.
   * Pass -c0 to dpkg-gensymbols.
@@ -7,7 +7,7 @@ kdesdk (4:4.6.2-2) UNRELEASED; urgency=low
     dont_export_private_classes.diff).
   * Bump Standards-Version to 3.9.2: no changes needed.
 
- -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:40:04 +0300
+ -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 03:55:54 +0300
 
 kdesdk (4:4.6.2-1) experimental; urgency=low
 
