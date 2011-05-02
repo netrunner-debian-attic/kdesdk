@@ -1,6 +1,7 @@
 kdesdk (4:4.6.2-2) UNRELEASED; urgency=low
 
   * Confirm symbol files on more debian arches.
+  * Pass -c0 to dpkg-gensymbols.
 
  -- Modestas Vainius <modax@debian.org>  Mon, 02 May 2011 02:40:04 +0300
 
