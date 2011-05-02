@@ -320,11 +320,6 @@ libkastencore.so.4 libkastencore4 #MINVER#
  _ZN6Kasten33AbstractFileSystemSyncToRemoteJobD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten33AbstractFileSystemSyncToRemoteJobD1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten33AbstractFileSystemSyncToRemoteJobD2Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten35AbstractFileSystemConnectJobPrivate15connectWithFileEv@ABI_4_0 4:4.6.1
- _ZN6Kasten35AbstractFileSystemConnectJobPrivate8completeEb@ABI_4_0 4:4.6.1
- _ZN6Kasten35AbstractFileSystemConnectJobPrivateD0Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten35AbstractFileSystemConnectJobPrivateD1Ev@ABI_4_0 4:4.6.1
- (arch=!ia64 !s390 !sparc)_ZN6Kasten35AbstractFileSystemConnectJobPrivateD2Ev@ABI_4_0 4:4.6.2
  _ZN6Kasten35AbstractFileSystemSyncFromRemoteJob11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten35AbstractFileSystemSyncFromRemoteJob11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten35AbstractFileSystemSyncFromRemoteJob12completeReadEb@ABI_4_0 4:4.6.1
@@ -363,16 +358,6 @@ libkastencore.so.4 libkastencore4 #MINVER#
  _ZN6Kasten35AbstractModelFileSystemSynchronizerD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten35AbstractModelFileSystemSynchronizerD1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten35AbstractModelFileSystemSynchronizerD2Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate12completeReadEb@ABI_4_0 4:4.6.1
- _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivate14syncFromRemoteEv@ABI_4_0 4:4.6.1
- _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateD0Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateD1Ev@ABI_4_0 4:4.6.1
- (arch=!ia64 !s390 !sparc)_ZN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateD2Ev@ABI_4_0 4:4.6.2
- _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate12completeSyncEb@ABI_4_0 4:4.6.1
- _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivate14syncWithRemoteEv@ABI_4_0 4:4.6.1
- _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateD0Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateD1Ev@ABI_4_0 4:4.6.1
- (arch=!ia64 !s390 !sparc)_ZN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateD2Ev@ABI_4_0 4:4.6.2
  _ZN6Kasten6Person8setEgoIdEi@ABI_4_0 4:4.6.1
  _ZN6Kasten6Person9createEgoEv@ABI_4_0 4:4.6.1
  _ZN6Kasten6PersonC1ERK7QStringRK5KIcon@ABI_4_0 4:4.6.1
@@ -501,12 +486,9 @@ libkastencore.so.4 libkastencore4 #MINVER#
  _ZTIN6Kasten31ModelEncoderFileSystemExportJobE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten32AbstractModelSynchronizerFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten33AbstractFileSystemSyncToRemoteJobE@ABI_4_0 4:4.6.1
- _ZTIN6Kasten35AbstractFileSystemConnectJobPrivateE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten35AbstractFileSystemSyncFromRemoteJobE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten35AbstractFileSystemSyncWithRemoteJobE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten35AbstractModelFileSystemSynchronizerE@ABI_4_0 4:4.6.1
- _ZTIN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateE@ABI_4_0 4:4.6.1
- _ZTIN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten12AbstractToolE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten13AbstractModelE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten15AbstractLoadJobE@ABI_4_0 4:4.6.1
@@ -535,12 +517,9 @@ libkastencore.so.4 libkastencore4 #MINVER#
  _ZTSN6Kasten31ModelEncoderFileSystemExportJobE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten32AbstractModelSynchronizerFactoryE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten33AbstractFileSystemSyncToRemoteJobE@ABI_4_0 4:4.6.1
- _ZTSN6Kasten35AbstractFileSystemConnectJobPrivateE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten35AbstractFileSystemSyncFromRemoteJobE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten35AbstractFileSystemSyncWithRemoteJobE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten35AbstractModelFileSystemSynchronizerE@ABI_4_0 4:4.6.1
- _ZTSN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateE@ABI_4_0 4:4.6.1
- _ZTSN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten12AbstractToolE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten13AbstractModelE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten15AbstractLoadJobE@ABI_4_0 4:4.6.1
@@ -569,9 +548,6 @@ libkastencore.so.4 libkastencore4 #MINVER#
  _ZTVN6Kasten31ModelEncoderFileSystemExportJobE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten32AbstractModelSynchronizerFactoryE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten33AbstractFileSystemSyncToRemoteJobE@ABI_4_0 4:4.6.1
- _ZTVN6Kasten35AbstractFileSystemConnectJobPrivateE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten35AbstractFileSystemSyncFromRemoteJobE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten35AbstractFileSystemSyncWithRemoteJobE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten35AbstractModelFileSystemSynchronizerE@ABI_4_0 4:4.6.1
- _ZTVN6Kasten42AbstractFileSystemSyncFromRemoteJobPrivateE@ABI_4_0 4:4.6.1
- _ZTVN6Kasten42AbstractFileSystemSyncWithRemoteJobPrivateE@ABI_4_0 4:4.6.1
