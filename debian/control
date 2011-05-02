@@ -12,7 +12,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.6.2),
  binutils-dev, libhunspell-dev, libltdl-dev, libx11-dev, x11proto-core-dev,
  shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.6), libantlr-dev, antlr,
  libqca2-dev
-Standards-Version: 3.9.1
+Standards-Version: 3.9.2
 Homepage: http://www.kde.org
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdesdk.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdesdk.git
