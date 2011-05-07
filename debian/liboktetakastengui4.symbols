@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64
 liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -96,8 +96,8 @@ liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
  _ZN6Okteta17ByteArrayComboBoxD0Ev@ABI_4_0 4:4.6.1
  _ZN6Okteta17ByteArrayComboBoxD1Ev@ABI_4_0 4:4.6.1
  _ZN6Okteta17ByteArrayComboBoxD2Ev@ABI_4_0 4:4.6.1
- (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPKNS_17ByteArrayDocumentEEET_v@ABI_4_0 4:4.6.1
- (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_16AbstractDocumentEEET_v@ABI_4_0 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPKNS_17ByteArrayDocumentEEET_v@ABI_4_0 4:4.6.1
+#MISSING: 4:4.6.3# (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_16AbstractDocumentEEET_v@ABI_4_0 4:4.6.1
  _ZNK6Kasten13ByteArrayView10cursorRectEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten13ByteArrayView10isReadOnlyEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten13ByteArrayView10metaObjectEv@ABI_4_0 4:4.6.1
