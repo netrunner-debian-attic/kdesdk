@@ -454,8 +454,6 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZNK6Kasten12InfoToolView4toolEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten12InfoToolView5titleEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten12InfoToolView6widgetEv@ABI_4_0 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_13ByteArrayViewEEET_v@ABI_4_0 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_17ByteArrayDocumentEEET_v@ABI_4_0 4:4.6.1
  _ZNK6Kasten13BookmarksTool10bookmarkAtEj@ABI_4_0 4:4.6.1
  _ZNK6Kasten13BookmarksTool10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten13BookmarksTool14bookmarksCountEv@ABI_4_0 4:4.6.1

@@ -268,11 +268,7 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZNK6Kasten12TerminalTool10currentUrlEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten12TerminalTool10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten12TerminalTool5titleEv@ABI_4_0 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !s390 !sparc)_ZNK6Kasten13AbstractModel13findBaseModelIPNS_16AbstractDocumentEEET_v@ABI_4_0 4:4.6.1
  (optional=templinst)_ZNK6Kasten13AbstractModel26findBaseModelWithInterfaceIPNS_2If11VersionableEEEPS0_v@ABI_4_0 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !s390 !sparc)_ZNK6Kasten13AbstractModel26findBaseModelWithInterfaceIPNS_2If14DataSelectableEEEPS0_v@ABI_4_0 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !s390 !sparc)_ZNK6Kasten13AbstractModel26findBaseModelWithInterfaceIPNS_2If21SelectedDataWriteableEEEPS0_v@ABI_4_0 4:4.6.1
-#MISSING: 4:4.6.3# (optional=templinst|arch=!ia64 !s390 !sparc)_ZNK6Kasten13AbstractModel26findBaseModelWithInterfaceIPNS_2If8ZoomableEEEPS0_v@ABI_4_0 4:4.6.1
  _ZNK6Kasten13DocumentsTool10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten13DocumentsTool5titleEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten13DocumentsTool9documentsEv@ABI_4_0 4:4.6.1
