@@ -1,11 +1,11 @@
-kdesdk (4:4.6.3-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.6.3-1) unstable; urgency=low
 
   * New upstream release. 
 
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest build dependency to 4:4.6.3.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 08 May 2011 00:06:03 +0200
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 May 2011 02:41:39 +0300
 
 kdesdk (4:4.6.2-2) experimental; urgency=low
 
