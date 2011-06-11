@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
 liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -47,7 +47,7 @@ liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
  _ZN6Kasten19AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.1
  _ZN6Kasten19AbstractViewFactoryD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten19AbstractViewFactoryD1Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten19AbstractViewFactoryD2Ev@ABI_4_0 4:4.6.1
+ (optional=gcc4.4|arch=!hurd-i386 !ia64 !sparc)_ZN6Kasten19AbstractViewFactoryD2Ev@ABI_4_0 4:4.6.3
  _ZN6Kasten20ByteArrayViewFactory13createViewForEPNS_16AbstractDocumentE@ABI_4_0 4:4.6.1
  _ZN6Kasten20ByteArrayViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.1
  _ZN6Kasten29ByteArrayDataGeneratorFactory20createDataGeneratorsEv@ABI_4_0 4:4.6.1
@@ -65,10 +65,10 @@ liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
  _ZN6Kasten30AbstractByteArrayStreamEncoderD2Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.1
+ (optional=gcc4.4|arch=!hurd-i386 !ia64 !sparc)_ZN6Kasten45AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.3
  _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_4_0 4:4.6.1
- _ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.1
+ (optional=gcc4.4|arch=!hurd-i386 !ia64 !sparc)_ZN6Kasten45AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_4_0 4:4.6.3
  _ZN6Kasten48ByteArrayDataGeneratorConfigEditorFactoryFactory14createFactorysEv@ABI_4_0 4:4.6.1
  _ZN6Kasten48ByteArrayStreamEncoderConfigEditorFactoryFactory14createFactorysEv@ABI_4_0 4:4.6.1
  _ZN6Okteta15AddressComboBox11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
