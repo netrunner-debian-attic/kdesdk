@@ -5,6 +5,9 @@ kdesdk (4:4.6.4-0r1) UNRELEASED; urgency=low
   [ Modestas Vainius ]
   * Update symbol files.
 
+  [ José Manuel Santamaría Lema ]
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 11 Jun 2011 14:48:56 +0300
 
 kdesdk (4:4.6.3-1) unstable; urgency=low
