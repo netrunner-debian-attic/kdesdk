@@ -1,4 +1,4 @@
-kdesdk (4:4.6.4-0r2) UNRELEASED; urgency=low
+kdesdk (4:4.6.5-0r0) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -6,7 +6,7 @@ kdesdk (4:4.6.4-0r2) UNRELEASED; urgency=low
   * Update symbol files.
 
   [ José Manuel Santamaría Lema ]
-  * Bump kde-sc-dev-latest build dependency to 4:4.6.4.
+  * Bump kde-sc-dev-latest build dependency to 4:4.6.5.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 12 Jun 2011 14:23:55 +0200
 
