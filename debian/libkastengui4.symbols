@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkastengui.so.4 libkastengui4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -135,6 +135,9 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZN6Kasten18AbstractController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten18AbstractController14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
  _ZN6Kasten18AbstractController16staticMetaObjectE@ABI_4_0 4:4.6.1
+ _ZN6Kasten18AbstractControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten18AbstractControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten18AbstractControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten18AbstractToolWidget11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten18AbstractToolWidget11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten18AbstractToolWidget16staticMetaObjectE@ABI_4_0 4:4.6.1
@@ -194,6 +197,9 @@ libkastengui.so.4 libkastengui4 #MINVER#
  _ZN6Kasten24AbstractXmlGuiController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten24AbstractXmlGuiController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten24AbstractXmlGuiController16staticMetaObjectE@ABI_4_0 4:4.6.1
+ _ZN6Kasten24AbstractXmlGuiControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten24AbstractXmlGuiControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten24AbstractXmlGuiControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten33AbstractModelExporterConfigEditor11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten33AbstractModelExporterConfigEditor11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten33AbstractModelExporterConfigEditor15validityChangedEb@ABI_4_0 4:4.6.1

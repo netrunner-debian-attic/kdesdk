@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -32,6 +32,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten14QuitController4quitEv@ABI_4_0 4:4.6.1
  _ZN6Kasten14QuitControllerC1EPNS_8KProgramEP13KXmlGuiWindow@ABI_4_0 4:4.6.1
  _ZN6Kasten14QuitControllerC2EPNS_8KProgramEP13KXmlGuiWindow@ABI_4_0 4:4.6.1
+ _ZN6Kasten14QuitControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten14QuitControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten14QuitControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten14ZoomController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten14ZoomController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten14ZoomController14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
@@ -41,6 +44,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten14ZoomController7zoomOutEv@ABI_4_0 4:4.6.1
  _ZN6Kasten14ZoomControllerC1EP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten14ZoomControllerC2EP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten14ZoomControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten14ZoomControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten14ZoomControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten15CloseController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten15CloseController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten15CloseController13closeAllOtherEv@ABI_4_0 4:4.6.1
@@ -51,6 +57,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten15CloseController8closeAllEv@ABI_4_0 4:4.6.1
  _ZN6Kasten15CloseControllerC1EPNS_15DocumentManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten15CloseControllerC2EPNS_15DocumentManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten15CloseControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten15CloseControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten15CloseControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten15VersionViewTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten15VersionViewTool11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten15VersionViewTool12modelChangedEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
@@ -69,6 +78,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten16CopyAsController17onActionTriggeredEP7QAction@ABI_4_0 4:4.6.1
  _ZN6Kasten16CopyAsControllerC1EPNS_11ViewManagerEPNS_15DocumentManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten16CopyAsControllerC2EPNS_11ViewManagerEPNS_15DocumentManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten16CopyAsControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten16CopyAsControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten16CopyAsControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten16ExportController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten16ExportController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten16ExportController13updateActionsEv@ABI_4_0 4:4.6.1
@@ -77,6 +89,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten16ExportController17onActionTriggeredEP7QAction@ABI_4_0 4:4.6.1
  _ZN6Kasten16ExportControllerC1EPNS_11ViewManagerEPNS_15DocumentManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten16ExportControllerC2EPNS_11ViewManagerEPNS_15DocumentManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten16ExportControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten16ExportControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten16ExportControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten16InsertController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten16InsertController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten16InsertController13updateActionsEv@ABI_4_0 4:4.6.1
@@ -86,6 +101,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten16InsertController17onReadOnlyChangedEb@ABI_4_0 4:4.6.1
  _ZN6Kasten16InsertControllerC1EPNS_11ViewManagerEPNS_15DocumentManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten16InsertControllerC2EPNS_11ViewManagerEPNS_15DocumentManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten16InsertControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten16InsertControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten16InsertControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten16LoaderController10loadRecentERK4KUrl@ABI_4_0 4:4.6.1
  _ZN6Kasten16LoaderController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten16LoaderController11qt_metacastEPKc@ABI_4_0 4:4.6.1
@@ -107,6 +125,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten16SelectController9selectAllEv@ABI_4_0 4:4.6.1
  _ZN6Kasten16SelectControllerC1EP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten16SelectControllerC2EP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten16SelectControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten16SelectControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten16SelectControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten16TerminalToolViewC1EPNS_12TerminalToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten16TerminalToolViewC2EPNS_12TerminalToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten16TerminalToolViewD0Ev@ABI_4_0 4:4.6.1
@@ -143,12 +164,18 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten17VersionController29onOlderVersionMenuAboutToShowEv@ABI_4_0 4:4.6.1
  _ZN6Kasten17VersionControllerC1EP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten17VersionControllerC2EP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten17VersionControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten17VersionControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten17VersionControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten17ZoomBarController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten17ZoomBarController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten17ZoomBarController14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
  _ZN6Kasten17ZoomBarController16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN6Kasten17ZoomBarControllerC1EPNS_9StatusBarE@ABI_4_0 4:4.6.1
  _ZN6Kasten17ZoomBarControllerC2EPNS_9StatusBarE@ABI_4_0 4:4.6.1
+ _ZN6Kasten17ZoomBarControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten17ZoomBarControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten17ZoomBarControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten18ReadOnlyController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten18ReadOnlyController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten18ReadOnlyController11setReadOnlyEb@ABI_4_0 4:4.6.1
@@ -156,6 +183,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten18ReadOnlyController16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN6Kasten18ReadOnlyControllerC1EP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten18ReadOnlyControllerC2EP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten18ReadOnlyControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten18ReadOnlyControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten18ReadOnlyControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten19ClipboardController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten19ClipboardController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten19ClipboardController14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
@@ -168,6 +198,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten19ClipboardController5pasteEv@ABI_4_0 4:4.6.1
  _ZN6Kasten19ClipboardControllerC1EP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten19ClipboardControllerC2EP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten19ClipboardControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten19ClipboardControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten19ClipboardControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten19SetRemoteController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten19SetRemoteController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten19SetRemoteController14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
@@ -175,6 +208,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten19SetRemoteController6saveAsEv@ABI_4_0 4:4.6.1
  _ZN6Kasten19SetRemoteControllerC1EPNS_19DocumentSyncManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten19SetRemoteControllerC2EPNS_19DocumentSyncManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten19SetRemoteControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten19SetRemoteControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten19SetRemoteControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten19VersionViewToolViewC1EPNS_15VersionViewToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten19VersionViewToolViewC2EPNS_15VersionViewToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten19VersionViewToolViewD0Ev@ABI_4_0 4:4.6.1
@@ -187,6 +223,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten20FullScreenController16switchFullScreenEb@ABI_4_0 4:4.6.1
  _ZN6Kasten20FullScreenControllerC1EP13KXmlGuiWindow@ABI_4_0 4:4.6.1
  _ZN6Kasten20FullScreenControllerC2EP13KXmlGuiWindow@ABI_4_0 4:4.6.1
+ _ZN6Kasten20FullScreenControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20FullScreenControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20FullScreenControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten20SwitchViewController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten20SwitchViewController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten20SwitchViewController13updateActionsEv@ABI_4_0 4:4.6.1
@@ -196,6 +235,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten20SwitchViewController8backwardEv@ABI_4_0 4:4.6.1
  _ZN6Kasten20SwitchViewControllerC1EPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten20SwitchViewControllerC2EPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten20SwitchViewControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20SwitchViewControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20SwitchViewControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten21FileSystemBrowserTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten21FileSystemBrowserTool11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten21FileSystemBrowserTool14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
@@ -215,6 +257,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten21ModifiedBarController24onRemoteSyncStateChangedENS_15RemoteSyncStateE@ABI_4_0 4:4.6.1
  _ZN6Kasten21ModifiedBarControllerC1EPNS_9StatusBarE@ABI_4_0 4:4.6.1
  _ZN6Kasten21ModifiedBarControllerC2EPNS_9StatusBarE@ABI_4_0 4:4.6.1
+ _ZN6Kasten21ModifiedBarControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten21ModifiedBarControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten21ModifiedBarControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten21ReadOnlyBarController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten21ReadOnlyBarController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten21ReadOnlyBarController11setReadOnlyEb@ABI_4_0 4:4.6.1
@@ -222,6 +267,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten21ReadOnlyBarController16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN6Kasten21ReadOnlyBarControllerC1EPNS_9StatusBarE@ABI_4_0 4:4.6.1
  _ZN6Kasten21ReadOnlyBarControllerC2EPNS_9StatusBarE@ABI_4_0 4:4.6.1
+ _ZN6Kasten21ReadOnlyBarControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten21ReadOnlyBarControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten21ReadOnlyBarControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten21SynchronizeController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten21SynchronizeController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten21SynchronizeController14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
@@ -232,6 +280,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten21SynchronizeController6reloadEv@ABI_4_0 4:4.6.1
  _ZN6Kasten21SynchronizeControllerC1EPNS_19DocumentSyncManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten21SynchronizeControllerC2EPNS_19DocumentSyncManagerEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten21SynchronizeControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten21SynchronizeControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten21SynchronizeControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten22ToolListMenuController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten22ToolListMenuController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten22ToolListMenuController13updateActionsEv@ABI_4_0 4:4.6.1
@@ -239,6 +290,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten22ToolListMenuController16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN6Kasten22ToolListMenuControllerC1EPNS_2If15WidgetsDockableEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten22ToolListMenuControllerC2EPNS_2If15WidgetsDockableEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten22ToolListMenuControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten22ToolListMenuControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten22ToolListMenuControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten22ViewListMenuController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten22ViewListMenuController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten22ViewListMenuController13updateActionsEv@ABI_4_0 4:4.6.1
@@ -247,6 +301,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten22ViewListMenuController17onActionTriggeredEP7QAction@ABI_4_0 4:4.6.1
  _ZN6Kasten22ViewListMenuControllerC1EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten22ViewListMenuControllerC2EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten22ViewListMenuControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten22ViewListMenuControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten22ViewListMenuControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten23ViewAreaSplitController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten23ViewAreaSplitController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten23ViewAreaSplitController13splitViewAreaEN2Qt11OrientationE@ABI_4_0 4:4.6.1
@@ -260,6 +317,9 @@ libkastencontrollers.so.4 libkastencontrollers4 #MINVER#
  _ZN6Kasten23ViewAreaSplitController5closeEv@ABI_4_0 4:4.6.1
  _ZN6Kasten23ViewAreaSplitControllerC1EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten23ViewAreaSplitControllerC2EPNS_11ViewManagerEPNS_20AbstractGroupedViewsEP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten23ViewAreaSplitControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten23ViewAreaSplitControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten23ViewAreaSplitControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten25FileSystemBrowserToolViewC1EPNS_21FileSystemBrowserToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten25FileSystemBrowserToolViewC2EPNS_21FileSystemBrowserToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten25FileSystemBrowserToolViewD0Ev@ABI_4_0 4:4.6.1

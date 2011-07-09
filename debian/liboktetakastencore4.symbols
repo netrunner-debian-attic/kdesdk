@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 liboktetakastencore.so.4 liboktetakastencore4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -37,6 +37,9 @@ liboktetakastencore.so.4 liboktetakastencore4 #MINVER#
  _ZN6Kasten24ByteArrayDocumentFactory16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN6Kasten24ByteArrayDocumentFactory17canCreateFromDataEPK9QMimeData@ABI_4_0 4:4.6.1
  _ZN6Kasten24ByteArrayDocumentFactory6createEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten24ByteArrayDocumentFactoryD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten24ByteArrayDocumentFactoryD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten24ByteArrayDocumentFactoryD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten28ByteArrayRawFileSynchronizer11onUrlChangeERK4KUrl@ABI_4_0 4:4.6.1
  _ZN6Kasten28ByteArrayRawFileSynchronizer11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten28ByteArrayRawFileSynchronizer11qt_metacastEPKc@ABI_4_0 4:4.6.1
@@ -49,6 +52,9 @@ liboktetakastencore.so.4 liboktetakastencore4 #MINVER#
  _ZN6Kasten28ByteArrayRawFileSynchronizer9startLoadERK4KUrl@ABI_4_0 4:4.6.1
  _ZN6Kasten28ByteArrayRawFileSynchronizerC1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten28ByteArrayRawFileSynchronizerC2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten28ByteArrayRawFileSynchronizerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten28ByteArrayRawFileSynchronizerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten28ByteArrayRawFileSynchronizerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten35ByteArrayRawFileSynchronizerFactory11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten35ByteArrayRawFileSynchronizerFactory11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten35ByteArrayRawFileSynchronizerFactory16staticMetaObjectE@ABI_4_0 4:4.6.1

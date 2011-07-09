@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -248,6 +248,9 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten18ViewModeController16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN6Kasten18ViewModeControllerC1EP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten18ViewModeControllerC2EP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten18ViewModeControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten18ViewModeControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten18ViewModeControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten19BookmarksController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten19BookmarksController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten19BookmarksController14createBookmarkEv@ABI_4_0 4:4.6.1
@@ -322,6 +325,9 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten20ViewConfigController22toggleValueCharColumnsEi@ABI_4_0 4:4.6.1
  _ZN6Kasten20ViewConfigControllerC1EP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten20ViewConfigControllerC2EP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten20ViewConfigControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20ViewConfigControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20ViewConfigControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten20ViewStatusController11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten20ViewStatusController11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten20ViewStatusController13setCharCodingEi@ABI_4_0 4:4.6.1
@@ -336,6 +342,9 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten20ViewStatusController9fixWidthsEv@ABI_4_0 4:4.6.1
  _ZN6Kasten20ViewStatusControllerC1EPNS_9StatusBarE@ABI_4_0 4:4.6.1
  _ZN6Kasten20ViewStatusControllerC2EPNS_9StatusBarE@ABI_4_0 4:4.6.1
+ _ZN6Kasten20ViewStatusControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20ViewStatusControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20ViewStatusControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten21FilterToolViewFactory6createEPNS_12AbstractToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten21FilterToolViewFactoryC1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten21FilterToolViewFactoryC2Ev@ABI_4_0 4:4.6.1
@@ -382,6 +391,9 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten23OverwriteModeController16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN6Kasten23OverwriteModeControllerC1EP13KXMLGUIClient@ABI_4_0 4:4.6.1
  _ZN6Kasten23OverwriteModeControllerC2EP13KXMLGUIClient@ABI_4_0 4:4.6.1
+ _ZN6Kasten23OverwriteModeControllerD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten23OverwriteModeControllerD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten23OverwriteModeControllerD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten24BookmarksToolViewFactory6createEPNS_12AbstractToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten24BookmarksToolViewFactoryC1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten24BookmarksToolViewFactoryC2Ev@ABI_4_0 4:4.6.1

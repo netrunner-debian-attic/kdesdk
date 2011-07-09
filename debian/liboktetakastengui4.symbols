@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.3 amd64 armel hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.6.5 amd64
 liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -50,6 +50,9 @@ liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
  (optional=gcc4.4|arch=!hurd-i386 !ia64 !sparc)_ZN6Kasten19AbstractViewFactoryD2Ev@ABI_4_0 4:4.6.3
  _ZN6Kasten20ByteArrayViewFactory13createViewForEPNS_16AbstractDocumentE@ABI_4_0 4:4.6.1
  _ZN6Kasten20ByteArrayViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_4_0 4:4.6.1
+ _ZN6Kasten20ByteArrayViewFactoryD0Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20ByteArrayViewFactoryD1Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten20ByteArrayViewFactoryD2Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten29ByteArrayDataGeneratorFactory20createDataGeneratorsEv@ABI_4_0 4:4.6.1
  _ZN6Kasten29ByteArrayStreamEncoderFactory20createStreamEncodersEv@ABI_4_0 4:4.6.1
  _ZN6Kasten30AbstractByteArrayStreamEncoder11previewDataEPNS_13AbstractModelEPKNS_22AbstractModelSelectionE@ABI_4_0 4:4.6.1
