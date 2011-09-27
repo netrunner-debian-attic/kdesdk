@@ -11,6 +11,7 @@ kdesdk (4:4.7.1-0r0) UNRELEASED; urgency=low
   * Remove kate from built packages.
   * Update installed files.
   * Fix some problems found by lintian.
+  * Add lintian-overrides for missing symbols files.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Sep 2011 13:26:57 +0100
 
