@@ -19,7 +19,6 @@ Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdesdk.git
 
 Package: kdesdk
 Architecture: all
-Section: kde
 Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
 # kbugbuster (>= ${source:Version}),
  kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins,

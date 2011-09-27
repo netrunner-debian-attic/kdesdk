@@ -40,14 +40,14 @@ If omitted, the output will be written to file of the form
 If you run a perl script as:
 .PP
 .RS
-perl -d:DProf yourscript.pl
+perl \-d:DProf yourscript.pl
 .RE
 .PP
 then this will write profiling data to \fItmon.out\fP.  You can then
 work with this data in KCachegrind as follows:
 .PP
 .RS
-dprof2calltree -f tmin.out -o cachegrind.out.foo
+dprof2calltree \-f tmin.out \-o cachegrind.out.foo
 .br
 kcachegrind cachegrind.out.foo
 .RE
