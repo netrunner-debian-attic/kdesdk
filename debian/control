@@ -5,12 +5,12 @@ Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Fathi Boudra <fabo@debian.org>, Sune Vuorela <sune@debian.org>, Armin Berres <armin+debian@space-based.de>,
  Modestas Vainius <modax@debian.org>, George Kiagiadakis <kiagiadakis.george@gmail.com>,
  José Manuel Santamaría Lema <panfaust@gmail.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.6.5),
+Build-Depends: kde-sc-dev-latest (>= 4:4.7.1),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.6), libphonon-dev (>= 4:4.3.1),
+ kdepimlibs5-dev (>= 4:4.7), libphonon-dev (>= 4:4.3.1),
  libsvn-dev, libstreamanalyzer-dev (>= 0.6.3), libxslt1-dev, libboost-dev,
  binutils-dev, libhunspell-dev, libltdl-dev, libx11-dev, x11proto-core-dev,
- shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.6), libantlr-dev, antlr,
+ shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.7), libantlr-dev, antlr,
  libqca2-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org
