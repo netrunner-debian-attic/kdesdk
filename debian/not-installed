@@ -29,14 +29,6 @@
 ./usr/lib/libkdeinit4_cvsaskpass.so
 ./usr/lib/libkdeinit4_cvsservice.so
 
-# kdesrc-build, packaged separately
-./usr/bin/kdesrc-build
-./usr/share/applications/kde4/kdesrc-build.desktop
-./usr/share/doc/kde/HTML/en/kdesrc-build/common
-./usr/share/doc/kde/HTML/en/kdesrc-build/index.cache.bz2
-./usr/share/doc/kde/HTML/en/kdesrc-build/index.docbook
-./usr/share/kde4/apps/katepart/syntax/kdesrc-buildrc.xml
-
 #other devstuff
 ./usr/include/kompare/kompareinterface.h
 ./usr/include/ktrace.h

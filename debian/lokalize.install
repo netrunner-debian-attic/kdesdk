@@ -109,6 +109,7 @@ usr/share/icons/locolor/32x32/actions/prevuntranslated.png
 usr/share/icons/locolor/32x32/actions/search2msgstr.png
 usr/share/icons/locolor/32x32/actions/transsearch.png
 usr/share/kde4/apps/lokalize/editorui.rc
+usr/share/kde4/apps/lokalize/lokalize.notifyrc
 usr/share/kde4/apps/lokalize/lokalizemainwindowui.rc
 usr/share/kde4/apps/lokalize/projectmanagerui.rc
 usr/share/kde4/apps/lokalize/scripts/find-gui-text.sh

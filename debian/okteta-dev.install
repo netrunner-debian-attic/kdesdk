@@ -203,6 +203,8 @@ usr/include/kasten/bytetabletool.h
 usr/include/kasten/bytetabletoolfactory.h
 usr/include/kasten/bytetabletoolview.h
 usr/include/kasten/bytetabletoolviewfactory.h
+usr/include/kasten/charsetconversiontoolfactory.h
+usr/include/kasten/charsetconversiontoolviewfactory.h
 usr/include/kasten/checksumtool.h
 usr/include/kasten/checksumtoolfactory.h
 usr/include/kasten/checksumtoolview.h
