@@ -21,7 +21,6 @@ Package: kdesdk
 Architecture: all
 Section: kde
 Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
- kate (>= ${source:Version}), 
 # kbugbuster (>= ${source:Version}),
  kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins,
  kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
@@ -71,28 +70,6 @@ Description: application template generator
  .
  It generates the build-system configuration and provides example code
  for a simple application.
- .
- This package is part of the KDE Software Development Kit module.
-
-Package: kate
-Section: editors
-Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: aspell | ispell | hspell, khelpcenter4, konsole
-Description: K Advanced Text Editor
- Kate is a powerful text editor that can open multiple files simultaneously.
- .
- With a built-in terminal, syntax highlighting, and tabbed sidebar, it performs
- as a lightweight but capable development environment.  Kate's many tools,
- plugins, and scripts make it highly customizable.
- .
- Kate's features include:
- .
-  * Multiple saved sessions, each with numerous files
-  * Scriptable syntax highlighting, indentation, and code-folding
-  * Configurable templates and text snippets
-  * Symbol viewers for C, C++, and Python
-  * XML completion and validation
  .
  This package is part of the KDE Software Development Kit module.
 
