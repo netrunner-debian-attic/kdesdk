@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -17,7 +17,8 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten10FilterToolD2Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool10headerDataEii@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool10updateDataERKN6Okteta22ArrayChangeMetricsListE@ABI_4_0 4:4.6.1
- _ZN6Kasten10StructTool11dataChangedEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten10StructTool11dataChangedEiPv@ABI_4_0 4:4.7.1
+#MISSING: 4:4.7.1# _ZN6Kasten10StructTool11dataChangedEv@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool11dataClearedEv@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool11qt_metacastEPKc@ABI_4_0 4:4.6.1
@@ -26,14 +27,19 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten10StructTool12setByteOrderEi@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool13lockStructureE11QModelIndex@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
+ _ZN6Kasten10StructTool15childrenRemovedEPK15DataInformationjj@ABI_4_0 4:4.7.1
  _ZN6Kasten10StructTool15unlockStructureE11QModelIndex@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool16byteOrderChangedEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten10StructTool16childrenInsertedEPK15DataInformationjj@ABI_4_0 4:4.7.1
  _ZN6Kasten10StructTool16onContentsChangeERKN6Okteta22ArrayChangeMetricsListE@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool16staticMetaObjectE@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool18cursorIndexChangedEv@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool21byteArrayModelChangedEb@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool21validateAllStructuresEv@ABI_4_0 4:4.6.1
+ _ZN6Kasten10StructTool22onChildItemDataChangedEv@ABI_4_0 4:4.7.1
  _ZN6Kasten10StructTool22onCursorPositionChangeEi@ABI_4_0 4:4.6.1
+ _ZN6Kasten10StructTool24childrenAboutToBeRemovedEP15DataInformationjj@ABI_4_0 4:4.7.1
+ _ZN6Kasten10StructTool25childrenAboutToBeInsertedEP15DataInformationjj@ABI_4_0 4:4.7.1
  _ZN6Kasten10StructTool27setSelectedStructuresInViewEv@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool4markERK11QModelIndex@ABI_4_0 4:4.6.1
  _ZN6Kasten10StructTool6unmarkEv@ABI_4_0 4:4.6.1
@@ -345,6 +351,23 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten20ViewStatusControllerD0Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten20ViewStatusControllerD1Ev@ABI_4_0 4:4.6.5
  _ZN6Kasten20ViewStatusControllerD2Ev@ABI_4_0 4:4.6.5
+ _ZN6Kasten21CharsetConversionTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool11qt_metacastEPKc@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool12convertCharsEv@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool13onViewChangedEv@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool14conversionDoneEbiRK4QMapIhiE@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool16staticMetaObjectE@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool17setSubstituteByteEi@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool18isApplyableChangedEb@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool21setOtherCharCodecNameERK7QString@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool22setConversionDirectionEi@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionTool27setSubstitutingMissingCharsEb@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionToolC1Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionToolC2Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionToolD0Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionToolD1Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten21CharsetConversionToolD2Ev@ABI_4_0 4:4.7.1
  _ZN6Kasten21FilterToolViewFactory6createEPNS_12AbstractToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten21FilterToolViewFactoryC1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten21FilterToolViewFactoryC2Ev@ABI_4_0 4:4.6.1
@@ -406,6 +429,11 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten24ByteTableToolViewFactoryD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten24ByteTableToolViewFactoryD1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten24ByteTableToolViewFactoryD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten25CharsetConversionToolViewC1EPNS_21CharsetConversionToolE@ABI_4_0 4:4.7.1
+ _ZN6Kasten25CharsetConversionToolViewC2EPNS_21CharsetConversionToolE@ABI_4_0 4:4.7.1
+ _ZN6Kasten25CharsetConversionToolViewD0Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten25CharsetConversionToolViewD1Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten25CharsetConversionToolViewD2Ev@ABI_4_0 4:4.7.1
  _ZN6Kasten25PodDecoderToolViewFactory6createEPNS_12AbstractToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten25PodDecoderToolViewFactoryC1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten25PodDecoderToolViewFactoryC2Ev@ABI_4_0 4:4.6.1
@@ -424,12 +452,24 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZN6Kasten25StructuresToolViewFactoryD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten25StructuresToolViewFactoryD1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten25StructuresToolViewFactoryD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten28CharsetConversionToolFactory6createEv@ABI_4_0 4:4.7.1
+ _ZN6Kasten28CharsetConversionToolFactoryC1Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten28CharsetConversionToolFactoryC2Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten28CharsetConversionToolFactoryD0Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten28CharsetConversionToolFactoryD1Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten28CharsetConversionToolFactoryD2Ev@ABI_4_0 4:4.7.1
  _ZN6Kasten29StringsExtractToolViewFactory6createEPNS_12AbstractToolE@ABI_4_0 4:4.6.1
  _ZN6Kasten29StringsExtractToolViewFactoryC1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten29StringsExtractToolViewFactoryC2Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten29StringsExtractToolViewFactoryD0Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten29StringsExtractToolViewFactoryD1Ev@ABI_4_0 4:4.6.1
  _ZN6Kasten29StringsExtractToolViewFactoryD2Ev@ABI_4_0 4:4.6.1
+ _ZN6Kasten32CharsetConversionToolViewFactory6createEPNS_12AbstractToolE@ABI_4_0 4:4.7.1
+ _ZN6Kasten32CharsetConversionToolViewFactoryC1Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten32CharsetConversionToolViewFactoryC2Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten32CharsetConversionToolViewFactoryD0Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten32CharsetConversionToolViewFactoryD1Ev@ABI_4_0 4:4.7.1
+ _ZN6Kasten32CharsetConversionToolViewFactoryD2Ev@ABI_4_0 4:4.7.1
  _ZN6Kasten8InfoTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten8InfoTool11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Kasten8InfoTool14setTargetModelEPNS_13AbstractModelE@ABI_4_0 4:4.6.1
@@ -528,6 +568,13 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZNK6Kasten20GotoOffsetController10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten20ViewConfigController10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten20ViewStatusController10metaObjectEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten21CharsetConversionTool10metaObjectEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten21CharsetConversionTool11isApplyableEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten21CharsetConversionTool14substituteByteEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten21CharsetConversionTool18otherCharCodecNameEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten21CharsetConversionTool19conversionDirectionEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten21CharsetConversionTool26isSubstitutingMissingCharsEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten21CharsetConversionTool5titleEv@ABI_4_0 4:4.7.1
  _ZNK6Kasten21FilterToolViewFactory15defaultPositionEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten21FilterToolViewFactory2idEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten21FilterToolViewFactory5titleEv@ABI_4_0 4:4.6.1
@@ -549,6 +596,9 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZNK6Kasten24ByteTableToolViewFactory2idEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten24ByteTableToolViewFactory5titleEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten24ByteTableToolViewFactory8iconNameEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten25CharsetConversionToolView4toolEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten25CharsetConversionToolView5titleEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten25CharsetConversionToolView6widgetEv@ABI_4_0 4:4.7.1
  _ZNK6Kasten25PodDecoderToolViewFactory15defaultPositionEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten25PodDecoderToolViewFactory2idEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten25PodDecoderToolViewFactory5titleEv@ABI_4_0 4:4.6.1
@@ -561,6 +611,10 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZNK6Kasten29StringsExtractToolViewFactory2idEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten29StringsExtractToolViewFactory5titleEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten29StringsExtractToolViewFactory8iconNameEv@ABI_4_0 4:4.6.1
+ _ZNK6Kasten32CharsetConversionToolViewFactory15defaultPositionEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten32CharsetConversionToolViewFactory2idEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten32CharsetConversionToolViewFactory5titleEv@ABI_4_0 4:4.7.1
+ _ZNK6Kasten32CharsetConversionToolViewFactory8iconNameEv@ABI_4_0 4:4.7.1
  _ZNK6Kasten8InfoTool10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten8InfoTool11isApplyableEv@ABI_4_0 4:4.6.1
  _ZNK6Kasten8InfoTool19isStatisticUptodateEv@ABI_4_0 4:4.6.1
@@ -597,6 +651,7 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZTIN6Kasten20GotoOffsetControllerE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten20ViewConfigControllerE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten20ViewStatusControllerE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten21CharsetConversionToolE@ABI_4_0 4:4.7.1
  _ZTIN6Kasten21FilterToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten21PodDecoderToolFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten21SelectRangeControllerE@ABI_4_0 4:4.6.1
@@ -606,10 +661,13 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZTIN6Kasten23OverwriteModeControllerE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten24BookmarksToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten24ByteTableToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten25CharsetConversionToolViewE@ABI_4_0 4:4.7.1
  _ZTIN6Kasten25PodDecoderToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten25StringsExtractToolFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten25StructuresToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten28CharsetConversionToolFactoryE@ABI_4_0 4:4.7.1
  _ZTIN6Kasten29StringsExtractToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTIN6Kasten32CharsetConversionToolViewFactoryE@ABI_4_0 4:4.7.1
  _ZTIN6Kasten8InfoToolE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten10FilterToolE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten10StructToolE@ABI_4_0 4:4.6.1
@@ -641,6 +699,7 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZTSN6Kasten20GotoOffsetControllerE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten20ViewConfigControllerE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten20ViewStatusControllerE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten21CharsetConversionToolE@ABI_4_0 4:4.7.1
  _ZTSN6Kasten21FilterToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten21PodDecoderToolFactoryE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten21SelectRangeControllerE@ABI_4_0 4:4.6.1
@@ -650,10 +709,13 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZTSN6Kasten23OverwriteModeControllerE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten24BookmarksToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten24ByteTableToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten25CharsetConversionToolViewE@ABI_4_0 4:4.7.1
  _ZTSN6Kasten25PodDecoderToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten25StringsExtractToolFactoryE@ABI_4_0 4:4.6.1
  _ZTSN6Kasten25StructuresToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten28CharsetConversionToolFactoryE@ABI_4_0 4:4.7.1
  _ZTSN6Kasten29StringsExtractToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTSN6Kasten32CharsetConversionToolViewFactoryE@ABI_4_0 4:4.7.1
  _ZTSN6Kasten8InfoToolE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten10FilterToolE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten10StructToolE@ABI_4_0 4:4.6.1
@@ -685,6 +747,7 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZTVN6Kasten20GotoOffsetControllerE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten20ViewConfigControllerE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten20ViewStatusControllerE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten21CharsetConversionToolE@ABI_4_0 4:4.7.1
  _ZTVN6Kasten21FilterToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten21PodDecoderToolFactoryE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten21SelectRangeControllerE@ABI_4_0 4:4.6.1
@@ -694,10 +757,13 @@ liboktetakastencontrollers.so.4 liboktetakastencontrollers4 #MINVER#
  _ZTVN6Kasten23OverwriteModeControllerE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten24BookmarksToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten24ByteTableToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten25CharsetConversionToolViewE@ABI_4_0 4:4.7.1
  _ZTVN6Kasten25PodDecoderToolViewFactoryE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten25StringsExtractToolFactoryE@ABI_4_0 4:4.6.1
  _ZTVN6Kasten25StructuresToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten28CharsetConversionToolFactoryE@ABI_4_0 4:4.7.1
  _ZTVN6Kasten29StringsExtractToolViewFactoryE@ABI_4_0 4:4.6.1
+ _ZTVN6Kasten32CharsetConversionToolViewFactoryE@ABI_4_0 4:4.7.1
  _ZTVN6Kasten8InfoToolE@ABI_4_0 4:4.6.1
  (c++)"non-virtual thunk to Kasten::ReplaceController::queryContinue(Kasten::KFindDirection, int) const@ABI_4_0" 4:4.6.1
  (c++)"non-virtual thunk to Kasten::ReplaceController::queryReplaceCurrent() const@ABI_4_0" 4:4.6.1

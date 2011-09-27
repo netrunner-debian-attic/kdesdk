@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.5 amd64
+# SymbolsHelper-Confirmed: 4:4.7.1 amd64
 liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -90,6 +90,8 @@ liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
  _ZN6Okteta17ByteArrayComboBox11qt_metacastEPKc@ABI_4_0 4:4.6.1
  _ZN6Okteta17ByteArrayComboBox12setByteArrayERK10QByteArray@ABI_4_0 4:4.6.1
  _ZN6Okteta17ByteArrayComboBox12setCharCodecERK7QString@ABI_4_0 4:4.6.1
+ _ZN6Okteta17ByteArrayComboBox12setMaxLengthEi@ABI_4_0 4:4.7.1
+ _ZN6Okteta17ByteArrayComboBox12setMinLengthEi@ABI_4_0 4:4.7.1
  _ZN6Okteta17ByteArrayComboBox13formatChangedEi@ABI_4_0 4:4.6.1
  _ZN6Okteta17ByteArrayComboBox16byteArrayChangedERK10QByteArray@ABI_4_0 4:4.6.1
  _ZN6Okteta17ByteArrayComboBox16staticMetaObjectE@ABI_4_0 4:4.6.1
@@ -140,6 +142,8 @@ liboktetakastengui.so.4 liboktetakastengui4 #MINVER#
  _ZNK6Okteta17ByteArrayComboBox10metaObjectEv@ABI_4_0 4:4.6.1
  _ZNK6Okteta17ByteArrayComboBox6formatEv@ABI_4_0 4:4.6.1
  _ZNK6Okteta17ByteArrayComboBox9byteArrayEv@ABI_4_0 4:4.6.1
+ _ZNK6Okteta17ByteArrayComboBox9maxLengthEv@ABI_4_0 4:4.7.1
+ _ZNK6Okteta17ByteArrayComboBox9minLengthEv@ABI_4_0 4:4.7.1
  _ZTIN6Kasten13ByteArrayViewE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten19AbstractViewFactoryE@ABI_4_0 4:4.6.1
  _ZTIN6Kasten20ByteArrayViewFactoryE@ABI_4_0 4:4.6.1
