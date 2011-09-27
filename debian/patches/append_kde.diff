@@ -1,18 +1,18 @@
+Rename svn-clean to svn-clean-kde to avoid conflicts with subversion-tools
 --- a/scripts/CMakeLists.txt
 +++ b/scripts/CMakeLists.txt
-@@ -43,7 +43,6 @@
+@@ -42,7 +42,6 @@
    cvs-clean 
    cvsblame 
    colorsvn 
 -  svn-clean 
    svnlastchange 
    svnversions 
-   kdesrc-build 
-@@ -65,4 +64,6 @@
+   extractrc 
+@@ -63,4 +62,5 @@
    kde_generate_export_header
    kde-systemsettings-tree.py
    DESTINATION ${BIN_INSTALL_DIR})
 - 
 +
 +install(PROGRAMS svn-clean DESTINATION ${BIN_INSTALL_DIR} RENAME svn-clean-kde)
-+

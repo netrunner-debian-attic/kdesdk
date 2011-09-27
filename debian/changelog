@@ -6,6 +6,7 @@ kdesdk (4:4.7.1-0r0) UNRELEASED; urgency=low
     * Bump kde-sc-dev-latest to 4:4.7.1.
     * Bump kdepimlibs5-dev to >= 4:4.7.
     * Bump libkonq5-dev to >= 4:4.7.
+  * Update append_kde.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Sep 2011 13:26:57 +0100
 
