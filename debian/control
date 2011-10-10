@@ -28,7 +28,7 @@ Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${so
  poxml (>= ${source:Version}), umbrello (>= ${source:Version}),
  kpartloader (>= ${source:Version}), kmtrace (>= ${source:Version}),
  kdesdk-dolphin-plugins (>= ${source:Version}),
- okteta (>= ${source:Version})
+ okteta (>= ${source:Version}), kate
 Suggests: kcachegrind-converters (>= ${source:Version})
 Description: Software Development Kit from the official KDE release
  KDE is produced by an international technology team that creates free and open
@@ -444,7 +444,7 @@ Package: kdesdk-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kdebase-runtime-dbg
+Depends: ${misc:Depends}, kdebase-runtime-dbg, kate-dbg
 Replaces: kdeutils-dbg (<< 4:4.6)
 Breaks: kdeutils-dbg (<< 4:4.6)
 Suggests: kdesdk (= ${source:Version})
