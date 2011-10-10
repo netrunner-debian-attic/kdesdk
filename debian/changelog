@@ -1,11 +1,11 @@
-kdesdk (4:4.7.1-0r0) UNRELEASED; urgency=low
+kdesdk (4:4.7.2-0r0) UNRELEASED; urgency=low
 
   * New upstream release:
     - stops using the deprecated Switch.pm perl module. (Closes: #629339)
 
   [ Daniele E. Domenichelli ]
   * Update build dependencies:
-    * Bump kde-sc-dev-latest to 4:4.7.1.
+    * Bump kde-sc-dev-latest to 4:4.7.2.
     * Bump kdepimlibs5-dev to >= 4:4.7.
     * Bump libkonq5-dev to >= 4:4.7.
   * Update append_kde.diff.
