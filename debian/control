@@ -329,7 +329,7 @@ Section: devel
 Depends: okteta (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends},
  libkastencontrollers4 (= ${binary:Version}), libkastencore4 (= ${binary:Version}),
  libkastengui4 (= ${binary:Version}), liboktetacore4 (= ${binary:Version}),
- liboktetagui4 (= ${binary:Version}), liboktetakastencontrollers4 (= ${binary:Version}),
+ liboktetagui4 (= ${binary:Version}), liboktetakastencontrollers4abi1 (= ${binary:Version}),
  liboktetakastencore4 (= ${binary:Version}), liboktetakastengui4 (= ${binary:Version})
 Description: Development files for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
@@ -401,9 +401,9 @@ Description: gui Okteta library
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: liboktetakastencontrollers4
+Package: liboktetakastencontrollers4abi1
 Architecture: any
-X-Debian-ABI: 0
+X-Debian-ABI: 1
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)
