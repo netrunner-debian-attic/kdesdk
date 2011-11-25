@@ -444,7 +444,7 @@ Package: kdesdk-dbg
 Section: debug
 Architecture: any
 Priority: extra
-Depends: ${misc:Depends}, kdebase-runtime-dbg, kate-dbg
+Depends: ${misc:Depends}, kde-runtime-dbg, kate-dbg
 Replaces: kdeutils-dbg (<< 4:4.6)
 Breaks: kdeutils-dbg (<< 4:4.6)
 Suggests: kdesdk (= ${source:Version})

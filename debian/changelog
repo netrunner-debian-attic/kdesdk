@@ -18,6 +18,10 @@ kdesdk (4:4.7.2-0r1) UNRELEASED; urgency=low
   [ José Manuel Santamaría Lema ]
   * Bump liboktetakastencontrollers ABI version due to a BIC issue.
 
+  [ Pino Toscano ]
+  * Manage some packages renamings:
+    - kdesdk-dbg depends on kde-runtime-dbg instead of kdebase-runtime-dbg.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Sep 2011 13:26:57 +0100
 
 kdesdk (4:4.6.5-1) unstable; urgency=low
