@@ -1,4 +1,4 @@
-kdesdk (4:4.7.2-0r1) UNRELEASED; urgency=low
+kdesdk (4:4.7.2-0r1) experimental; urgency=low
 
   * New upstream release:
     - stops using the deprecated Switch.pm perl module. (Closes: #629339)
@@ -22,7 +22,7 @@ kdesdk (4:4.7.2-0r1) UNRELEASED; urgency=low
   * Manage some packages renamings:
     - kdesdk-dbg depends on kde-runtime-dbg instead of kdebase-runtime-dbg.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 27 Sep 2011 13:26:57 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 03 Dec 2011 10:43:38 -0300
 
 kdesdk (4:4.6.5-1) unstable; urgency=low
 
