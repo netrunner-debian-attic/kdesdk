@@ -4,6 +4,16 @@ include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 .PHONY: override_dh_auto_test
 
+override_dh_install:
+	$(overridden_command)
+ifeq ($(DEB_HOST_ARCH_ENDIAN),little)
+	dh_install --autodest -pokteta-dev usr/include/kasten/structtool.h
+	dh_install --autodest -pokteta-dev usr/include/kasten/structtoolview.h
+	dh_install --autodest -pokteta-dev usr/include/kasten/structurestoolfactory.h
+	dh_install --autodest -pokteta-dev usr/include/kasten/structurestoolviewfactory.h
+	dh_install --autodest -pokteta usr/share/kde4/config/okteta-structures.knsrc
+endif
+
 override_dh_makeshlibs:
 	$(overridden_command) -- -c0
 

@@ -287,10 +287,6 @@ usr/include/kasten/stringsextracttool.h
 usr/include/kasten/stringsextracttoolfactory.h
 usr/include/kasten/stringsextracttoolview.h
 usr/include/kasten/stringsextracttoolviewfactory.h
-usr/include/kasten/structtool.h
-usr/include/kasten/structtoolview.h
-usr/include/kasten/structurestoolfactory.h
-usr/include/kasten/structurestoolviewfactory.h
 usr/include/kasten/switchviewcontroller.h
 usr/include/kasten/synchronizecontroller.h
 usr/include/kasten/tabbedviews.h

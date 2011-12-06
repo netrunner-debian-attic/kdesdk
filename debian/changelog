@@ -4,6 +4,12 @@ kdesdk (4:4.7.4-0r0) UNRELEASED; urgency=low
   
   [ José Manuel Santamaría Lema ]
   * Bump kde-sc-dev-latest to 4:4.7.4.
+  * Make this source package build properly with big endian architectures:
+    - Add okteta_big_endian.diff to disable part of okteta funcionality
+      (allegedly broken on big endian architectures).
+    - Change debian/rules and some debian/*.install to install conditionally
+      some files depending on the architecture endian-ness. These files are
+      related to the allegedly broken functionality mentioned above.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Dec 2011 05:28:26 +0100
 

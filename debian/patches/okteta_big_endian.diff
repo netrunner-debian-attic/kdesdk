@@ -1,0 +1,56 @@
+--- a/okteta/kasten/controllers/CMakeLists.txt
++++ b/okteta/kasten/controllers/CMakeLists.txt
+@@ -394,6 +394,15 @@ set( OKTETA_KASTEN_CONTROLLERS_SRCS
+   ${STRUCTVIEW_SRCS}
+ )
+ 
++if( NOT NO_STRUCTURES_TOOL )
++set( STRUCTVIEW_HDRS
++  view/structures/structtool.h
++  view/structures/structtoolview.h
++  view/structures/structurestoolfactory.h
++  view/structures/structurestoolviewfactory.h
++)
++endif( NOT NO_STRUCTURES_TOOL )
++
+ set( okteta_kastencontrollers_LIB_HDRS
+   oktetakastencontrollers_export.h
+   view/print/printcontroller.h
+@@ -441,10 +450,6 @@ set( okteta_kastencontrollers_LIB_HDRS
+   view/stringsextract/stringsextracttoolviewfactory.h
+   view/search/searchcontroller.h
+   view/search/searchuserqueryable.h
+-  view/structures/structtool.h
+-  view/structures/structtoolview.h
+-  view/structures/structurestoolfactory.h
+-  view/structures/structurestoolviewfactory.h
+   document/info/documentinfotoolview.h
+   document/info/documentinfotool.h
+   document/overwriteonly/overwriteonlycontroller.h
+@@ -481,7 +486,13 @@ install( FILES ${okteta_kastencontroller
+   DESTINATION ${OKTETAKASTEN_INCLUDE_INSTALL_DIR}
+   COMPONENT Devel
+ )
++if( NOT NO_STRUCTURES_TOOL )
++install( FILES ${STRUCTVIEW_HDRS}
++  DESTINATION ${OKTETAKASTEN_INCLUDE_INSTALL_DIR}
++  COMPONENT Devel
++)
+ install( FILES view/structures/kns/okteta-structures.knsrc  DESTINATION  ${CONFIG_INSTALL_DIR} )
++endif( NOT NO_STRUCTURES_TOOL )
+ 
+ set( elf_structure_FILES
+   view/structures/examples/elf/elf.desktop
+--- a/okteta/program/mainwindow.cpp
++++ b/okteta/program/mainwindow.cpp
+@@ -43,8 +43,10 @@
+ #include <bytetable/bytetabletool.h>
+ #include <bookmarks/bookmarkstoolview.h>
+ #include <bookmarks/bookmarkstool.h>
++#ifndef NO_STRUCTURES_TOOL
+ #include <structures/structtoolview.h>
+ #include <structures/structtool.h>
++#endif
+ // Kasten tools
+ #include <document/versionview/versionviewtoolview.h>
+ #include <document/versionview/versionviewtool.h>
