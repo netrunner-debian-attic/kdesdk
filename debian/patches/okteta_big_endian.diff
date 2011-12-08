@@ -1,3 +1,8 @@
+Author: José Manuel Santamaría Lema <panfaust@gmail.com>
+Description: This patch makes okteta build on big endian architectures, also
+ avoids installing uneccesary files for that architectures. Part of this patch
+ is already applied on upstream vcs, see:
+ http://websvn.kde.org/?view=revision&revision=1258090
 --- a/okteta/kasten/controllers/CMakeLists.txt
 +++ b/okteta/kasten/controllers/CMakeLists.txt
 @@ -394,6 +394,15 @@ set( OKTETA_KASTEN_CONTROLLERS_SRCS
