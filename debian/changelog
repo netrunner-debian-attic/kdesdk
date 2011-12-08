@@ -10,8 +10,6 @@ kdesdk (4:4.7.4-0r1) UNRELEASED; urgency=low
     - Change debian/rules and some debian/*.install to install conditionally
       some files depending on the architecture endian-ness. These files are
       related to the allegedly broken functionality mentioned above.
-    - Bump liboktetakastencontrollers4 ABI version to 2 because disabling that
-      functionality breaks ABI in big endian architectures.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Dec 2011 05:28:26 +0100
 
