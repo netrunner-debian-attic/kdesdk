@@ -1,8 +1,11 @@
 Author: José Manuel Santamaría Lema <panfaust@gmail.com>
+Author: Alexander Richardson <alex.richardson@gmx.de>
 Description: This patch makes okteta build on big endian architectures, also
- avoids installing uneccesary files for that architectures. Part of this patch
- is already applied on upstream vcs, see:
- http://websvn.kde.org/?view=revision&revision=1258090
+ avoids installing unnecessary files for those architectures.
+ Part of this patch is already applied on upstream VCS.
+Applied-Upstream: 4.8, commit:1258090 (for okteta/program/mainwindow.cpp)
+Last-Update: 2011-12-08
+
 --- a/okteta/kasten/controllers/CMakeLists.txt
 +++ b/okteta/kasten/controllers/CMakeLists.txt
 @@ -394,6 +394,15 @@ set( OKTETA_KASTEN_CONTROLLERS_SRCS
