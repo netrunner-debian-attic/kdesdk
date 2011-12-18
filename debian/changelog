@@ -1,4 +1,4 @@
-kdesdk (4:4.7.4-0r2) UNRELEASED; urgency=low
+kdesdk (4:4.7.4-1) experimental; urgency=low
 
   * New upstream release.
   
@@ -15,7 +15,7 @@ kdesdk (4:4.7.4-0r2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add DEP3 headers to patch append_kde.diff.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 06 Dec 2011 05:28:26 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 18 Dec 2011 03:20:26 +0100
 
 kdesdk (4:4.7.2-1) experimental; urgency=low
 
