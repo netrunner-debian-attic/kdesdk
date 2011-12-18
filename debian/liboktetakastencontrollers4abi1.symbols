@@ -1,6 +1,10 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
 liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  ABI_4_1@ABI_4_1 4:4.7.2
+ (arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@ABI_4_1 4:4.7.2
+ (arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@ABI_4_1 4:4.7.2
+ (arch=kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@ABI_4_1 4:4.7.2
+ (arch=kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten10FilterTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.7.2
  _ZN6Kasten10FilterTool11qt_metacastEPKc@ABI_4_1 4:4.7.2
  _ZN6Kasten10FilterTool12parameterSetEi@ABI_4_1 4:4.7.2
@@ -483,6 +487,8 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZN6Kasten8InfoToolD0Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten8InfoToolD1Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten8InfoToolD2Ev@ABI_4_1 4:4.7.2
+ (arch=kfreebsd-i386)_ZN6Okteta22BookmarksConstIteratorD1Ev@ABI_4_1 4:4.7.2
+ (arch=kfreebsd-i386)_ZN6Okteta22BookmarksConstIteratorD2Ev@ABI_4_1 4:4.7.2
  _ZNK6Kasten10FilterTool10filterListEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten10FilterTool10metaObjectEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten10FilterTool12hasWriteableEv@ABI_4_1 4:4.7.2

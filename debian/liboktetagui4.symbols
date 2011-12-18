@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.6.1 amd64
+# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
 liboktetagui.so.4 liboktetagui4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -237,6 +237,8 @@ liboktetagui.so.4 liboktetagui4 #MINVER#
  _ZN6Okteta22AbstractColumnRendererD0Ev@ABI_4_0 4:4.6.1
  _ZN6Okteta22AbstractColumnRendererD1Ev@ABI_4_0 4:4.6.1
  _ZN6Okteta22AbstractColumnRendererD2Ev@ABI_4_0 4:4.6.1
+ (arch=kfreebsd-i386)_ZN6Okteta22BookmarksConstIteratorD1Ev@ABI_4_0 4:4.7.2
+ (arch=kfreebsd-i386)_ZN6Okteta22BookmarksConstIteratorD2Ev@ABI_4_0 4:4.7.2
  _ZN6Okteta26ByteArrayRowColumnRenderer10renderByteEP8QPainteriNS_21AbstractByteArrayView12CodingTypeIdE@ABI_4_0 4:4.6.1
  _ZN6Okteta26ByteArrayRowColumnRenderer10setSpacingEiii@ABI_4_0 4:4.6.1
  _ZN6Okteta26ByteArrayRowColumnRenderer11renderPlainEP8QPainterRKN3KDE11NumberRangeIiiEEi@ABI_4_0 4:4.6.1
