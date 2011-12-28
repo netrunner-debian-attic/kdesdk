@@ -1,5 +1,10 @@
 kdesdk (4:4.7.4-2) UNRELEASED; urgency=low
 
+  * Add default-jre-headless to Build-Depends, thus we make sure that antlr
+    will use the latest gcj (4.6 today) when building with sbuild configured to
+    use the aptitude based resolver. Right now, this avoids an FTBFS on
+    kfreebsd-amd64; this FTBFS happens because of gcj 4.4, which segfaults when
+    executing antlr.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Dec 2011 22:13:03 +0100
 

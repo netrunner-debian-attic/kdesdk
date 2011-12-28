@@ -10,7 +10,8 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.7.4),
  kdepimlibs5-dev (>= 4:4.7), libphonon-dev (>= 4:4.3.1),
  libsvn-dev, libstreamanalyzer-dev (>= 0.6.3), libxslt1-dev, libboost-dev,
  binutils-dev, libhunspell-dev, libltdl-dev, libx11-dev, x11proto-core-dev,
- shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.7), libantlr-dev, antlr,
+ shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.7),
+ libantlr-dev, antlr, default-jre-headless,
  libqca2-dev
 Standards-Version: 3.9.2
 Homepage: http://www.kde.org
