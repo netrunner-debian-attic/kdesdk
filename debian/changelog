@@ -1,4 +1,4 @@
-kdesdk (4:4.7.4-2) UNRELEASED; urgency=low
+kdesdk (4:4.7.4-2) experimental; urgency=low
 
   * Add default-jre-headless to Build-Depends, thus we make sure that antlr
     will use the latest gcj (4.6 today) when building with sbuild configured to
@@ -6,7 +6,7 @@ kdesdk (4:4.7.4-2) UNRELEASED; urgency=low
     kfreebsd-amd64; this FTBFS happens because of gcj 4.4, which segfaults when
     executing antlr.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Dec 2011 22:13:03 +0100
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 28 Dec 2011 22:22:31 +0100
 
 kdesdk (4:4.7.4-1) experimental; urgency=low
 
