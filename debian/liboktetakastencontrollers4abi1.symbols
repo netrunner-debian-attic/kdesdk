@@ -1,10 +1,10 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  ABI_4_1@ABI_4_1 4:4.7.2
  (arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@ABI_4_1 4:4.7.2
  (arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@ABI_4_1 4:4.7.2
- (arch=kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@ABI_4_1 4:4.7.2
- (arch=kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@ABI_4_1 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@ABI_4_1 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@ABI_4_1 4:4.7.4
  _ZN6Kasten10FilterTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.7.2
  _ZN6Kasten10FilterTool11qt_metacastEPKc@ABI_4_1 4:4.7.2
  _ZN6Kasten10FilterTool12parameterSetEi@ABI_4_1 4:4.7.2
@@ -18,39 +18,39 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZN6Kasten10FilterToolD0Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten10FilterToolD1Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten10FilterToolD2Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool10headerDataEii@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool10updateDataERKN6Okteta22ArrayChangeMetricsListE@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool11dataChangedEiPv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool11dataClearedEv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool11qt_metacastEPKc@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool12addChildItemEP23TopLevelDataInformation@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool12setByteOrderENS_21StructViewPreferences13EnumByteOrder4typeE@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool12setByteOrderEi@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool13lockStructureE11QModelIndex@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool14setTargetModelEPNS_13AbstractModelE@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool15childrenRemovedEPK15DataInformationjj@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool15unlockStructureE11QModelIndex@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool16byteOrderChangedEv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool16childrenInsertedEPK15DataInformationjj@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool16onContentsChangeERKN6Okteta22ArrayChangeMetricsListE@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool16staticMetaObjectE@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool18cursorIndexChangedEv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool21byteArrayModelChangedEb@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool21validateAllStructuresEv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool22onChildItemDataChangedEv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool22onCursorPositionChangeEi@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool24childrenAboutToBeRemovedEP15DataInformationjj@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool25childrenAboutToBeInsertedEP15DataInformationjj@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool27setSelectedStructuresInViewEv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool4markERK11QModelIndex@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool6unmarkEv@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructTool7setDataERK8QVariantiP15DataInformation@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructToolC1Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructToolC2Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructToolD0Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructToolD1Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten10StructToolD2Ev@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool10headerDataEii@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool10updateDataERKN6Okteta22ArrayChangeMetricsListE@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool11dataChangedEiPv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool11dataClearedEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool11qt_metacastEPKc@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool12addChildItemEP23TopLevelDataInformation@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool12setByteOrderENS_21StructViewPreferences13EnumByteOrder4typeE@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool12setByteOrderEi@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool13lockStructureE11QModelIndex@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool14setTargetModelEPNS_13AbstractModelE@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool15childrenRemovedEPK15DataInformationjj@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool15unlockStructureE11QModelIndex@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool16byteOrderChangedEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool16childrenInsertedEPK15DataInformationjj@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool16onContentsChangeERKN6Okteta22ArrayChangeMetricsListE@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool16staticMetaObjectE@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool18cursorIndexChangedEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool21byteArrayModelChangedEb@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool21validateAllStructuresEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool22onChildItemDataChangedEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool22onCursorPositionChangeEi@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool24childrenAboutToBeRemovedEP15DataInformationjj@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool25childrenAboutToBeInsertedEP15DataInformationjj@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool27setSelectedStructuresInViewEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool4markERK11QModelIndex@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool6unmarkEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructTool7setDataERK8QVariantiP15DataInformation@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructToolC1Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructToolC2Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructToolD0Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructToolD1Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten10StructToolD2Ev@ABI_4_1 4:4.7.4
  _ZN6Kasten12ChecksumTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_1 4:4.7.2
  _ZN6Kasten12ChecksumTool11qt_metacastEPKc@ABI_4_1 4:4.7.2
  _ZN6Kasten12ChecksumTool12parameterSetEv@ABI_4_1 4:4.7.2
@@ -137,11 +137,11 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZN6Kasten14PODDecoderToolD0Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten14PODDecoderToolD1Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten14PODDecoderToolD2Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten14StructToolViewC1EPNS_10StructToolE@ABI_4_1 4:4.7.2
- _ZN6Kasten14StructToolViewC2EPNS_10StructToolE@ABI_4_1 4:4.7.2
- _ZN6Kasten14StructToolViewD0Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten14StructToolViewD1Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten14StructToolViewD2Ev@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten14StructToolViewC1EPNS_10StructToolE@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten14StructToolViewC2EPNS_10StructToolE@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten14StructToolViewD0Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten14StructToolViewD1Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten14StructToolViewD2Ev@ABI_4_1 4:4.7.4
  _ZN6Kasten15InfoToolFactory6createEv@ABI_4_1 4:4.7.2
  _ZN6Kasten15InfoToolFactoryC1Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten15InfoToolFactoryC2Ev@ABI_4_1 4:4.7.2
@@ -392,12 +392,12 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZN6Kasten21SelectRangeControllerD0Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten21SelectRangeControllerD1Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten21SelectRangeControllerD2Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten21StructuresToolFactory6createEv@ABI_4_1 4:4.7.2
- _ZN6Kasten21StructuresToolFactoryC1Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten21StructuresToolFactoryC2Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten21StructuresToolFactoryD0Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten21StructuresToolFactoryD1Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten21StructuresToolFactoryD2Ev@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten21StructuresToolFactory6createEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten21StructuresToolFactoryC1Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten21StructuresToolFactoryC2Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten21StructuresToolFactoryD0Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten21StructuresToolFactoryD1Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten21StructuresToolFactoryD2Ev@ABI_4_1 4:4.7.4
  _ZN6Kasten22StringsExtractToolViewC1EPNS_18StringsExtractToolE@ABI_4_1 4:4.7.2
  _ZN6Kasten22StringsExtractToolViewC2EPNS_18StringsExtractToolE@ABI_4_1 4:4.7.2
  _ZN6Kasten22StringsExtractToolViewD0Ev@ABI_4_1 4:4.7.2
@@ -448,12 +448,12 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZN6Kasten25StringsExtractToolFactoryD0Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten25StringsExtractToolFactoryD1Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten25StringsExtractToolFactoryD2Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten25StructuresToolViewFactory6createEPNS_12AbstractToolE@ABI_4_1 4:4.7.2
- _ZN6Kasten25StructuresToolViewFactoryC1Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten25StructuresToolViewFactoryC2Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten25StructuresToolViewFactoryD0Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten25StructuresToolViewFactoryD1Ev@ABI_4_1 4:4.7.2
- _ZN6Kasten25StructuresToolViewFactoryD2Ev@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten25StructuresToolViewFactory6createEPNS_12AbstractToolE@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten25StructuresToolViewFactoryC1Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten25StructuresToolViewFactoryC2Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten25StructuresToolViewFactoryD0Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten25StructuresToolViewFactoryD1Ev@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZN6Kasten25StructuresToolViewFactoryD2Ev@ABI_4_1 4:4.7.4
  _ZN6Kasten28CharsetConversionToolFactory6createEv@ABI_4_1 4:4.7.2
  _ZN6Kasten28CharsetConversionToolFactoryC1Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten28CharsetConversionToolFactoryC2Ev@ABI_4_1 4:4.7.2
@@ -487,22 +487,22 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZN6Kasten8InfoToolD0Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten8InfoToolD1Ev@ABI_4_1 4:4.7.2
  _ZN6Kasten8InfoToolD2Ev@ABI_4_1 4:4.7.2
- (arch=kfreebsd-i386)_ZN6Okteta22BookmarksConstIteratorD1Ev@ABI_4_1 4:4.7.2
- (arch=kfreebsd-i386)_ZN6Okteta22BookmarksConstIteratorD2Ev@ABI_4_1 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Okteta22BookmarksConstIteratorD1Ev@ABI_4_1 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Okteta22BookmarksConstIteratorD2Ev@ABI_4_1 4:4.7.4
  _ZNK6Kasten10FilterTool10filterListEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten10FilterTool10metaObjectEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten10FilterTool12hasWriteableEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten10FilterTool13charCodecNameEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten10FilterTool5titleEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten10FilterTool6filterEi@ABI_4_1 4:4.7.2
- _ZNK6Kasten10StructTool10childCountEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten10StructTool10metaObjectEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten10StructTool11columnCountEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten10StructTool17isStructureLockedE11QModelIndex@ABI_4_1 4:4.7.2
- _ZNK6Kasten10StructTool20canStructureBeLockedE11QModelIndex@ABI_4_1 4:4.7.2
- _ZNK6Kasten10StructTool5flagsEiP15DataInformation@ABI_4_1 4:4.7.2
- _ZNK6Kasten10StructTool5titleEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten10StructTool7childAtEi@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten10StructTool10childCountEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten10StructTool10metaObjectEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten10StructTool11columnCountEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten10StructTool17isStructureLockedE11QModelIndex@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten10StructTool20canStructureBeLockedE11QModelIndex@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten10StructTool5flagsEiP15DataInformation@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten10StructTool5titleEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten10StructTool7childAtEi@ABI_4_1 4:4.7.4
  _ZNK6Kasten12ChecksumTool10metaObjectEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten12ChecksumTool11isApplyableEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten12ChecksumTool13algorithmListEv@ABI_4_1 4:4.7.2
@@ -530,9 +530,9 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZNK6Kasten14PODDecoderTool5valueEi@ABI_4_1 4:4.7.2
  _ZNK6Kasten14PODDecoderTool8podCountEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten14PODDecoderTool9nameOfPODEi@ABI_4_1 4:4.7.2
- _ZNK6Kasten14StructToolView4toolEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten14StructToolView5titleEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten14StructToolView6widgetEv@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten14StructToolView4toolEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten14StructToolView5titleEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten14StructToolView6widgetEv@ABI_4_1 4:4.7.4
  _ZNK6Kasten15PrintController10metaObjectEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten16ChecksumToolView4toolEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten16ChecksumToolView5titleEv@ABI_4_1 4:4.7.2
@@ -607,10 +607,10 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZNK6Kasten25PodDecoderToolViewFactory2idEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten25PodDecoderToolViewFactory5titleEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten25PodDecoderToolViewFactory8iconNameEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten25StructuresToolViewFactory15defaultPositionEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten25StructuresToolViewFactory2idEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten25StructuresToolViewFactory5titleEv@ABI_4_1 4:4.7.2
- _ZNK6Kasten25StructuresToolViewFactory8iconNameEv@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten25StructuresToolViewFactory15defaultPositionEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten25StructuresToolViewFactory2idEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten25StructuresToolViewFactory5titleEv@ABI_4_1 4:4.7.4
+ (arch=!powerpc !s390 !s390x !sparc)_ZNK6Kasten25StructuresToolViewFactory8iconNameEv@ABI_4_1 4:4.7.4
  _ZNK6Kasten29StringsExtractToolViewFactory15defaultPositionEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten29StringsExtractToolViewFactory2idEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten29StringsExtractToolViewFactory5titleEv@ABI_4_1 4:4.7.2
@@ -626,14 +626,14 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZNK6Kasten8InfoTool4sizeEv@ABI_4_1 4:4.7.2
  _ZNK6Kasten8InfoTool5titleEv@ABI_4_1 4:4.7.2
  _ZTIN6Kasten10FilterToolE@ABI_4_1 4:4.7.2
- _ZTIN6Kasten10StructToolE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTIN6Kasten10StructToolE@ABI_4_1 4:4.7.4
  _ZTIN6Kasten12ChecksumToolE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten12InfoToolViewE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten13BookmarksToolE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten13ByteTableToolE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten14FilterToolViewE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten14PODDecoderToolE@ABI_4_1 4:4.7.2
- _ZTIN6Kasten14StructToolViewE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTIN6Kasten14StructToolViewE@ABI_4_1 4:4.7.4
  _ZTIN6Kasten15InfoToolFactoryE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten15PrintControllerE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten16ChecksumToolViewE@ABI_4_1 4:4.7.2
@@ -659,7 +659,7 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZTIN6Kasten21FilterToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten21PodDecoderToolFactoryE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten21SelectRangeControllerE@ABI_4_1 4:4.7.2
- _ZTIN6Kasten21StructuresToolFactoryE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTIN6Kasten21StructuresToolFactoryE@ABI_4_1 4:4.7.4
  _ZTIN6Kasten22StringsExtractToolViewE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten23ChecksumToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten23OverwriteModeControllerE@ABI_4_1 4:4.7.2
@@ -668,20 +668,20 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZTIN6Kasten25CharsetConversionToolViewE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten25PodDecoderToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten25StringsExtractToolFactoryE@ABI_4_1 4:4.7.2
- _ZTIN6Kasten25StructuresToolViewFactoryE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTIN6Kasten25StructuresToolViewFactoryE@ABI_4_1 4:4.7.4
  _ZTIN6Kasten28CharsetConversionToolFactoryE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten29StringsExtractToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten32CharsetConversionToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTIN6Kasten8InfoToolE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten10FilterToolE@ABI_4_1 4:4.7.2
- _ZTSN6Kasten10StructToolE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTSN6Kasten10StructToolE@ABI_4_1 4:4.7.4
  _ZTSN6Kasten12ChecksumToolE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten12InfoToolViewE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten13BookmarksToolE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten13ByteTableToolE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten14FilterToolViewE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten14PODDecoderToolE@ABI_4_1 4:4.7.2
- _ZTSN6Kasten14StructToolViewE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTSN6Kasten14StructToolViewE@ABI_4_1 4:4.7.4
  _ZTSN6Kasten15InfoToolFactoryE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten15PrintControllerE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten16ChecksumToolViewE@ABI_4_1 4:4.7.2
@@ -707,7 +707,7 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZTSN6Kasten21FilterToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten21PodDecoderToolFactoryE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten21SelectRangeControllerE@ABI_4_1 4:4.7.2
- _ZTSN6Kasten21StructuresToolFactoryE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTSN6Kasten21StructuresToolFactoryE@ABI_4_1 4:4.7.4
  _ZTSN6Kasten22StringsExtractToolViewE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten23ChecksumToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten23OverwriteModeControllerE@ABI_4_1 4:4.7.2
@@ -716,20 +716,20 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZTSN6Kasten25CharsetConversionToolViewE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten25PodDecoderToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten25StringsExtractToolFactoryE@ABI_4_1 4:4.7.2
- _ZTSN6Kasten25StructuresToolViewFactoryE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTSN6Kasten25StructuresToolViewFactoryE@ABI_4_1 4:4.7.4
  _ZTSN6Kasten28CharsetConversionToolFactoryE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten29StringsExtractToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten32CharsetConversionToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTSN6Kasten8InfoToolE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten10FilterToolE@ABI_4_1 4:4.7.2
- _ZTVN6Kasten10StructToolE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTVN6Kasten10StructToolE@ABI_4_1 4:4.7.4
  _ZTVN6Kasten12ChecksumToolE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten12InfoToolViewE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten13BookmarksToolE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten13ByteTableToolE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten14FilterToolViewE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten14PODDecoderToolE@ABI_4_1 4:4.7.2
- _ZTVN6Kasten14StructToolViewE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTVN6Kasten14StructToolViewE@ABI_4_1 4:4.7.4
  _ZTVN6Kasten15InfoToolFactoryE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten15PrintControllerE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten16ChecksumToolViewE@ABI_4_1 4:4.7.2
@@ -755,7 +755,7 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZTVN6Kasten21FilterToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten21PodDecoderToolFactoryE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten21SelectRangeControllerE@ABI_4_1 4:4.7.2
- _ZTVN6Kasten21StructuresToolFactoryE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTVN6Kasten21StructuresToolFactoryE@ABI_4_1 4:4.7.4
  _ZTVN6Kasten22StringsExtractToolViewE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten23ChecksumToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten23OverwriteModeControllerE@ABI_4_1 4:4.7.2
@@ -764,7 +764,7 @@ liboktetakastencontrollers.so.4abi1 liboktetakastencontrollers4abi1 #MINVER#
  _ZTVN6Kasten25CharsetConversionToolViewE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten25PodDecoderToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten25StringsExtractToolFactoryE@ABI_4_1 4:4.7.2
- _ZTVN6Kasten25StructuresToolViewFactoryE@ABI_4_1 4:4.7.2
+ (arch=!powerpc !s390 !s390x !sparc)_ZTVN6Kasten25StructuresToolViewFactoryE@ABI_4_1 4:4.7.4
  _ZTVN6Kasten28CharsetConversionToolFactoryE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten29StringsExtractToolViewFactoryE@ABI_4_1 4:4.7.2
  _ZTVN6Kasten32CharsetConversionToolViewFactoryE@ABI_4_1 4:4.7.2

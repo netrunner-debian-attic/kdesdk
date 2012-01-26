@@ -1,9 +1,9 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 libkastencore.so.4 libkastencore4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
- (arch=kfreebsd-i386)_ZN4KUrl4ListD1Ev@ABI_4_0 4:4.7.2
- (arch=kfreebsd-i386)_ZN4KUrl4ListD2Ev@ABI_4_0 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD1Ev@ABI_4_0 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN4KUrl4ListD2Ev@ABI_4_0 4:4.7.4
  _ZN6Kasten10JobManager10executeJobEP4KJobP7QWidget@ABI_4_0 4:4.6.1
  _ZN6Kasten12AbstractTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_4_0 4:4.6.1
  _ZN6Kasten12AbstractTool11qt_metacastEPKc@ABI_4_0 4:4.6.1

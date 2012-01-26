@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.7.2 amd64 armel i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 sparc
+# SymbolsHelper-Confirmed: 4:4.7.4 amd64 armel armhf hurd-i386 i386 ia64 kfreebsd-amd64 kfreebsd-i386 mips mipsel powerpc s390 s390x sparc
 liboktetacore.so.4 liboktetacore4 #MINVER#
 * Build-Depends-Package: okteta-dev
  ABI_4_0@ABI_4_0 4:4.6.1
@@ -108,8 +108,8 @@ liboktetacore.so.4 liboktetacore4 #MINVER#
  _ZN6Okteta24PieceTableByteArrayModelD0Ev@ABI_4_0 4:4.6.1
  _ZN6Okteta24PieceTableByteArrayModelD1Ev@ABI_4_0 4:4.6.1
  _ZN6Okteta24PieceTableByteArrayModelD2Ev@ABI_4_0 4:4.6.1
- (arch=kfreebsd-i386)_ZN6Okteta8BookmarkD1Ev@ABI_4_0 4:4.7.2
- (arch=kfreebsd-i386)_ZN6Okteta8BookmarkD2Ev@ABI_4_0 4:4.7.2
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Okteta8BookmarkD1Ev@ABI_4_0 4:4.7.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Okteta8BookmarkD2Ev@ABI_4_0 4:4.7.4
  _ZN6Okteta9CharCodec10codecNamesEv@ABI_4_0 4:4.6.1
  _ZN6Okteta9CharCodec11createCodecENS_10CharCodingE@ABI_4_0 4:4.6.1
  _ZN6Okteta9CharCodec11createCodecERK7QString@ABI_4_0 4:4.6.1
