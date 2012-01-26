@@ -1,3 +1,8 @@
+kdesdk (4:4.7.4-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 26 Jan 2012 18:01:26 +0100
+
 kdesdk (4:4.7.4-2) experimental; urgency=low
 
   * Add default-jre-headless to Build-Depends, thus we make sure that antlr
