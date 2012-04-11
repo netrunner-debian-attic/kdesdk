@@ -1,3 +1,9 @@
+kdesdk (4:4.7.4-4) UNRELEASED; urgency=low
+
+  * Changed the description of kdesdk-dolphin-plugins.
+
+ -- Jonathan Kolberg <bulldog98@kubuntu.org>  Wed, 11 Apr 2012 14:23:31 +0200
+
 kdesdk (4:4.7.4-3) unstable; urgency=low
 
   * Team upload. Upload to unstable.

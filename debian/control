@@ -132,8 +132,8 @@ Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}, dolphin
 Replaces: dolphin (<< 4:4.5.0)
 Description: dolphin VCS plugins
- This package contains plugins that offer Subversion and Git integration
- in Dolphin.
+ This package contains plugins that offer integration of various version
+ control systems in Dolphin.
  .
  This package is part of the KDE Software Development Kit module.
 
