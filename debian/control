@@ -216,7 +216,7 @@ Suggests: khelpcenter4
 Replaces: libcvsservice0 (<<4:4.0.0)
 Breaks: libcvsservice0 (<<4:4.0.0)
 Description: file difference viewer 
- Kompare is displays the differences between files.  It can compare the
+ Kompare displays the differences between files.  It can compare the
  contents of files or directories, as well as create, display, and merge patch
  files.
  .
