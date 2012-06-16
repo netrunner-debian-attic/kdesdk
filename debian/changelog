@@ -1,4 +1,6 @@
-kdesdk (4:4.7.4-4) UNRELEASED; urgency=low
+kdesdk (4:4.8.4-0r0) UNRELEASED; urgency=low
+  
+  * New upstream release.
 
   [ Pino Toscano ]
   * Fix typo in kompare's description. (Closes: #670199)
