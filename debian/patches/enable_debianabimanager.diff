@@ -9,7 +9,7 @@ For more information about DebianABIManager, refer to
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -106,3 +106,6 @@
+@@ -109,3 +109,6 @@ endif(LIBXSLT_FOUND AND LIBXML2_FOUND AN
  
  macro_optional_add_subdirectory(doc)
  macro_display_feature_log()

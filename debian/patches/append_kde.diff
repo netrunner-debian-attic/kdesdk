@@ -5,7 +5,7 @@ Bug-Debian: http://bugs.debian.org/461095
 
 --- a/scripts/CMakeLists.txt
 +++ b/scripts/CMakeLists.txt
-@@ -42,7 +42,6 @@
+@@ -42,7 +42,6 @@ install(PROGRAMS
    cvs-clean 
    cvsblame 
    colorsvn 
@@ -13,7 +13,7 @@ Bug-Debian: http://bugs.debian.org/461095
    svnlastchange 
    svnversions 
    extractrc 
-@@ -63,4 +62,5 @@
+@@ -62,4 +61,5 @@ install(PROGRAMS
    kde_generate_export_header
    kde-systemsettings-tree.py
    DESTINATION ${BIN_INSTALL_DIR})

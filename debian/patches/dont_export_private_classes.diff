@@ -1,13 +1,13 @@
 From: Modestas Vainius <modax@debian.org>
 Subject: Do not export private classes
-Last-Update: 2011-05-02
+Last-Update: 2012-06-16
 Forwarded: no
 Origin: vendor
 
 --- a/okteta/libs/kasten/core/io/filesystem/abstractfilesystemconnectjob_p.h
 +++ b/okteta/libs/kasten/core/io/filesystem/abstractfilesystemconnectjob_p.h
-@@ -36,7 +36,7 @@
- namespace Kasten
+@@ -34,7 +34,7 @@
+ namespace Kasten1
  {
  
 -class KASTENCORE_EXPORT AbstractFileSystemConnectJobPrivate : public AbstractConnectJobPrivate
@@ -17,7 +17,7 @@ Origin: vendor
      AbstractFileSystemConnectJobPrivate( AbstractFileSystemConnectJob* parent,
 --- a/okteta/libs/kasten/core/io/filesystem/abstractfilesystemsyncfromremotejob_p.h
 +++ b/okteta/libs/kasten/core/io/filesystem/abstractfilesystemsyncfromremotejob_p.h
-@@ -38,7 +38,7 @@ namespace Kasten
+@@ -36,7 +36,7 @@ namespace Kasten1
  class AbstractModelFileSystemSynchronizer;
  
  
@@ -28,8 +28,8 @@ Origin: vendor
      AbstractFileSystemSyncFromRemoteJobPrivate( AbstractFileSystemSyncFromRemoteJob* parent,
 --- a/okteta/libs/kasten/core/io/filesystem/abstractfilesystemsyncwithremotejob_p.h
 +++ b/okteta/libs/kasten/core/io/filesystem/abstractfilesystemsyncwithremotejob_p.h
-@@ -35,7 +35,7 @@
- namespace Kasten
+@@ -33,7 +33,7 @@
+ namespace Kasten1
  {
  
 -class KASTENCORE_EXPORT AbstractFileSystemSyncWithRemoteJobPrivate : public AbstractSyncWithRemoteJobPrivate
