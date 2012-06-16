@@ -15,13 +15,14 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
  shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.8),
  libantlr-dev, antlr, default-jre-headless,
  libqca2-dev
-Standards-Version: 3.9.2
+Standards-Version: 3.9.3
 Homepage: http://www.kde.org
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdesdk.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdesdk.git
 
 Package: kdesdk
 Architecture: all
+Section: metapackages
 Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
 # kbugbuster (>= ${source:Version}),
  kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins,
