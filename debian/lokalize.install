@@ -1,10 +1,14 @@
 usr/bin/lokalize
 usr/share/applications/kde4/lokalize.desktop
 usr/share/doc/kde/HTML/en/lokalize/common
+usr/share/doc/kde/HTML/en/lokalize/configure_shortcuts.png
+usr/share/doc/kde/HTML/en/lokalize/configure_toolbar.png
+usr/share/doc/kde/HTML/en/lokalize/default_editor_lokalize.png
 usr/share/doc/kde/HTML/en/lokalize/glossary.png
 usr/share/doc/kde/HTML/en/lokalize/index.cache.bz2
 usr/share/doc/kde/HTML/en/lokalize/index.docbook
 usr/share/doc/kde/HTML/en/lokalize/original-diff.png
+usr/share/doc/kde/HTML/en/lokalize/project_overview.png
 usr/share/doc/kde/HTML/en/lokalize/sync.png
 usr/share/doc/kde/HTML/en/lokalize/tmview.png
 usr/share/icons/hicolor/128x128/apps/lokalize.png
@@ -113,9 +117,6 @@ usr/share/kde4/apps/lokalize/lokalize.notifyrc
 usr/share/kde4/apps/lokalize/lokalizemainwindowui.rc
 usr/share/kde4/apps/lokalize/projectmanagerui.rc
 usr/share/kde4/apps/lokalize/scripts/find-gui-text.sh
-usr/share/kde4/apps/lokalize/scripts/kde/widget-text-capture.py
-usr/share/kde4/apps/lokalize/scripts/kde/widget-text-capture.rc
-usr/share/kde4/apps/lokalize/scripts/kde/widget-text-capture.ui
 usr/share/kde4/apps/lokalize/scripts/msgmerge.py
 usr/share/kde4/apps/lokalize/scripts/msgmerge.rc
 usr/share/kde4/apps/lokalize/scripts/newprojectwizard.py

@@ -19,7 +19,6 @@ usr/bin/cvsversion
 usr/bin/cxxmetric
 usr/bin/extend_dmalloc
 usr/bin/extractattr
-usr/bin/extractqml
 usr/bin/extractrc
 usr/bin/findmissingcrystal
 usr/bin/fix-include.sh

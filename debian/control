@@ -331,10 +331,10 @@ Package: okteta-dev
 Architecture: any
 Section: devel
 Depends: okteta (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends},
- libkastencontrollers4 (= ${binary:Version}), libkastencore4 (= ${binary:Version}),
- libkastengui4 (= ${binary:Version}), liboktetacore4 (= ${binary:Version}),
- liboktetagui4 (= ${binary:Version}), liboktetakastencontrollers4abi1 (= ${binary:Version}),
- liboktetakastencore4 (= ${binary:Version}), liboktetakastengui4 (= ${binary:Version})
+ libkasten1controllers1 (= ${binary:Version}), libkasten1core1 (= ${binary:Version}),
+ libkasten1gui1 (= ${binary:Version}), libokteta1core1 (= ${binary:Version}),
+ libokteta1gui1 (= ${binary:Version}), libkasten1okteta1controllers1 (= ${binary:Version}),
+ libkasten1okteta1core1 (= ${binary:Version}), libkasten1okteta1gui1 (= ${binary:Version})
 Description: Development files for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
@@ -343,9 +343,10 @@ Description: Development files for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkastencontrollers4
+Package: libkasten1controllers1
 Architecture: any
 X-Debian-ABI: 0
+X-CMake-Target: kastencontrollers
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)
@@ -355,9 +356,10 @@ Description: controllers Kasten library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkastencore4
+Package: libkasten1core1
 Architecture: any
 X-Debian-ABI: 0
+X-CMake-Target: kastencore
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)
@@ -367,9 +369,10 @@ Description: core Kasten library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: libkastengui4
+Package: libkasten1gui1
 Architecture: any
 X-Debian-ABI: 0
+X-CMake-Target: kastengui
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)
@@ -379,9 +382,10 @@ Description: gui Kasten library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: liboktetacore4
+Package: libokteta1core1
 Architecture: any
 X-Debian-ABI: 0
+X-CMake-Target: oktetacore
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)
@@ -392,9 +396,10 @@ Description: core Okteta library
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: liboktetagui4
+Package: libokteta1gui1
 Architecture: any
 X-Debian-ABI: 0
+X-CMake-Target: oktetagui
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)
@@ -405,9 +410,10 @@ Description: gui Okteta library
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: liboktetakastencontrollers4abi1
+Package: libkasten1okteta1controllers1
 Architecture: any
-X-Debian-ABI: 1
+X-Debian-ABI: 0
+X-CMake-Target: oktetakastencontrollers
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)
@@ -418,9 +424,10 @@ Description: kastencontrollers library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: liboktetakastencore4
+Package: libkasten1okteta1core1
 Architecture: any
 X-Debian-ABI: 0
+X-CMake-Target: oktetakastencore
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)
@@ -431,9 +438,10 @@ Description: kastencore library for Okteta
  .
  This package is part of the KDE Software Development Kit module.
 
-Package: liboktetakastengui4
+Package: libkasten1okteta1gui1
 Architecture: any
 X-Debian-ABI: 0
+X-CMake-Target: oktetakastengui
 Section: libs
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Replaces: okteta (<< 4:4.6)

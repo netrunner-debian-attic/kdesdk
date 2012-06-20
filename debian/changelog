@@ -13,6 +13,16 @@ kdesdk (4:4.8.4-0r0) UNRELEASED; urgency=low
   * Update patches:
     - update dont_export_private_classes.diff.
     - refresh other patches to make them apply without any offset.
+  * Rename the following packages due to name/SONAME changes:
+    - libkastencontrollers4 -> libkasten1controllers1
+    - libkastencore4 -> libkasten1core1
+    - libkastengui4 -> libkasten1gui1
+    - liboktetacore4 -> libokteta1core1
+    - liboktetagui4 -> libokteta1gui1
+    - liboktetakastencontrollers4abi1 -> libkasten1okteta1controllers1
+    - liboktetakastencore4 -> libkasten1okteta1core1
+    - liboktetakastengui4 -> libkasten1okteta1gui1
+  * Update installed files.
   * Bump Standards-Version to 3.9.3:
     - kdesdk binary package now belongs to section 'metapackages'.
   * Add watch file.
