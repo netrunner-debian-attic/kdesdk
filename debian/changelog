@@ -1,5 +1,8 @@
 kdesdk (4:4.8.4-3) UNRELEASED; urgency=low
 
+  [ Pino Toscano ]
+  * Improve packages descriptions:
+    - kdesdk-dolphin-plugins: mention all the contained plugins.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jun 2012 01:36:55 +0200
 
