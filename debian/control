@@ -204,6 +204,7 @@ Description: software development file format plugins for Strigi Desktop Search
   * Patch files (diff)
   * Qt Linguist files (ts)
   * Gettext translation files (po)
+  * XML localisation files (xliff)
  .
  This package is part of the KDE Software Development Kit module.
 

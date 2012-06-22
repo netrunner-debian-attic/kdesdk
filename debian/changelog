@@ -4,6 +4,7 @@ kdesdk (4:4.8.4-3) UNRELEASED; urgency=low
   * Improve packages descriptions:
     - kdesdk-dolphin-plugins: mention all the contained plugins.
     - kcachegrind-converters: sort the list of scripts.
+    - kdesdk-strigi-plugins: add xliff files.
   * Make kdesdk-dolphin-plugins enhance dolphin.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jun 2012 01:36:55 +0200
