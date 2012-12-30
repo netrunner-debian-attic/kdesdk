@@ -1,4 +1,4 @@
-kdesdk (4:4.8.4-3) UNRELEASED; urgency=low
+kdesdk (4:4.8.4+dfsg-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Improve packages descriptions:
@@ -9,6 +9,10 @@ kdesdk (4:4.8.4-3) UNRELEASED; urgency=low
   * Pass --language=C to dh_installman to avoid its autodetection of the
     language, which causes bogus results due to the script names (all the
     man pages in kdesdk-scripts are in English, anyway). (Closes: #696959)
+  * Remove .texi files under GFDL + invariant sections: (Closes: #695701)
+    - add prune-nonfree to debian/rules to remove them.
+    - add a note on README.source of what we are removing from the original
+      tarball.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jun 2012 01:36:55 +0200
 

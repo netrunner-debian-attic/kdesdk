@@ -1,0 +1,9 @@
+DFSG-repackaging
+----------------
+
+The source code of kdesdk is repackaged to get rid of the files licensed under
+GFDL (GNU Free Documentation License) with invariant sections, which are
+non-DFSG compliant.
+The files removed are:
+- scripts/kde-emacs/kde-emacs-tips.texi
+
