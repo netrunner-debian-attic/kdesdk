@@ -14,6 +14,9 @@ ifeq ($(DEB_HOST_ARCH_ENDIAN),little)
 	dh_install --autodest -pokteta usr/share/kde4/config/okteta-structures.knsrc
 endif
 
+override_dh_installman:
+	$(overridden_command) --language=C
+
 override_dh_makeshlibs:
 	$(overridden_command) -- -c0
 
