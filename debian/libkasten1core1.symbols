@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64 armel armhf
 libkasten1core.so.1 libkasten1core1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.8.4
  _ZN7Kasten110JobManager10executeJobEP4KJob@ABI_1_0 4:4.8.4
@@ -168,9 +168,9 @@ libkasten1core.so.1 libkasten1core1 #MINVER#
  _ZN7Kasten123AbstractDocumentFactoryD0Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten123AbstractDocumentFactoryD1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten123AbstractDocumentFactoryD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten123AbstractOverwriteDialogD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten123AbstractOverwriteDialogD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten123AbstractOverwriteDialogD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten123AbstractOverwriteDialogD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten123AbstractOverwriteDialogD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten123AbstractOverwriteDialogD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten123AbstractSyncToRemoteJob11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.8.4
  _ZN7Kasten123AbstractSyncToRemoteJob11qt_metacastEPKc@ABI_1_0 4:4.8.4
  _ZN7Kasten123AbstractSyncToRemoteJob16staticMetaObjectE@ABI_1_0 4:4.8.4
@@ -221,9 +221,9 @@ libkasten1core.so.1 libkasten1core1 #MINVER#
  _ZN7Kasten125AbstractModelSynchronizerD0Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten125AbstractModelSynchronizerD1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten125AbstractModelSynchronizerD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten125AbstractSaveDiscardDialogD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten125AbstractSaveDiscardDialogD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten125AbstractSaveDiscardDialogD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten125AbstractSaveDiscardDialogD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten125AbstractSaveDiscardDialogD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten125AbstractSaveDiscardDialogD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten125AbstractSyncFromRemoteJob11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.8.4
  _ZN7Kasten125AbstractSyncFromRemoteJob11qt_metacastEPKc@ABI_1_0 4:4.8.4
  _ZN7Kasten125AbstractSyncFromRemoteJob16staticMetaObjectE@ABI_1_0 4:4.8.4
@@ -465,13 +465,13 @@ libkasten1core.so.1 libkasten1core1 #MINVER#
  _ZTIN7Kasten121DocumentCreateManagerE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten122AbstractModelSelectionE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten123AbstractDocumentFactoryE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten123AbstractOverwriteDialogE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTIN7Kasten123AbstractOverwriteDialogE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten123AbstractSyncToRemoteJobE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten123ModelDataGenerateThreadE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten123ModelStreamEncodeThreadE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten125AbstractFileSystemLoadJobE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten125AbstractModelSynchronizerE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten125AbstractSaveDiscardDialogE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTIN7Kasten125AbstractSaveDiscardDialogE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten125AbstractSyncFromRemoteJobE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten125AbstractSyncWithRemoteJobE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten126AbstractModelDataGeneratorE@ABI_1_0 4:4.8.4
@@ -498,13 +498,13 @@ libkasten1core.so.1 libkasten1core1 #MINVER#
  _ZTSN7Kasten121DocumentCreateManagerE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten122AbstractModelSelectionE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten123AbstractDocumentFactoryE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten123AbstractOverwriteDialogE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTSN7Kasten123AbstractOverwriteDialogE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten123AbstractSyncToRemoteJobE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten123ModelDataGenerateThreadE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten123ModelStreamEncodeThreadE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten125AbstractFileSystemLoadJobE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten125AbstractModelSynchronizerE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten125AbstractSaveDiscardDialogE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTSN7Kasten125AbstractSaveDiscardDialogE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten125AbstractSyncFromRemoteJobE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten125AbstractSyncWithRemoteJobE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten126AbstractModelDataGeneratorE@ABI_1_0 4:4.8.4
@@ -531,13 +531,13 @@ libkasten1core.so.1 libkasten1core1 #MINVER#
  _ZTVN7Kasten121DocumentCreateManagerE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten122AbstractModelSelectionE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten123AbstractDocumentFactoryE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten123AbstractOverwriteDialogE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTVN7Kasten123AbstractOverwriteDialogE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten123AbstractSyncToRemoteJobE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten123ModelDataGenerateThreadE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten123ModelStreamEncodeThreadE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten125AbstractFileSystemLoadJobE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten125AbstractModelSynchronizerE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten125AbstractSaveDiscardDialogE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTVN7Kasten125AbstractSaveDiscardDialogE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten125AbstractSyncFromRemoteJobE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten125AbstractSyncWithRemoteJobE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten126AbstractModelDataGeneratorE@ABI_1_0 4:4.8.4

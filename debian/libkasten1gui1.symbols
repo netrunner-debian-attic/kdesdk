@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64 armel armhf
 libkasten1gui.so.1 libkasten1gui1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.8.4
  _ZN7Kasten111ShellWindow11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.8.4
@@ -168,10 +168,10 @@ libkasten1gui.so.1 libkasten1gui1 #MINVER#
  _ZN7Kasten118AbstractToolWidgetD0Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten118AbstractToolWidgetD1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten118AbstractToolWidgetD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten119AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_1_0 4:4.8.4
- _ZN7Kasten119AbstractViewFactoryD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten119AbstractViewFactoryD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten119AbstractViewFactoryD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten119AbstractViewFactory16createCopyOfViewEPNS_12AbstractViewE6QFlagsIN2Qt13AlignmentFlagEE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten119AbstractViewFactoryD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten119AbstractViewFactoryD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten119AbstractViewFactoryD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten120AbstractGroupedViews11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.8.4
  _ZN7Kasten120AbstractGroupedViews11qt_metacastEPKc@ABI_1_0 4:4.8.4
  _ZN7Kasten120AbstractGroupedViews12closeRequestERK5QListIPNS_12AbstractViewEE@ABI_1_0 4:4.8.4
@@ -309,12 +309,12 @@ libkasten1gui.so.1 libkasten1gui1 #MINVER#
  _ZN7Kasten142ModelEncoderFileSystemExporterConfigEditorD0Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten142ModelEncoderFileSystemExporterConfigEditorD1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten142ModelEncoderFileSystemExporterConfigEditorD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten149ModelEncoderFileSystemExporterConfigEditorFactoryC1EPNS_45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZN7Kasten149ModelEncoderFileSystemExporterConfigEditorFactoryC2EPNS_45AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZN7Kasten149ModelEncoderFileSystemExporterConfigEditorFactoryD0Ev@ABI_1_0 4:4.8.4
@@ -432,7 +432,7 @@ libkasten1gui.so.1 libkasten1gui1 #MINVER#
  _ZTIN7Kasten117AbstractLinePopupE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten118AbstractControllerE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten118AbstractToolWidgetE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten119AbstractViewFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTIN7Kasten119AbstractViewFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten120AbstractGroupedViewsE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten121AbstractSelectionViewE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten121ModelCodecViewManagerE@ABI_1_0 4:4.8.4
@@ -448,8 +448,8 @@ libkasten1gui.so.1 libkasten1gui1 #MINVER#
  _ZTIN7Kasten138AbstractModelStreamEncoderConfigEditorE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten140AbstractModelExporterConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten142ModelEncoderFileSystemExporterConfigEditorE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTIN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTIN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten149ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten19DummyViewE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten19StatusBarE@ABI_1_0 4:4.8.4
@@ -467,7 +467,7 @@ libkasten1gui.so.1 libkasten1gui1 #MINVER#
  _ZTSN7Kasten117AbstractLinePopupE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten118AbstractControllerE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten118AbstractToolWidgetE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten119AbstractViewFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTSN7Kasten119AbstractViewFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten120AbstractGroupedViewsE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten121AbstractSelectionViewE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten121ModelCodecViewManagerE@ABI_1_0 4:4.8.4
@@ -483,8 +483,8 @@ libkasten1gui.so.1 libkasten1gui1 #MINVER#
  _ZTSN7Kasten138AbstractModelStreamEncoderConfigEditorE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten140AbstractModelExporterConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten142ModelEncoderFileSystemExporterConfigEditorE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTSN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTSN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten149ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten19DummyViewE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten19StatusBarE@ABI_1_0 4:4.8.4
@@ -504,7 +504,7 @@ libkasten1gui.so.1 libkasten1gui1 #MINVER#
  _ZTVN7Kasten117AbstractLinePopupE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten118AbstractControllerE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten118AbstractToolWidgetE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten119AbstractViewFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTVN7Kasten119AbstractViewFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten120AbstractGroupedViewsE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten121AbstractSelectionViewE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten121ModelCodecViewManagerE@ABI_1_0 4:4.8.4
@@ -520,8 +520,8 @@ libkasten1gui.so.1 libkasten1gui1 #MINVER#
  _ZTVN7Kasten138AbstractModelStreamEncoderConfigEditorE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten140AbstractModelExporterConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten142ModelEncoderFileSystemExporterConfigEditorE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTVN7Kasten145AbstractModelDataGeneratorConfigEditorFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64)_ZTVN7Kasten145AbstractModelStreamEncoderConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten149ModelEncoderFileSystemExporterConfigEditorFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten19DummyViewE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten19StatusBarE@ABI_1_0 4:4.8.4

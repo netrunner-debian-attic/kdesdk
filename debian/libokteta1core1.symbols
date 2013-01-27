@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64 kfreebsd-amd64 kfreebsd-i386
 libokteta1core.so.1 libokteta1core1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.8.4
  _ZN6Okteta10ValueCodec11createCodecENS_11ValueCodingE@ABI_1_0 4:4.8.4
@@ -38,6 +38,8 @@ libokteta1core.so.1 libokteta1core1 #MINVER#
  _ZN6Okteta14ByteArrayModelD0Ev@ABI_1_0 4:4.8.4
  _ZN6Okteta14ByteArrayModelD1Ev@ABI_1_0 4:4.8.4
  _ZN6Okteta14ByteArrayModelD2Ev@ABI_1_0 4:4.8.4
+ (arch=!amd64)_ZN6Okteta15ByteArrayChangeD1Ev@ABI_1_0 4:4.8.4
+ (arch=!amd64)_ZN6Okteta15ByteArrayChangeD2Ev@ABI_1_0 4:4.8.4
  _ZN6Okteta18FileByteArrayModel11setModifiedEb@ABI_1_0 4:4.8.4
  _ZN6Okteta18FileByteArrayModel11setReadOnlyEb@ABI_1_0 4:4.8.4
  _ZN6Okteta18FileByteArrayModel4fillEhii@ABI_1_0 4:4.8.4

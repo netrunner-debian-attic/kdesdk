@@ -1,6 +1,12 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64
+# SymbolsHelper-Confirmed: 4:4.8.4 amd64 armel kfreebsd-amd64 kfreebsd-i386 mips powerpc s390 s390x sparc
 libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.8.4
+ (arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C1Ev@ABI_1_0 4:4.8.4
+ (arch=armel)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2C2Ev@ABI_1_0 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D1Ev@ABI_1_0 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN19KCoreConfigSkeleton8ItemEnum7Choice2D2Ev@ABI_1_0 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Okteta8BookmarkD1Ev@ABI_1_0 4:4.8.4
+ (arch=kfreebsd-amd64 kfreebsd-i386)_ZN6Okteta8BookmarkD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten110FilterTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.8.4
  _ZN7Kasten110FilterTool11qt_metacastEPKc@ABI_1_0 4:4.8.4
  _ZN7Kasten110FilterTool12parameterSetEi@ABI_1_0 4:4.8.4
@@ -14,40 +20,40 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZN7Kasten110FilterToolD0Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten110FilterToolD1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten110FilterToolD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool10headerDataEii@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool10updateDataERKN6Okteta22ArrayChangeMetricsListE@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool11dataChangedEiPv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool11dataClearedEv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool11qt_metacastEPKc@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool12addChildItemEP23TopLevelDataInformation@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool12setByteOrderENS_21StructViewPreferences13EnumByteOrder4typeE@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool12setByteOrderEi@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool13lockStructureERK11QModelIndex@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool14setTargetModelEPNS_13AbstractModelE@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool15childrenRemovedEPK15DataInformationjj@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool15unlockStructureERK11QModelIndex@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool16byteOrderChangedEv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool16childrenInsertedEPK15DataInformationjj@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool16onContentsChangeERKN6Okteta22ArrayChangeMetricsListE@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool16staticMetaObjectE@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool18cursorIndexChangedEv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool21byteArrayModelChangedEb@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool21validateAllStructuresEv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool22onChildItemDataChangedEv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool22onCursorPositionChangeEi@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool24childrenAboutToBeRemovedEP15DataInformationjj@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool25childrenAboutToBeInsertedEP15DataInformationjj@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool27setSelectedStructuresInViewEv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool4markERK11QModelIndex@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool6unmarkEv@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool7setDataERK8QVariantiP15DataInformation@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructTool7setDataERK8QVariantiP15DataInformationj@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructToolC1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructToolC2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructToolD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructToolD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten110StructToolD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool10headerDataEii@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool10updateDataERKN6Okteta22ArrayChangeMetricsListE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool11dataChangedEiPv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool11dataClearedEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool11qt_metacastEPKc@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool12addChildItemEP23TopLevelDataInformation@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool12setByteOrderENS_21StructViewPreferences13EnumByteOrder4typeE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool12setByteOrderEi@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool13lockStructureERK11QModelIndex@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool14setTargetModelEPNS_13AbstractModelE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool15childrenRemovedEPK15DataInformationjj@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool15unlockStructureERK11QModelIndex@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool16byteOrderChangedEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool16childrenInsertedEPK15DataInformationjj@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool16onContentsChangeERKN6Okteta22ArrayChangeMetricsListE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool16staticMetaObjectE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool18cursorIndexChangedEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool21byteArrayModelChangedEb@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool21validateAllStructuresEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool22onChildItemDataChangedEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool22onCursorPositionChangeEi@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool24childrenAboutToBeRemovedEP15DataInformationjj@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool25childrenAboutToBeInsertedEP15DataInformationjj@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool27setSelectedStructuresInViewEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool4markERK11QModelIndex@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool6unmarkEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool7setDataERK8QVariantiP15DataInformation@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructTool7setDataERK8QVariantiP15DataInformationj@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructToolC1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructToolC2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructToolD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructToolD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten110StructToolD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten112ChecksumTool11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.8.4
  _ZN7Kasten112ChecksumTool11qt_metacastEPKc@ABI_1_0 4:4.8.4
  _ZN7Kasten112ChecksumTool12parameterSetEv@ABI_1_0 4:4.8.4
@@ -134,11 +140,11 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZN7Kasten114PODDecoderToolD0Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten114PODDecoderToolD1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten114PODDecoderToolD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten114StructToolViewC1EPNS_10StructToolE@ABI_1_0 4:4.8.4
- _ZN7Kasten114StructToolViewC2EPNS_10StructToolE@ABI_1_0 4:4.8.4
- _ZN7Kasten114StructToolViewD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten114StructToolViewD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten114StructToolViewD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten114StructToolViewC1EPNS_10StructToolE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten114StructToolViewC2EPNS_10StructToolE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten114StructToolViewD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten114StructToolViewD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten114StructToolViewD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten115InfoToolFactory6createEv@ABI_1_0 4:4.8.4
  _ZN7Kasten115InfoToolFactoryC1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten115InfoToolFactoryC2Ev@ABI_1_0 4:4.8.4
@@ -389,12 +395,12 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZN7Kasten121SelectRangeControllerD0Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten121SelectRangeControllerD1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten121SelectRangeControllerD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten121StructuresToolFactory6createEv@ABI_1_0 4:4.8.4
- _ZN7Kasten121StructuresToolFactoryC1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten121StructuresToolFactoryC2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten121StructuresToolFactoryD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten121StructuresToolFactoryD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten121StructuresToolFactoryD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten121StructuresToolFactory6createEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten121StructuresToolFactoryC1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten121StructuresToolFactoryC2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten121StructuresToolFactoryD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten121StructuresToolFactoryD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten121StructuresToolFactoryD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten122StringsExtractToolViewC1EPNS_18StringsExtractToolE@ABI_1_0 4:4.8.4
  _ZN7Kasten122StringsExtractToolViewC2EPNS_18StringsExtractToolE@ABI_1_0 4:4.8.4
  _ZN7Kasten122StringsExtractToolViewD0Ev@ABI_1_0 4:4.8.4
@@ -445,12 +451,12 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZN7Kasten125StringsExtractToolFactoryD0Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten125StringsExtractToolFactoryD1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten125StringsExtractToolFactoryD2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten125StructuresToolViewFactory6createEPNS_12AbstractToolE@ABI_1_0 4:4.8.4
- _ZN7Kasten125StructuresToolViewFactoryC1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten125StructuresToolViewFactoryC2Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten125StructuresToolViewFactoryD0Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten125StructuresToolViewFactoryD1Ev@ABI_1_0 4:4.8.4
- _ZN7Kasten125StructuresToolViewFactoryD2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten125StructuresToolViewFactory6createEPNS_12AbstractToolE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten125StructuresToolViewFactoryC1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten125StructuresToolViewFactoryC2Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten125StructuresToolViewFactoryD0Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten125StructuresToolViewFactoryD1Ev@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZN7Kasten125StructuresToolViewFactoryD2Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten128CharsetConversionToolFactory6createEv@ABI_1_0 4:4.8.4
  _ZN7Kasten128CharsetConversionToolFactoryC1Ev@ABI_1_0 4:4.8.4
  _ZN7Kasten128CharsetConversionToolFactoryC2Ev@ABI_1_0 4:4.8.4
@@ -490,17 +496,17 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZNK7Kasten110FilterTool13charCodecNameEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten110FilterTool5titleEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten110FilterTool6filterEi@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool10childCountEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool10metaObjectEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool11columnCountEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool12isFileLoadedEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool14byteArrayModelEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool17isStructureLockedERK11QModelIndex@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool20canStructureBeLockedERK11QModelIndex@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool5titleEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool7childAtEi@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool7managerEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten110StructTool9byteOrderEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool10childCountEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool10metaObjectEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool11columnCountEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool12isFileLoadedEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool14byteArrayModelEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool17isStructureLockedERK11QModelIndex@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool20canStructureBeLockedERK11QModelIndex@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool5titleEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool7childAtEi@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool7managerEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten110StructTool9byteOrderEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten112ChecksumTool10metaObjectEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten112ChecksumTool11isApplyableEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten112ChecksumTool13algorithmListEv@ABI_1_0 4:4.8.4
@@ -528,9 +534,9 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZNK7Kasten114PODDecoderTool5valueEi@ABI_1_0 4:4.8.4
  _ZNK7Kasten114PODDecoderTool8podCountEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten114PODDecoderTool9nameOfPODEi@ABI_1_0 4:4.8.4
- _ZNK7Kasten114StructToolView4toolEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten114StructToolView5titleEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten114StructToolView6widgetEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten114StructToolView4toolEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten114StructToolView5titleEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten114StructToolView6widgetEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten115PrintController10metaObjectEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten116ChecksumToolView4toolEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten116ChecksumToolView5titleEv@ABI_1_0 4:4.8.4
@@ -605,10 +611,10 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZNK7Kasten125PodDecoderToolViewFactory2idEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten125PodDecoderToolViewFactory5titleEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten125PodDecoderToolViewFactory8iconNameEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten125StructuresToolViewFactory15defaultPositionEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten125StructuresToolViewFactory2idEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten125StructuresToolViewFactory5titleEv@ABI_1_0 4:4.8.4
- _ZNK7Kasten125StructuresToolViewFactory8iconNameEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten125StructuresToolViewFactory15defaultPositionEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten125StructuresToolViewFactory2idEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten125StructuresToolViewFactory5titleEv@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZNK7Kasten125StructuresToolViewFactory8iconNameEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten129StringsExtractToolViewFactory15defaultPositionEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten129StringsExtractToolViewFactory2idEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten129StringsExtractToolViewFactory5titleEv@ABI_1_0 4:4.8.4
@@ -624,14 +630,14 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZNK7Kasten18InfoTool4sizeEv@ABI_1_0 4:4.8.4
  _ZNK7Kasten18InfoTool5titleEv@ABI_1_0 4:4.8.4
  _ZTIN7Kasten110FilterToolE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten110StructToolE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTIN7Kasten110StructToolE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten112ChecksumToolE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten112InfoToolViewE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten113BookmarksToolE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten113ByteTableToolE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten114FilterToolViewE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten114PODDecoderToolE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten114StructToolViewE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTIN7Kasten114StructToolViewE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten115InfoToolFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten115PrintControllerE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten116ChecksumToolViewE@ABI_1_0 4:4.8.4
@@ -657,7 +663,7 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZTIN7Kasten121FilterToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten121PodDecoderToolFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten121SelectRangeControllerE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten121StructuresToolFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTIN7Kasten121StructuresToolFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten122StringsExtractToolViewE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten123ChecksumToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten123OverwriteModeControllerE@ABI_1_0 4:4.8.4
@@ -666,20 +672,20 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZTIN7Kasten125CharsetConversionToolViewE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten125PodDecoderToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten125StringsExtractToolFactoryE@ABI_1_0 4:4.8.4
- _ZTIN7Kasten125StructuresToolViewFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTIN7Kasten125StructuresToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten128CharsetConversionToolFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten129StringsExtractToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten132CharsetConversionToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTIN7Kasten18InfoToolE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten110FilterToolE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten110StructToolE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTSN7Kasten110StructToolE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten112ChecksumToolE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten112InfoToolViewE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten113BookmarksToolE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten113ByteTableToolE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten114FilterToolViewE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten114PODDecoderToolE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten114StructToolViewE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTSN7Kasten114StructToolViewE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten115InfoToolFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten115PrintControllerE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten116ChecksumToolViewE@ABI_1_0 4:4.8.4
@@ -705,7 +711,7 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZTSN7Kasten121FilterToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten121PodDecoderToolFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten121SelectRangeControllerE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten121StructuresToolFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTSN7Kasten121StructuresToolFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten122StringsExtractToolViewE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten123ChecksumToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten123OverwriteModeControllerE@ABI_1_0 4:4.8.4
@@ -714,20 +720,20 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZTSN7Kasten125CharsetConversionToolViewE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten125PodDecoderToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten125StringsExtractToolFactoryE@ABI_1_0 4:4.8.4
- _ZTSN7Kasten125StructuresToolViewFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTSN7Kasten125StructuresToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten128CharsetConversionToolFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten129StringsExtractToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten132CharsetConversionToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTSN7Kasten18InfoToolE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten110FilterToolE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten110StructToolE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTVN7Kasten110StructToolE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten112ChecksumToolE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten112InfoToolViewE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten113BookmarksToolE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten113ByteTableToolE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten114FilterToolViewE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten114PODDecoderToolE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten114StructToolViewE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTVN7Kasten114StructToolViewE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten115InfoToolFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten115PrintControllerE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten116ChecksumToolViewE@ABI_1_0 4:4.8.4
@@ -753,7 +759,7 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZTVN7Kasten121FilterToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten121PodDecoderToolFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten121SelectRangeControllerE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten121StructuresToolFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTVN7Kasten121StructuresToolFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten122StringsExtractToolViewE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten123ChecksumToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten123OverwriteModeControllerE@ABI_1_0 4:4.8.4
@@ -762,7 +768,7 @@ libkasten1okteta1controllers.so.1 libkasten1okteta1controllers1 #MINVER#
  _ZTVN7Kasten125CharsetConversionToolViewE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten125PodDecoderToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten125StringsExtractToolFactoryE@ABI_1_0 4:4.8.4
- _ZTVN7Kasten125StructuresToolViewFactoryE@ABI_1_0 4:4.8.4
+ (arch=amd64 armel kfreebsd-amd64 kfreebsd-i386)_ZTVN7Kasten125StructuresToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten128CharsetConversionToolFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten129StringsExtractToolViewFactoryE@ABI_1_0 4:4.8.4
  _ZTVN7Kasten132CharsetConversionToolViewFactoryE@ABI_1_0 4:4.8.4

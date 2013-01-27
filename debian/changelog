@@ -14,6 +14,9 @@ kdesdk (4:4.8.4+dfsg-1) UNRELEASED; urgency=low
     - add a note on README.source of what we are removing from the original
       tarball.
 
+  [ Lisandro Damián Nicanor Pérez Meyer ]
+  * Confirm symbols files from buildds' logs.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sat, 23 Jun 2012 01:36:55 +0200
 
 kdesdk (4:4.8.4-2) unstable; urgency=low
