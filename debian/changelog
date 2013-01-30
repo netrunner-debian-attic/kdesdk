@@ -1,5 +1,7 @@
 kdesdk (4:4.8.4+dfsg-1) unstable; urgency=low
 
+  * Team upload.
+
   [ Pino Toscano ]
   * Improve packages descriptions:
     - kdesdk-dolphin-plugins: mention all the contained plugins.
