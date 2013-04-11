@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:4.8.4 amd64
+# SymbolsHelper-Confirmed: 4:4.10.2 amd64
 libokteta1gui.so.1 libokteta1gui1 #MINVER#
  ABI_1_0@ABI_1_0 4:4.8.4
  _ZN6Okteta11ColumnsView10paintEventEP11QPaintEvent@ABI_1_0 4:4.8.4
@@ -128,6 +128,7 @@ libokteta1gui.so.1 libokteta1gui1 #MINVER#
  _ZN6Okteta20OffsetColumnRenderer22renderColumnBackgroundEP8QPainterRKN3KDE11NumberRangeIiiEES7_@ABI_1_0 4:4.8.4
  _ZN6Okteta20OffsetColumnRenderer7recalcXEv@ABI_1_0 4:4.8.4
  _ZN6Okteta20OffsetColumnRenderer9setFormatENS_12OffsetFormat6FormatE@ABI_1_0 4:4.8.4
+ _ZN6Okteta20OffsetColumnRenderer9setFormatENS_12OffsetFormat6FormatERK12QFontMetrics@ABI_1_0 4:4.10.2
  _ZN6Okteta20OffsetColumnRendererC1EPNS_21AbstractColumnStylistEPNS_20ByteArrayTableLayoutENS_12OffsetFormat6FormatE@ABI_1_0 4:4.8.4
  _ZN6Okteta20OffsetColumnRendererC2EPNS_21AbstractColumnStylistEPNS_20ByteArrayTableLayoutENS_12OffsetFormat6FormatE@ABI_1_0 4:4.8.4
  _ZN6Okteta20OffsetColumnRendererD0Ev@ABI_1_0 4:4.8.4
@@ -172,6 +173,7 @@ libokteta1gui.so.1 libokteta1gui1 #MINVER#
  _ZN6Okteta21AbstractByteArrayView15mousePressEventEP11QMouseEvent@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView15readOnlyChangedEb@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView15setActiveCodingENS0_12CodingTypeIdE@ABI_1_0 4:4.8.4
+ _ZN6Okteta21AbstractByteArrayView15setOffsetCodingENS0_12OffsetCodingE@ABI_1_0 4:4.10.2
  _ZN6Okteta21AbstractByteArrayView16charCodecChangedERK7QString@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView16selectionChangedERKN3KDE11NumberRangeIiiEE@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView16setOverwriteModeEb@ABI_1_0 4:4.8.4
@@ -181,6 +183,7 @@ libokteta1gui.so.1 libokteta1gui1 #MINVER#
  _ZN6Okteta21AbstractByteArrayView17setByteArrayModelEPNS_22AbstractByteArrayModelE@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView17setCursorPositionEib@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView17setVisibleCodingsEi@ABI_1_0 4:4.8.4
+ _ZN6Okteta21AbstractByteArrayView18layoutStyleChangedEi@ABI_1_0 4:4.10.2
  _ZN6Okteta21AbstractByteArrayView18pasteFromClipboardEN10QClipboard4ModeE@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView18removeSelectedDataEv@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView18setFirstLineOffsetEi@ABI_1_0 4:4.8.4
@@ -188,13 +191,21 @@ libokteta1gui.so.1 libokteta1gui1 #MINVER#
  _ZN6Okteta21AbstractByteArrayView18toggleOffsetColumnEb@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView18valueCodingChangedEi@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView19ensureCursorVisibleEv@ABI_1_0 4:4.8.4
+ _ZN6Okteta21AbstractByteArrayView19offsetCodingChangedEi@ABI_1_0 4:4.10.2
  _ZN6Okteta21AbstractByteArrayView19setNoOfBytesPerLineEi@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView20emitSelectionSignalsEv@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView20overwriteModeChangedEb@ABI_1_0 4:4.8.4
+ _ZN6Okteta21AbstractByteArrayView20undefinedCharChangedE5QChar@ABI_1_0 4:4.10.2
  _ZN6Okteta21AbstractByteArrayView21cursorPositionChangedEi@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView21mouseDoubleClickEventEP11QMouseEvent@ABI_1_0 4:4.8.4
+ _ZN6Okteta21AbstractByteArrayView21substituteCharChangedE5QChar@ABI_1_0 4:4.10.2
  _ZN6Okteta21AbstractByteArrayView22hasSelectedDataChangedEb@ABI_1_0 4:4.8.4
+ _ZN6Okteta21AbstractByteArrayView23noOfBytesPerLineChangedEi@ABI_1_0 4:4.10.2
+ _ZN6Okteta21AbstractByteArrayView23noOfGroupedBytesChangedEi@ABI_1_0 4:4.10.2
+ _ZN6Okteta21AbstractByteArrayView23showsNonprintingChangedEb@ABI_1_0 4:4.10.2
+ _ZN6Okteta21AbstractByteArrayView26offsetColumnVisibleChangedEb@ABI_1_0 4:4.10.2
  _ZN6Okteta21AbstractByteArrayView26setSelectionCursorPositionEi@ABI_1_0 4:4.8.4
+ _ZN6Okteta21AbstractByteArrayView30visibleByteArrayCodingsChangedEi@ABI_1_0 4:4.10.2
  _ZN6Okteta21AbstractByteArrayView3cutEv@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView4copyEv@ABI_1_0 4:4.8.4
  _ZN6Okteta21AbstractByteArrayView5eventEP6QEvent@ABI_1_0 4:4.8.4
@@ -386,6 +397,7 @@ libokteta1gui.so.1 libokteta1gui1 #MINVER#
  _ZNK6Okteta21AbstractByteArrayView11valueCodingEv@ABI_1_0 4:4.8.4
  _ZNK6Okteta21AbstractByteArrayView12activeCodingEv@ABI_1_0 4:4.8.4
  _ZNK6Okteta21AbstractByteArrayView12indexByPointERK6QPoint@ABI_1_0 4:4.8.4
+ _ZNK6Okteta21AbstractByteArrayView12offsetCodingEv@ABI_1_0 4:4.10.2
  _ZNK6Okteta21AbstractByteArrayView12selectedDataEv@ABI_1_0 4:4.8.4
  _ZNK6Okteta21AbstractByteArrayView14byteArrayModelEv@ABI_1_0 4:4.8.4
  _ZNK6Okteta21AbstractByteArrayView14charCodingNameEv@ABI_1_0 4:4.8.4

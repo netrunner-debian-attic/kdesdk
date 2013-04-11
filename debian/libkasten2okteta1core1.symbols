@@ -1,0 +1,116 @@
+# SymbolsHelper-Confirmed: 4:4.10.2 amd64
+libkasten2okteta1core.so.1 libkasten2okteta1core1 #MINVER#
+ ABI_1_0@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument10usersAddedERK5QListINS_6PersonEE@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument11qt_metacastEPKc@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument11removeUsersERK5QListINS_6PersonEE@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument11setReadOnlyEb@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument12usersRemovedERK5QListINS_6PersonEE@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument15onModelModifiedEb@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument16staticMetaObjectE@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument18headVersionChangedEi@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument22headVersionDataChangedERKNS_19DocumentVersionDataE@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument22revertToVersionByIndexEi@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument22revertedToVersionIndexEi@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument31onHeadVersionDescriptionChangedERK7QString@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument8addUsersERK5QListINS_6PersonEE@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument8setOwnerERKNS_6PersonE@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocument8setTitleERK7QString@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocumentC1EPN6Okteta24PieceTableByteArrayModelERK7QString@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocumentC1ERK7QString@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocumentC2EPN6Okteta24PieceTableByteArrayModelERK7QString@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocumentC2ERK7QString@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocumentD0Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocumentD1Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten217ByteArrayDocumentD2Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten218ByteArraySelection8setRangeERKN3KDE11NumberRangeIiiEE@ABI_1_0 4:4.10.2
+ _ZN7Kasten218ByteArraySelectionC1Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten218ByteArraySelectionC2Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten218ByteArraySelectionD0Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten218ByteArraySelectionD1Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten218ByteArraySelectionD2Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactory11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactory11qt_metacastEPKc@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactory14createFromDataEPK9QMimeDatab@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactory16staticMetaObjectE@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactory17canCreateFromDataEPK9QMimeData@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactory6createEv@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactoryD0Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactoryD1Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten224ByteArrayDocumentFactoryD2Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer11onUrlChangeERK4KUrl@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer11qt_metacastEPKc@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer11setDocumentEPNS_17ByteArrayDocumentE@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer12startConnectEPNS_16AbstractDocumentERK4KUrlNS_25AbstractModelSynchronizer13ConnectOptionE@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer13startOfferingEPNS_16AbstractDocumentE@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer15onModelModifiedEb@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer16staticMetaObjectE@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer17startSyncToRemoteEv@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer19startSyncFromRemoteEv@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer19startSyncWithRemoteERK4KUrlNS_25AbstractModelSynchronizer13ConnectOptionE@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizer9startLoadERK4KUrl@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizerC1Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizerC2Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizerD0Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizerD1Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten228ByteArrayRawFileSynchronizerD2Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten235ByteArrayRawFileSynchronizerFactory11qt_metacallEN11QMetaObject4CallEiPPv@ABI_1_0 4:4.10.2
+ _ZN7Kasten235ByteArrayRawFileSynchronizerFactory11qt_metacastEPKc@ABI_1_0 4:4.10.2
+ _ZN7Kasten235ByteArrayRawFileSynchronizerFactory16staticMetaObjectE@ABI_1_0 4:4.10.2
+ _ZN7Kasten235ByteArrayRawFileSynchronizerFactoryC1Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten235ByteArrayRawFileSynchronizerFactoryC2Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten235ByteArrayRawFileSynchronizerFactoryD0Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten235ByteArrayRawFileSynchronizerFactoryD1Ev@ABI_1_0 4:4.10.2
+ _ZN7Kasten235ByteArrayRawFileSynchronizerFactoryD2Ev@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument10isReadOnlyEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument10metaObjectEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument11versionDataEi@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument12contentFlagsEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument12isModifiableEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument12versionCountEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument12versionIndexEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument5ownerEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument5titleEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument7contentEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument8mimeTypeEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument8typeNameEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten217ByteArrayDocument8userListEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten218ByteArraySelection5rangeEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten218ByteArraySelection7isValidEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten224ByteArrayDocumentFactory10metaObjectEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten228ByteArrayRawFileSynchronizer10metaObjectEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten228ByteArrayRawFileSynchronizer14localSyncStateEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten228ByteArrayRawFileSynchronizer8documentEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten235ByteArrayRawFileSynchronizerFactory10metaObjectEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten235ByteArrayRawFileSynchronizerFactory17supportedWorkTypeEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten235ByteArrayRawFileSynchronizerFactory18createSynchronizerEv@ABI_1_0 4:4.10.2
+ _ZNK7Kasten235ByteArrayRawFileSynchronizerFactory19supportedRemoteTypeEv@ABI_1_0 4:4.10.2
+ _ZTIN7Kasten217ByteArrayDocumentE@ABI_1_0 4:4.10.2
+ _ZTIN7Kasten218ByteArraySelectionE@ABI_1_0 4:4.10.2
+ _ZTIN7Kasten224ByteArrayDocumentFactoryE@ABI_1_0 4:4.10.2
+ _ZTIN7Kasten228ByteArrayRawFileSynchronizerE@ABI_1_0 4:4.10.2
+ _ZTIN7Kasten235ByteArrayRawFileSynchronizerFactoryE@ABI_1_0 4:4.10.2
+ _ZTSN7Kasten217ByteArrayDocumentE@ABI_1_0 4:4.10.2
+ _ZTSN7Kasten218ByteArraySelectionE@ABI_1_0 4:4.10.2
+ _ZTSN7Kasten224ByteArrayDocumentFactoryE@ABI_1_0 4:4.10.2
+ _ZTSN7Kasten228ByteArrayRawFileSynchronizerE@ABI_1_0 4:4.10.2
+ _ZTSN7Kasten235ByteArrayRawFileSynchronizerFactoryE@ABI_1_0 4:4.10.2
+ _ZTVN7Kasten217ByteArrayDocumentE@ABI_1_0 4:4.10.2
+ _ZTVN7Kasten218ByteArraySelectionE@ABI_1_0 4:4.10.2
+ _ZTVN7Kasten224ByteArrayDocumentFactoryE@ABI_1_0 4:4.10.2
+ _ZTVN7Kasten228ByteArrayRawFileSynchronizerE@ABI_1_0 4:4.10.2
+ _ZTVN7Kasten235ByteArrayRawFileSynchronizerFactoryE@ABI_1_0 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::headVersionChanged(int)@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::headVersionDataChanged(Kasten2::DocumentVersionData const&)@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::owner() const@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::revertToVersionByIndex(int)@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::revertedToVersionIndex(int)@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::userList() const@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::usersAdded(QList<Kasten2::Person> const&)@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::usersRemoved(QList<Kasten2::Person> const&)@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::versionCount() const@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::versionData(int) const@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::versionIndex() const@ABI_1_0" 4:4.10.2
+ (c++)"non-virtual thunk to Kasten2::ByteArrayDocument::~ByteArrayDocument()@ABI_1_0" 4:4.10.2
