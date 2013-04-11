@@ -9,10 +9,10 @@ For more information about DebianABIManager, refer to
 
 --- a/CMakeLists.txt
 +++ b/CMakeLists.txt
-@@ -109,3 +109,6 @@ endif(LIBXSLT_FOUND AND LIBXML2_FOUND AN
- 
- macro_optional_add_subdirectory(doc)
- macro_display_feature_log()
+@@ -49,3 +49,6 @@ kdesdk_optional_add_subdirectory(lokaliz
+ kdesdk_optional_add_subdirectory(okteta)
+ kdesdk_optional_add_subdirectory(poxml)
+ kdesdk_optional_add_subdirectory(umbrello)
 +
 +# Add support for DebianABIManager
 +include(/usr/share/pkg-kde-tools/cmake/DebianABIManager.cmake)
