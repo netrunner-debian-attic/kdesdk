@@ -7,12 +7,12 @@ Uploaders: Fathi Boudra <fabo@debian.org>,
  Modestas Vainius <modax@debian.org>, 
  George Kiagiadakis <kiagiadakis.george@gmail.com>,
  José Manuel Santamaría Lema <panfaust@gmail.com>
-Build-Depends: kde-sc-dev-latest (>= 4:4.8.4),
+Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  cmake, debhelper (>= 7.3.16), pkg-kde-tools (>= 0.12),
- kdepimlibs5-dev (>= 4:4.8), libphonon-dev (>= 4:4.3.1),
+ kdepimlibs5-dev (>= 4:4.10.2), libphonon-dev (>= 4:4.3.1),
  libsvn-dev, libstreamanalyzer-dev (>= 0.6.3), libxslt1-dev, libboost-dev,
  binutils-dev, libhunspell-dev, libltdl-dev, libx11-dev, x11proto-core-dev,
- shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.8),
+ shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.10.2),
  libantlr-dev, antlr, default-jre-headless,
  libqca2-dev
 Standards-Version: 3.9.3
