@@ -18,6 +18,7 @@ kdesdk (4:4.10.2-0r0) UNRELEASED; urgency=low
   * Add new package libkasten2okteta1core1 and remove libkasten1okteta1core1.
   * Add new package libkasten2okteta1gui1 and remove libkasten1okteta1gui1.
   * Update install files.
+  * Disable build of tests.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 22:58:37 +0200
 
