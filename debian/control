@@ -24,7 +24,6 @@ Package: kdesdk
 Architecture: all
 Section: metapackages
 Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
-# kbugbuster (>= ${source:Version}),
  kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins,
  kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
  kdesdk-strigi-plugins (>= ${source:Version}), kompare (>= ${source:Version}),
@@ -75,18 +74,6 @@ Description: application template generator
  for a simple application.
  .
  This package is part of the KDE Software Development Kit module.
-
-#Package: kbugbuster
-#Architecture: any
-#Section: devel
-#Depends: ${shlibs:Depends}, ${misc:Depends}
-#Suggests: khelpcenter4
-#Description: Bugzilla client 
-# KBugBuster is a client for the Bugzilla bug tracking system.
-# It provides a variety of tools for querying, viewing, and manipulating bug
-# reports.
-# .
-# This package is part of the KDE Software Development Kit module.
 
 Package: kcachegrind
 Architecture: any
