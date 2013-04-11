@@ -1,3 +1,9 @@
+kdesdk (4:4.10.2-0r0) UNRELEASED; urgency=low
+
+  * New upstream release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 22:58:37 +0200
+
 kdesdk (4:4.8.4+dfsg-1) unstable; urgency=low
 
   * Team upload.
@@ -92,7 +98,7 @@ kdesdk (4:4.7.4-1) experimental; urgency=low
     - Change debian/rules and some debian/*.install to install conditionally
       some files depending on the architecture endian-ness. These files are
       related to the allegedly broken functionality mentioned above.
-  * Confirm symbols files on more architectures with the 4.7.2 build logs.
+  * Confirm symbols files on more architectures with the 3.7.2 build logs.
 
   [ Pino Toscano ]
   * Add DEP3 headers to patch append_kde.diff.
