@@ -7,7 +7,7 @@ Origin: vendor
 --- a/okteta/libs/kasten/core/io/filesystem/abstractfilesystemconnectjob_p.h
 +++ b/okteta/libs/kasten/core/io/filesystem/abstractfilesystemconnectjob_p.h
 @@ -34,7 +34,7 @@
- namespace Kasten1
+ namespace Kasten2
  {
  
 -class KASTENCORE_EXPORT AbstractFileSystemConnectJobPrivate : public AbstractConnectJobPrivate
@@ -17,7 +17,7 @@ Origin: vendor
      AbstractFileSystemConnectJobPrivate( AbstractFileSystemConnectJob* parent,
 --- a/okteta/libs/kasten/core/io/filesystem/abstractfilesystemsyncfromremotejob_p.h
 +++ b/okteta/libs/kasten/core/io/filesystem/abstractfilesystemsyncfromremotejob_p.h
-@@ -36,7 +36,7 @@ namespace Kasten1
+@@ -36,7 +36,7 @@ namespace Kasten2
  class AbstractModelFileSystemSynchronizer;
  
  
@@ -29,7 +29,7 @@ Origin: vendor
 --- a/okteta/libs/kasten/core/io/filesystem/abstractfilesystemsyncwithremotejob_p.h
 +++ b/okteta/libs/kasten/core/io/filesystem/abstractfilesystemsyncwithremotejob_p.h
 @@ -33,7 +33,7 @@
- namespace Kasten1
+ namespace Kasten2
  {
  
 -class KASTENCORE_EXPORT AbstractFileSystemSyncWithRemoteJobPrivate : public AbstractSyncWithRemoteJobPrivate

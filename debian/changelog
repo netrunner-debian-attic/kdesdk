@@ -8,6 +8,7 @@ kdesdk (4:4.10.2-0r0) UNRELEASED; urgency=low
   * Bump libkonq5-dev build dependency to 4:4.10.2.
   * Refresh patch append_kde.diff.
   * Refresh patch enable_debianabimanager.diff.
+  * Refresh patch dont_export_private_classes.diff.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 22:58:37 +0200
 
