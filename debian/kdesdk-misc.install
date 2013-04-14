@@ -1,6 +1,3 @@
 usr/bin/kstartperf
 usr/include/kprofilemethod.h
 usr/lib/kde4/kstartperf.so
-usr/lib/kde4/pothumbnail.so
-usr/share/kde4/config.kcfg/pocreatorsettings.kcfg
-usr/share/kde4/services/pothumbnail.desktop

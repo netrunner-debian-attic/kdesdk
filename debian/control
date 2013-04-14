@@ -26,7 +26,8 @@ Section: metapackages
 Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
  kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins,
  kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
- kdesdk-strigi-plugins (>= ${source:Version}), kompare (>= ${source:Version}),
+ kdesdk-strigi-plugins (>= ${source:Version}),
+ kdesdk-thumbnailers (>= ${source:Version}), kompare (>= ${source:Version}),
  kuiviewer (>= ${source:Version}), lokalize (>= ${source:Version}),
  poxml (>= ${source:Version}), umbrello (>= ${source:Version}),
  kpartloader (>= ${source:Version}), kmtrace (>= ${source:Version}),
@@ -192,6 +193,16 @@ Description: software development file format plugins for Strigi Desktop Search
   * Qt Linguist files (ts)
   * Gettext translation files (po)
   * XML localisation files (xliff)
+ .
+ This package is part of the KDE Software Development Kit module.
+
+Package: kdesdk-thumbnailers
+Architecture: any
+Section: devel
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: kdesdk file format thumbnailers for KDE SC
+ It contains a plugin to allow KDE software to create thumbnails for gettext
+ translations files (PO).
  .
  This package is part of the KDE Software Development Kit module.
 
