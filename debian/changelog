@@ -27,6 +27,9 @@ kdesdk (4:4.10.2+dfsg-0r0) UNRELEASED; urgency=low
   * Update file paths on rules.
   * Add new package kdesdk-thumbnailers.
 
+  [ Pino Toscano ]
+  * Update paths of the DFSG-pruned files.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 22:58:37 +0200
 
 kdesdk (4:4.8.4+dfsg-1) unstable; urgency=low
