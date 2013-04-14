@@ -24,6 +24,7 @@ kdesdk (4:4.10.2-0r0) UNRELEASED; urgency=low
   * Delete kbugbuster commented references in control and remove
     kbugbuster.install and kbugbuster.manpages, dropped upstream.
   * Update copyright file.
+  * Update file paths on rules.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 22:58:37 +0200
 

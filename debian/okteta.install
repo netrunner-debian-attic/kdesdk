@@ -20,7 +20,6 @@ usr/share/kde4/apps/oktetapart/oktetapartbrowserui.rc
 usr/share/kde4/apps/oktetapart/oktetapartreadonlyui.rc
 usr/share/kde4/apps/oktetapart/oktetapartreadwriteui.rc
 usr/share/kde4/config.kcfg/structviewpreferences.kcfg
-usr/share/kde4/config/okteta-structures.knsrc
 usr/share/kde4/services/kbytearrayedit.desktop
 usr/share/kde4/services/oktetapart.desktop
 usr/share/mime/packages/okteta.xml

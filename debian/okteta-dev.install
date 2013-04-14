@@ -291,10 +291,6 @@ usr/include/kasten2/okteta1/stringsextracttool.h
 usr/include/kasten2/okteta1/stringsextracttoolfactory.h
 usr/include/kasten2/okteta1/stringsextracttoolview.h
 usr/include/kasten2/okteta1/stringsextracttoolviewfactory.h
-usr/include/kasten2/okteta1/structtool.h
-usr/include/kasten2/okteta1/structtoolview.h
-usr/include/kasten2/okteta1/structurestoolfactory.h
-usr/include/kasten2/okteta1/structurestoolviewfactory.h
 usr/include/kasten2/okteta1/viewconfigcontroller.h
 usr/include/kasten2/okteta1/viewmodecontroller.h
 usr/include/kasten2/okteta1/viewprofilecontroller.h
