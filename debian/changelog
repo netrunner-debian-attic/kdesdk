@@ -1,4 +1,4 @@
-kdesdk (4:4.10.2+dfsg-0r0) UNRELEASED; urgency=low
+kdesdk (4:4.10.2+dfsg-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
@@ -29,6 +29,13 @@ kdesdk (4:4.10.2+dfsg-0r0) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Update paths of the DFSG-pruned files.
+
+  [ Maximiliano Curia ]
+  * Update Uploaders.
+  * Update watch file, add dfsg mangle.
+  * Update lintian-overrides.
+  * Bump debhelper to 9.
+  * Update copyright file.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 22:58:37 +0200
 
