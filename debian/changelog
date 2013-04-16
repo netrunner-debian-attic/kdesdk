@@ -36,6 +36,7 @@ kdesdk (4:4.10.2+dfsg-1) UNRELEASED; urgency=low
   * Update lintian-overrides.
   * Bump debhelper to 9.
   * Update copyright file.
+  * Install dbus-1 files for cervisia and ksvnd.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 22:58:37 +0200
 
