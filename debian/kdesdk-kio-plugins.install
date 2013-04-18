@@ -2,7 +2,6 @@ usr/bin/kio_svn_helper
 usr/lib/kde4/kded_ksvnd.so
 usr/lib/kde4/kio_perldoc.so
 usr/lib/kde4/kio_svn.so
-usr/share/dbus-1/interfaces/org.kde.ksvnd.xml
 usr/share/icons/hicolor/128x128/actions/vcs-add-svn-kiosvn.png
 usr/share/icons/hicolor/128x128/actions/vcs-branch-svn-kiosvn.png
 usr/share/icons/hicolor/128x128/actions/vcs-merge-svn-kiosvn.png
