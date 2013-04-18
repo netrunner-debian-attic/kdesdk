@@ -135,7 +135,7 @@ kdesdk (4:4.7.4-1) experimental; urgency=low
     - Change debian/rules and some debian/*.install to install conditionally
       some files depending on the architecture endian-ness. These files are
       related to the allegedly broken functionality mentioned above.
-  * Confirm symbols files on more architectures with the 3.7.2 build logs.
+  * Confirm symbols files on more architectures with the 4.7.2 build logs.
 
   [ Pino Toscano ]
   * Add DEP3 headers to patch append_kde.diff.
