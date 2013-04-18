@@ -201,8 +201,8 @@ Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: kdesdk file format thumbnailers for KDE SC
- It contains a plugin to allow KDE software to create thumbnails for gettext
- translations files (PO).
+ It contains a plugin to allow KDE software to create thumbnails for Gettext
+ translations files (po).
  .
  This package is part of the KDE Software Development Kit module.
 
