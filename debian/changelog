@@ -29,6 +29,8 @@ kdesdk (4:4.10.2+dfsg-1) UNRELEASED; urgency=low
 
   [ Pino Toscano ]
   * Update paths of the DFSG-pruned files.
+  * Remove kde-dev-scripts/add_trace.pl from the tarball, since its license
+    is unclear.
 
   [ Maximiliano Curia ]
   * Update Uploaders.

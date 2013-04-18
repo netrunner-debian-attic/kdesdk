@@ -29,3 +29,5 @@ override_dh_strip:
 prune-nonfree:
 	# Delete files under GFDL + invariant sections
 	rm -f kde-dev-scripts/kde-emacs/kde-emacs-tips.texi
+	# Remove files with unclear license
+	rm -f kde-dev-scripts/add_trace.pl

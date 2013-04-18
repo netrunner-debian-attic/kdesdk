@@ -7,3 +7,8 @@ non-DFSG compliant.
 The files removed are:
 - kde-dev-scripts/kde-emacs/kde-emacs-tips.texi
 
+The source code of kdesdk is repackaged to get rid of the files with unclear
+license.
+The files removed are:
+- kde-dev-scripts/add_trace.pl
+
