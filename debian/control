@@ -14,6 +14,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  binutils-dev, libhunspell-dev, libltdl-dev, libx11-dev, x11proto-core-dev,
  shared-mime-info (>= 0.30), libkonq5-dev (>= 4:4.10.2),
  libantlr-dev, antlr, default-jre-headless,
+ pkg-config,
  libqca2-dev
 Standards-Version: 3.9.3
 Homepage: http://www.kde.org
