@@ -3,6 +3,7 @@ kdesdk (4:4.10.2+dfsg-2) UNRELEASED; urgency=low
   [ Pino Toscano ]
   * Add the pkg-config build dependency.
   * Remove extra ${perl:Depends} from cervisia.
+  * Remove extra ${shlibs:Depends} from okteta-dev.
 
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Tue, 23 Apr 2013 01:48:32 +0200
 

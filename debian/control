@@ -336,7 +336,7 @@ Description: hexadecimal editor for binary files
 Package: okteta-dev
 Architecture: any
 Section: devel
-Depends: okteta (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends},
+Depends: okteta (= ${binary:Version}), ${misc:Depends},
  libkasten2controllers2 (= ${binary:Version}), libkasten2core2 (= ${binary:Version}),
  libkasten2gui2 (= ${binary:Version}), libokteta1core1 (= ${binary:Version}),
  libokteta1gui1 (= ${binary:Version}), libkasten2okteta1controllers1 (= ${binary:Version}),
