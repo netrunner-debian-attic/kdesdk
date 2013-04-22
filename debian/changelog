@@ -1,4 +1,4 @@
-kdesdk (4:4.10.2+dfsg-1) UNRELEASED; urgency=low
+kdesdk (4:4.10.2+dfsg-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -39,7 +39,7 @@ kdesdk (4:4.10.2+dfsg-1) UNRELEASED; urgency=low
   * Bump debhelper to 9.
   * Update copyright file.
 
- -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Thu, 11 Apr 2013 22:58:37 +0200
+ -- Sune Vuorela <sune@debian.org>  Mon, 22 Apr 2013 09:27:58 +0200
 
 kdesdk (4:4.8.4+dfsg-1) unstable; urgency=low
 
