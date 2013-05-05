@@ -157,7 +157,6 @@ Description: miscellaneous tools from the KDE Software Development Kit
  .
  Included are:
   - headers to assist with profiling KDE code
-  - a KDE address book resource for KDE Subversion repository accounts
   - kstartperf to measure startup time
  .
  This package is part of the KDE Software Development Kit module.
