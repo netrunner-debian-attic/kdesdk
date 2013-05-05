@@ -151,7 +151,7 @@ Package: kdesdk-misc
 Architecture: any
 Section: devel
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Suggests: libqt4-dev, gimp, inkscape, xpaint
+Suggests: libqt4-dev
 Description: miscellaneous tools from the KDE Software Development Kit
  This package contains additional tools to aid in development for KDE.
  .
