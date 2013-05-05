@@ -1,3 +1,8 @@
+kdesdk (4:4.10.2+dfsg-3) UNRELEASED; urgency=low
+
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Sun, 05 May 2013 23:31:05 +0200
+
 kdesdk (4:4.10.2+dfsg-2) experimental; urgency=low
 
   [ Pino Toscano ]
