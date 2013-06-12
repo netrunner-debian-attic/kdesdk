@@ -1,4 +1,6 @@
-kdesdk (4:4.10.3+dfsg-1) UNRELEASED; urgency=low
+kdesdk (4:4.10.4+dfsg-1) UNRELEASED; urgency=low
+
+  * New upstream release.
 
   [ Pino Toscano ]
   * Remove the gimp, inkscape, and xpaint suggests from kdesdk-misc, as it
@@ -6,10 +8,7 @@ kdesdk (4:4.10.3+dfsg-1) UNRELEASED; urgency=low
   * Do not mention the KDE subversion accounts kresource in the description of
     kdesdk-misc, as it does not exist anymore.
 
-  [ Maximiliano Curia ]
-  * New upstream release.
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 28 May 2013 19:16:22 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Jun 2013 15:53:26 +0200
 
 kdesdk (4:4.10.2+dfsg-2) experimental; urgency=low
 
