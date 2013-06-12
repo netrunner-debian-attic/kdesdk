@@ -16,7 +16,7 @@ Build-Depends: kde-sc-dev-latest (>= 4:4.10.2),
  libantlr-dev, antlr, default-jre-headless,
  pkg-config,
  libqca2-dev
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://www.kde.org
 Vcs-Browser: http://git.debian.org/?p=pkg-kde/kde-sc/kdesdk.git
 Vcs-Git: git://git.debian.org/pkg-kde/kde-sc/kdesdk.git
