@@ -1,4 +1,4 @@
-kdesdk (4:4.10.4+dfsg-1) UNRELEASED; urgency=low
+kdesdk (4:4.10.4+dfsg-1) experimental; urgency=low
 
   * New upstream release.
 
@@ -13,7 +13,7 @@ kdesdk (4:4.10.4+dfsg-1) UNRELEASED; urgency=low
   * Update vcs fields.
   * Add new build-dep libgettextpo-dev.
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 12 Jun 2013 15:53:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 14 Jun 2013 14:17:23 +0200
 
 kdesdk (4:4.10.2+dfsg-2) experimental; urgency=low
 
