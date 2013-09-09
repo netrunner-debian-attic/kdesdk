@@ -439,7 +439,7 @@ Priority: extra
 Depends: ${misc:Depends}, kde-runtime-dbg, kate-dbg
 Replaces: kdeutils-dbg (<< 4:4.6)
 Breaks: kdeutils-dbg (<< 4:4.6)
-Suggests: kdesdk (= ${source:Version})
+Suggests: kdesdk
 Description: debugging symbols for the KDE Software Development Kit module
  This package contains debugging files used to investigate problems with
  binaries included in the KDE Software Development Kit module.
