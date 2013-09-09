@@ -6,6 +6,9 @@ kdesdk (4:4.10.5+dfsg-2) UNRELEASED; urgency=low
   * Small improvements to the descriptions of the various kasten/okteta
     libraries.
 
+  [ Maximiliano Curia ]
+  * debian/control: Aesthetic change, remove trailing spaces.
+
  -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Mon, 09 Sep 2013 10:47:35 +0200
 
 kdesdk (4:4.10.5+dfsg-1) unstable; urgency=low
