@@ -21,31 +21,6 @@ Homepage: http://www.kde.org
 Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/kdesdk.git
 Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/kdesdk.git
 
-Package: kdesdk
-Architecture: all
-Section: metapackages
-Depends: ${misc:Depends}, cervisia (>= ${source:Version}), kapptemplate (>= ${source:Version}),
- kcachegrind (>= ${source:Version}), kdesdk-kio-plugins (>= ${source:Version}) | kdesvn-kio-plugins,
- kdesdk-misc (>= ${source:Version}), kdesdk-scripts (>= ${source:Version}),
- kdesdk-strigi-plugins (>= ${source:Version}),
- kdesdk-thumbnailers (>= ${source:Version}), kompare (>= ${source:Version}),
- kuiviewer (>= ${source:Version}), lokalize (>= ${source:Version}),
- poxml (>= ${source:Version}), umbrello (>= ${source:Version}),
- kpartloader (>= ${source:Version}), kmtrace (>= ${source:Version}),
- kdesdk-dolphin-plugins (>= ${source:Version}),
- okteta (>= ${source:Version}), kate
-Suggests: kcachegrind-converters (>= ${source:Version})
-Description: Software Development Kit from the official KDE release
- KDE is produced by an international technology team that creates free and open
- source software for desktop and portable computing. Among KDE's products are a
- modern desktop system for Linux and UNIX platforms, comprehensive office
- productivity and groupware suites and hundreds of software titles in many
- categories including Internet and web applications, multimedia, entertainment,
- educational, graphics and software development.
- .
- This metapackage includes software development applications provided with the
- official release of KDE.
-
 Package: cervisia
 Architecture: any
 Section: devel
