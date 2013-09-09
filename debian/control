@@ -334,6 +334,8 @@ Breaks: okteta (<< 4:4.6)
 Description: controllers Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
+ This package provides the controller part of Kasten.
+ .
  This package is part of the KDE Software Development Kit module.
 
 Package: libkasten2core2
@@ -347,6 +349,8 @@ Breaks: okteta (<< 4:4.6)
 Description: core Kasten library for Okteta
  Kasten is a framework for composing programs.
  .
+ This package provides the core part of Kasten.
+ .
  This package is part of the KDE Software Development Kit module.
 
 Package: libkasten2gui2
@@ -359,6 +363,8 @@ Replaces: okteta (<< 4:4.6)
 Breaks: okteta (<< 4:4.6)
 Description: gui Kasten library for Okteta
  Kasten is a framework for composing programs.
+ .
+ This package provides the GUI part of Kasten.
  .
  This package is part of the KDE Software Development Kit module.
 
@@ -374,6 +380,8 @@ Description: core Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
+ This package the core part of the Okteta libraries.
+ .
  This package is part of the KDE Software Development Kit module.
 
 Package: libokteta1gui1
@@ -387,6 +395,8 @@ Breaks: okteta (<< 4:4.6)
 Description: gui Okteta library
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
+ .
+ This package the GUI part of the Okteta libraries.
  .
  This package is part of the KDE Software Development Kit module.
 
@@ -402,6 +412,9 @@ Description: kastencontrollers library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
+ This package the part of the Okteta libraries interfacing with Kasten
+ controllers.
+ .
  This package is part of the KDE Software Development Kit module.
 
 Package: libkasten2okteta1core1
@@ -416,6 +429,8 @@ Description: kastencore library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
  .
+ This package the part of the Okteta libraries interfacing with Kasten core.
+ .
  This package is part of the KDE Software Development Kit module.
 
 Package: libkasten2okteta1gui1
@@ -429,6 +444,8 @@ Breaks: okteta (<< 4:4.6)
 Description: kastengui library for Okteta
  Okteta is a simple editor for the raw data of files. This type of program is
  also called hexadecimal editor or binary editor.
+ .
+ This package the part of the Okteta libraries interfacing with Kasten GUI.
  .
  This package is part of the KDE Software Development Kit module.
 
